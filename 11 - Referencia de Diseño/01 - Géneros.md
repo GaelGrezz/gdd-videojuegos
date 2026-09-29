@@ -37,7 +37,7 @@ El jugador debe administrar recursos y tomar decisiones para alcanzar objetivos,
 
 **Ejemplos:** unidades, recursos, territorio, economía, construcción.
 
-**Pregúntate:** ¿la planificación y la toma de decisiones son el núcleo de la experiencia?
+**Pregúntate:** ¿la planificación y la toma de decisiones son el núcleo de la experiencia? 
 
 ## Simulación
 
@@ -115,8 +115,8 @@ Si el juego no encaja claramente en las categorías anteriores, documenta aquí 
 
 ### Elección del proyecto
 
-**Género principal:**  
-**Justificación:**  
+**Género principal:**  Roguelite.
+**Justificación:** El modelo de juego se basa en el progreso por niveles. Cada nivel logrado ofrece potenciadores (buffs), así como armas que se desbloquean de forma progresiva y oleada de enemigos que crecen en complejidad.      
 
-**Géneros secundarios:**  
-**Justificación:**
+**Géneros secundario:**  Supervivencia.
+**Justificación:** El jugador debe administrar sus recursos, armas y enfrentar oleadas de enemigos para superar los niveles.    

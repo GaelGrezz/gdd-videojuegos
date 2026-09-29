@@ -66,21 +66,27 @@ Videojuegos ejecutados mediante tecnologías web.
 
 ## Consola vs PC vs móvil
 
-| Aspecto | PC | Consola | Móvil |
-|---|---|---|---|
-| Entrada | Teclado/mouse/control | Control | Táctil/control |
-| Hardware | Muy variable | Más controlado | Muy variable |
-| Pantalla | Variable | TV/monitor | Pequeña/mediana |
-| Rendimiento | Variable | Predecible | Variable |
-| Interfaz | Flexible | Distancia de pantalla | Táctil |
+| Aspecto     | PC                    | Consola               | Móvil           |
+| ----------- | --------------------- | --------------------- | --------------- |
+| Entrada     | Teclado/mouse/control | Control               | Táctil/control  |
+| Hardware    | Muy variable          | Más controlado        | Muy variable    |
+| Pantalla    | Variable              | TV/monitor            | Pequeña/mediana |
+| Rendimiento | Variable              | Predecible            | Variable        |
+| Interfaz    | Flexible              | Distancia de pantalla | Táctil          |
 
 ## Elección del proyecto
 
-**Plataforma principal:**  
-**¿Por qué?**
+**Plataforma principal:**  PC
+**¿Por qué?** 
+- El formato de juego que se tiene conceptualizado está enfocado a un modelo de juego en computadora debido a su estilo de gameplay. 
+- La PC es una distribución más versátil en configuraciones y ajustes que demande el desarrollo del juego.
+- El gameplay será mejor en periféricos como teclado y mouse.
+- La PC es amigable con las preferencias del jugador, es posible jugar en teclado o mando y hay más apertura a los ajustes de rendimiento o gráficos.
 
-**Plataformas secundarias:**  
+**Plataformas secundarias:**  Navegador / Web
 **¿Qué cambios requerirían?**
+- Optimizar los recursos del juego como geometría no visible.
+- Producir una versión lite para su despliegue en la web.
 
 > [!important] Para proyectos académicos
 > Si el equipo tiene tiempo limitado, comenzar con **una plataforma principal** suele reducir problemas de compatibilidad y alcance.

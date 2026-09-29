@@ -92,11 +92,16 @@ Un juego puede combinar varios géneros.
 
 ### Elección del proyecto
 
-**Subgénero principal:**  
-**¿Por qué?**
+**Subgénero principal:** Survival Horror
+**¿Por qué?** El juego somete al jugador a la gestión de recursos limitados, supervivencia por oleadas y vulnerabilidad debido a la falta de armas para defenderse.  
 
-**Combinaciones adicionales:**  
-**¿Qué aporta cada una?**
+**Combinaciones adicionales:** 
+- Third Person Shooter
+- Tower Defense
+
+**¿Qué aporta cada una?** 
+* El TPS permite al jugador explorar el área permitiendo de este modo aprovechar el subgénero adicional de survival horror. 
+* Tower Defense es una combinación que funge como mecánica adicional al modelo de juego para que diferentes perfiles se acomoden a la experiencia. 
 
 > [!warning] Evita acumular etiquetas
 > Si necesitas seis subgéneros para explicar el juego, probablemente todavía no has definido con claridad cuál es su experiencia principal.

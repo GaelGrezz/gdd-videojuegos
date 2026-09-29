@@ -60,8 +60,9 @@ La cámara cambia automáticamente según acciones, eventos o contexto.
 
 ## Decisión del proyecto
 
-**Perspectiva principal:**  
-**Tipo de cámara:**  
-**¿Puede cambiar durante el juego?:**  
+**Perspectiva principal:**  Top-down.
+**Tipo de cámara:**  Cámara dinámica.
+**¿Puede cambiar durante el juego?:** No.
 
-**Justificación de diseño:**
+**Justificación de diseño:** 
+El juego está conceptualizado para ser en top-down con la finalidad que el jugador pueda visualizar los diferentes puntos en el mapa de forma eficiente y tener diferentes cursos de acción en cuanto a lo que le rodea. A nivel de diseño, la vista isométrica nos permite ocultar detalles de desarrollo de niveles para optimizar recursos del dispositivo.  

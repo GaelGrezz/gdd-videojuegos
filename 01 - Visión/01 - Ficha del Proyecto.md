@@ -6,17 +6,17 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ## Información general
 
-| Campo | Información |
-|---|---|
-| **Nombre del proyecto** | <!-- Nombre oficial o nombre temporal --> |
-| **Nombre clave** | <!-- Identificador interno si existe --> |
-| **Versión del GDD** | 0.1.0 |
-| **Estado del proyecto** | Concepto / Preproducción / Producción / Pruebas / Publicado |
-| **Equipo** | <!-- Integrantes --> |
-| **Responsable del proyecto** | <!-- Persona responsable --> |
-| **Fecha de inicio** | <!-- AAAA-MM-DD --> |
-| **Última actualización** | <!-- AAAA-MM-DD --> |
-| **Repositorio** | <!-- Enlace --> |
+| Campo                        | Información                                                     |
+| ---------------------------- | --------------------------------------------------------------- |
+| **Nombre del proyecto**      | Punto Terra (Provicional)                                       |
+| **Nombre clave**             | POT<!-- Identificador interno si existe -->                     |
+| **Versión del GDD**          | 0.1.0                                                           |
+| **Estado del proyecto**      | **Concepto** / Preproducción / Producción / Pruebas / Publicado |
+| **Equipo**                   | <!-- Integrantes -->                                            |
+| **Responsable del proyecto** | <!-- Persona responsable --><br>Gutiérrez Hernández Gael Yannik |
+| **Fecha de inicio**          | <!-- AAAA-MM-DD --><br>25 de septiembre de 2026                 |
+| **Última actualización**     | <!-- AAAA-MM-DD -->                                             |
+| **Repositorio**              | <!-- Enlace -->                                                 |
 
 ## Identidad del videojuego
 
@@ -42,6 +42,9 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 **Tecnología principal:**  
 > Motor, lenguaje y herramientas principales.
+- Unity 6
+- C#
+- Blender, Substance, Photoshop, Adobe Ilustrator y After Effects.  
 
 ## Elevator Pitch
 
@@ -49,6 +52,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 > Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
 
 **Respuesta:**
+El jugador limpia la zona de infectados dentro de un complejo científico recurriendo a diferentes decisiones que lo apoyen en cumplir su misión, sea de forma estratégica (usando reactores de luz) o reactiva (con armas y potenciadores). Su estrategia se adapta al juego para cumplir con el objetivo. 
 
 ## Estado actual
 
@@ -64,6 +68,6 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 ## Criterio de éxito del proyecto
 
 ¿Qué tendría que suceder para considerar que el videojuego cumplió su propósito?
-
+El juego debe asegurar un gameplay que enganche al jugador y ofrecer un diseño de experiencia que se adapte a su estilo de juego.   
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →

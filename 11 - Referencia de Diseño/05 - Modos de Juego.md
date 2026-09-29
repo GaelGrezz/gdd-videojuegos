@@ -42,7 +42,7 @@ El juego puede incluir ambos tipos de interacción en diferentes modos.
 
 ### Elección del proyecto
 
-**Modo principal:**  
-**Jugadores simultáneos:**  
-**Local / En línea:**  
-**Justificación:**
+**Modo principal:** Un jugador.
+**Jugadores simultáneos:**  No. 
+**Local / En línea:**  Local.
+**Justificación:** El gameplay está definido para ser jugado por un solo jugador. 

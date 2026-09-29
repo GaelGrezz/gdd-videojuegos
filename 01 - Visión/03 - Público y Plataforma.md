@@ -17,15 +17,15 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 ## Plataforma
 
-| Elemento | Decisión |
-|---|---|
-| Plataforma principal | |
-| Plataformas secundarias | |
-| Método de entrada | Teclado / Mouse / Control / Pantalla táctil |
-| Resolución objetivo | |
-| Relación de aspecto | |
-| Rendimiento objetivo | FPS |
-| Conexión requerida | Sí / No |
+| Elemento                | Decisión                                    |
+| ----------------------- | ------------------------------------------- |
+| Plataforma principal    |                                             |
+| Plataformas secundarias |                                             |
+| Método de entrada       | Teclado / Mouse / Control / Pantalla táctil |
+| Resolución objetivo     |                                             |
+| Relación de aspecto     |                                             |
+| Rendimiento objetivo    | FPS                                         |
+| Conexión requerida      | Sí / No                                     |
 
 ## Restricciones de plataforma
 

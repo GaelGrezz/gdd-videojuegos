@@ -19,29 +19,29 @@ Esta página ayuda a describir el juego con más precisión sin confundir **gén
 ## Características posibles
 
 - Mundo abierto
-- Lineal
+- **Lineal**
 - No lineal
 - Procedural
-- Generación aleatoria
-- Mundo persistente
+- **Generación aleatoria**
+- **Mundo persistente**
 - Narrativa ramificada
-- Decisiones del jugador
+- **Decisiones del jugador**
 - Personalización
 - Construcción
 - Crafteo
 - Inventario
 - Árbol de habilidades
-- Jefes
-- Misiones
+- **Jefes**
+- **Misiones**
 - Sigilo
 - Combate
-- Exploración
-- Coleccionables
-- Permadeath
+- **Exploración**
+- **Coleccionables**
+- **Permadeath**
 - Cooperativo
 - Competitivo
 - Online
-- Local
+- **Local**
 
 ## Regla de documentación
 
@@ -50,5 +50,7 @@ No conviertas todas las características en géneros.
 Por ejemplo:
 
 > **RPG de acción en tercera persona para PC, un jugador, con mundo semiabierto, exploración, crafteo y narrativa ramificada.**
+
+Roguelite de supervivencia en tercera persona para PC de un jugador, con mundo semi-abierto donde sus decisiones conduzcan al éxito en su objetivo: asegurar la zona de infectados. 
 
 Eso describe mucho mejor el proyecto que una lista de diez géneros.
