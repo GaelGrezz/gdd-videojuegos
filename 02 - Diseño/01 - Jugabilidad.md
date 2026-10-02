@@ -55,11 +55,12 @@ Describe cómo alternan:
 - **Descanso:** El jugador se resguarda en los generadores de luz para protegerse. 
 - **Desafío:** El jugador debe proteger los generadores de luz para garantizar el éxito en su partida o usar los potenciadores adecuados para hacer frente a las situaciones que los enemigos lo sometan. 
 - Recompensa: ** El jugador recibe estimulaciones visuales conforme erradique a los enemigos. 
-- **Historia:** El personaje controlable se encuentra rodeado por hordas de enemigos que sometieron 
+- **Historia:** El personaje controlable se encuentra rodeado por hordas de enemigos que sometieron y debe buscar el modo de sobrevivir a cualquier modo posible.
 
 ## Principios de interacción
 
 ¿Qué reglas debe seguir el juego para que las acciones del jugador sean claras, consistentes y predecibles?
 
+//Ayúdame con este Robert
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Pilares de Diseño]] · [[02 - Mecánicas]] →
