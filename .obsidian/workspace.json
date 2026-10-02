@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Diseño/01 - Jugabilidad.md",
+                "file": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Jugabilidad"
+              "title": "04 - Diálogos y Narrativa"
             }
           },
           {
@@ -204,6 +204,9 @@
   },
   "active": "c225944662618e57",
   "lastOpenFiles": [
+    "03 - Historia y Mundo/01 - Premisa y Trama.md",
+    "02 - Diseño/04 - Controles.md",
+    "02 - Diseño/03 - Sistemas.md",
     "02 - Diseño/02 - Mecánicas.md",
     "02 - Diseño/01 - Jugabilidad.md",
     "01 - Visión/04 - Pilares de Diseño.md",

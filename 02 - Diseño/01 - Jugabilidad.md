@@ -57,10 +57,12 @@ Describe cómo alternan:
 - **Desafío:** Nuevas oleadas aumentan la presión sobre el jugador y los generadores.
 - **Recompensa:** Completar una fase permite avanzar y obtener mejoras; las rachas de eliminaciones pueden aportar potenciadores durante el combate.
 - **Historia:** El entorno y el avance por el complejo revelan gradualmente el contexto de la infección, sin detener el ritmo principal del juego; mientras que los cuerpos de antiguos aliados contienen códices que detallan a profundidad acontecimientos que llevaron a la situación actual del jugador o protagonista.
+>>>>>>> 2534817962c057ea1e45c1a59bf99d615a1b6a55
 
 ## Principios de interacción
 
 ¿Qué reglas debe seguir el juego para que las acciones del jugador sean claras, consistentes y predecibles?
+
 - Los enemigos afectados por la linterna deben mostrar claramente que han recibido un efecto debilitante.
 - El juego debe indicar cuándo un generador puede repararse, cuándo está siendo atacado y cuánto falta para completar su reparación.
 - Las mejoras deben explicar qué modifican antes de que el jugador las elija.
