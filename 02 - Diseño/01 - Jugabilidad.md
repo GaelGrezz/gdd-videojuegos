@@ -51,14 +51,6 @@ La partida termina si la salud el soldado llega a cero o se queda mucho tiempo s
 
 Describe cómo alternan:
 
-<<<<<<< HEAD
-- **Exploración:** El jugador indaga por la zona en búsqueda de los generadores de luz o infectados (según sea su estrategia).
-- **Acción:** El jugador enfrenta a las hordas de infectados haciendo uso de sus armas y potenciadores. 
-- **Descanso:** El jugador se resguarda en los generadores de luz para protegerse. 
-- **Desafío:** El jugador debe proteger los generadores de luz para garantizar el éxito en su partida o usar los potenciadores adecuados para hacer frente a las situaciones que los enemigos lo sometan. 
-- Recompensa: ** El jugador recibe estimulaciones visuales conforme erradique a los enemigos. 
-- **Historia:** El personaje controlable se encuentra rodeado por hordas de enemigos que sometieron y debe buscar el modo de sobrevivir a cualquier modo posible.
-=======
 - **Exploración:** Periodos breves para reconocer el entorno, localizar objetivos y elegir una ruta.
 - **Acción:** Enfrentamientos frecuentes durante las oleadas, en los que el jugador combina la linterna con sus armas.
 - **Descanso:** Pausas al subir de nivel para comprender lo ocurrido y elegir mejoras.
@@ -70,16 +62,12 @@ Describe cómo alternan:
 ## Principios de interacción
 
 ¿Qué reglas debe seguir el juego para que las acciones del jugador sean claras, consistentes y predecibles?
-<<<<<<< HEAD
 
-//Ayúdame con este Robert
-=======
 - Los enemigos afectados por la linterna deben mostrar claramente que han recibido un efecto debilitante.
 - El juego debe indicar cuándo un generador puede repararse, cuándo está siendo atacado y cuánto falta para completar su reparación.
 - Las mejoras deben explicar qué modifican antes de que el jugador las elija.
 - Los ataques enemigos y el daño recibido deben tener señales visuales o sonoras reconocibles.
 - Las mismas acciones deben producir resultados consistentes: iluminar, atacar, reparar e interactuar deben seguir reglas que el jugador pueda aprender.
 - La interfaz debe mantener visibles la salud del soldado, cuanto le falta para subir de nivel, el estado de los generadores y la información necesaria para tomar decisiones durante una oleada.
->>>>>>> 2534817962c057ea1e45c1a59bf99d615a1b6a55
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Pilares de Diseño]] · [[02 - Mecánicas]] →
