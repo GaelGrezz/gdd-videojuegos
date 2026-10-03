@@ -50,12 +50,21 @@ R = La muerte del personaje controlable por el jugador.
 
 Describe cómo alternan:
 
+<<<<<<< Updated upstream
 - **Exploración:** El jugador indaga por la zona en búsqueda de los generadores de luz o infectados (según sea su estrategia).
 - **Acción:** El jugador enfrenta a las hordas de infectados haciendo uso de sus armas y potenciadores. 
 - **Descanso:** El jugador se resguarda en los generadores de luz para protegerse. 
 - **Desafío:** El jugador debe proteger los generadores de luz para garantizar el éxito en su partida o usar los potenciadores adecuados para hacer frente a las situaciones que los enemigos lo sometan. 
 - Recompensa: ** El jugador recibe estimulaciones visuales conforme erradique a los enemigos. 
 - **Historia:** El personaje controlable se encuentra rodeado por hordas de enemigos que sometieron 
+=======
+- **Exploración:** Periodos breves para reconocer el entorno, localizar objetivos y elegir una ruta.
+- **Acción:** Enfrentamientos frecuentes durante las oleadas, en los que el jugador combina la linterna con sus armas.
+- **Descanso:** Pausas al subir de nivel para comprender lo ocurrido y elegir mejoras.
+- **Desafío:** Nuevas oleadas aumentan la presión sobre el jugador y los generadores.
+- **Recompensa:** Completar una fase permite avanzar y obtener mejoras; las rachas de eliminaciones pueden aportar potenciadores durante el combate.
+- **Historia:** El entorno y el avance por el complejo revelan gradualmente el contexto de la infección, sin detener el ritmo principal del juego; mientras que los cuerpos de antiguos aliados contienen códices que detallan a profundidad acontecimientos que llevaron a la situación actual del jugador o protagonista.
+>>>>>>> Stashed changes
 
 ## Principios de interacción
 
