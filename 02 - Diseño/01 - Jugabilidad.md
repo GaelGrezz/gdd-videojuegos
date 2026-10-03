@@ -51,13 +51,14 @@ La partida termina si la salud el soldado llega a cero o se queda mucho tiempo s
 
 Describe cómo alternan:
 
+
 - **Exploración:** Periodos breves para reconocer el entorno, localizar objetivos y elegir una ruta.
 - **Acción:** Enfrentamientos frecuentes durante las oleadas, en los que el jugador combina la linterna con sus armas.
 - **Descanso:** Pausas al subir de nivel para comprender lo ocurrido y elegir mejoras.
 - **Desafío:** Nuevas oleadas aumentan la presión sobre el jugador y los generadores.
 - **Recompensa:** Completar una fase permite avanzar y obtener mejoras; las rachas de eliminaciones pueden aportar potenciadores durante el combate.
 - **Historia:** El entorno y el avance por el complejo revelan gradualmente el contexto de la infección, sin detener el ritmo principal del juego; mientras que los cuerpos de antiguos aliados contienen códices que detallan a profundidad acontecimientos que llevaron a la situación actual del jugador o protagonista.
->>>>>>> 2534817962c057ea1e45c1a59bf99d615a1b6a55
+
 
 ## Principios de interacción
 
