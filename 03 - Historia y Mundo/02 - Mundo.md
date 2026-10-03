@@ -8,17 +8,9 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 
 **Época:** Futuro de expansión espacial. La humanidad ha desarrollado los medios para establecer colonias y mantener rutas entre sistemas. La fecha exacta está por definir.
 
-<<<<<<< Updated upstream
-**Lugar:**
+**Lugar:** Centro científico que funge como refugio principal de Vimer.
 
-**Contexto:**
-=======
-**Lugar:** Un centro científico del planeta Terra, convertido en refugio principal de los Vimers dentro de una zona de exclusión.
-
-**Contexto:** Terra es una colonia humana establecida por su posición estratégica para la exploración y el reabastecimiento espacial. Sus cristales, utilizados como fuente de energía para la humanidad, impulsaron la extracción y la investigación de las anomalías del planeta.
-
-El centro científico fue construido para estudiar y contener estas anomalías. Tras la crisis de Violeta Mortífera, sus instalaciones quedaron bajo la intervención de **C.E.R.B.E.R.U.S. —Centralized Emergency Response Bureau for Extranormal Recovery & Urban Security—**, una organización creada por la autoridad central para responder a la emergencia.
->>>>>>> Stashed changes
+**Contexto:** Centro científico desarrollado para contener las anomalías que contiene el planeta Terra.
 
 **Reglas especiales del mundo:**
 
@@ -31,13 +23,11 @@ El centro científico fue construido para estudiar y contener estas anomalías. 
 ## Historia del mundo
 
 ### Antes del juego
-<<<<<<< Updated upstream
 
 ### Durante el juego
+La zona de exclusión. Aquella área que prometía desenterrar las anomalías de Terra, descubrió la vida detrás del color: Vimer. Como si Cerbero descubriese por olfato, resguardo la zona antes de la fuga e infección de los presentes. Contuvo las oleadas el tiempo posible hasta que no hubo más rastro de vimer, como si aquello supiera lo que le esperaba si pensaba salir. En consecuencia, envían lotes de soldados para erradicar la infección desde dentro.     
 
 ### Después del juego
-=======
-Terra fue uno de los frutos de la colonización espacial. Distante de su estrella, resultaba atractivo por su posición para explorar nuevas regiones y establecer rutas de abastecimiento. Permitía reducir trayectos y sostener expediciones entre puntos cada vez más alejados. Para quienes llegaron, representaba la libertad que la humanidad había añorado.
 
 Los cielos eran morados y las piedras parecían extraídas del Hades: oscuras, con protuberancias violentas. Las montañas rascaban el cielo y las nubes respondían apagando la poca claridad que alcanzaba la superficie. El sol se asomaba y era consumido.
 
@@ -66,7 +56,7 @@ La resolución de la operación determina el destino inmediato del centro cient�
 La humanidad llegó al planeta para ampliar sus rutas y terminó restringiendo sus propios movimientos. Allí donde esperaba construir un punto de partida, levantó perímetros, controles y zonas prohibidas. Los cristales que sostenían su expansión también la mantenían ligada a la crisis.
 
 Vimer había contenido a la humanidad en su propia prisión violeta.
->>>>>>> Stashed changes
+
 
 ## Lugares
 

@@ -6,31 +6,13 @@ Aquí se documenta la narrativa que sostiene la experiencia. La historia debe ex
 
 ## Premisa
 
-<<<<<<< Updated upstream
 Resume el conflicto principal en pocas líneas.
+La humanidad hace frente a una plaga conocida como "Violeta mortífera" (también denominada Vimer) que muta aquellos quienes la portan a una entidad violenta, corrompida en piel y mente. Para hacer frente a las oleadas de infectados y conocer la causa de la propagación, se envía una guarnición de soldados para hacer frente al misterio que rodea a esta infección.  
 
 ## Sinopsis
 
-Describe el argumento completo sin entrar todavía en cada escena.
-=======
-En un planeta colonizado por la humanidad, la extracción de cristales se convirtió en una fuente de energía fundamental. Sin embargo, su explotación trajo consigo la **Violeta Mortífera**, también conocida como **Vimer**, una enfermedad que transforma a los humanos afectados en criaturas violentas, deformadas en cuerpo y mente.
+El jugador se coloca el traje de un soldado quien fue desplegado para indagar las aulas científicas de la agencia Cerberus y hacer frente a los infectados denominados "Vimers". Más allá de los pasillos, entre la oscuridad que carcome la poca luz existente; un destello ilumina los escombros y el cañón del rifle se mantiene frío en espera de su víctima cubierta de cirstales y desperdicio órganico. La llegada de su próximo allegado se reduce a segundos, el jugador planifica entre restaurar la luz o esperar a los anfitriones de la cueva. Mientras desciende en las fauces del lobo, si quiere mantenerse con vida debe idear un plan para asegurar la zona y mantenerse con vida.     
 
-Cerberus conoce las consecuencias que estos cristales tienen sobre los humanos y despliega operativos en las **áreas de exclusión**, territorios donde la enfermedad se ha propagado. El jugador encarna a un soldado enviado a contener a los infectados, recuperar la infraestructura y sobrevivir a la intervención.
-
-## Sinopsis
-
-La colonia prosperó gracias a la extracción de cristales capaces de abastecer de energía a la humanidad. Con la propagación de Vimer, parte de sus instalaciones y asentamientos se transformaron en áreas de exclusión. En su interior permanecen maquinaria, infraestructura energética y habitantes convertidos en infectados conocidos como **Vimers**.
-
-Cerberus conoce la relación entre los cristales y las alteraciones humanas. Sus operativos ingresan a las zonas afectadas para contener a los infectados y evitar que la amenaza se extienda. El jugador es uno de los soldados asignados a estas intervenciones.
-
-La operación transcurre entre instalaciones deterioradas y espacios sumidos en la oscuridad. El soldado utiliza una linterna para debilitar a los Vimers y sus armas para eliminarlos. Los generadores ofrecen puntos de apoyo que debe reparar y defender mientras la presencia de infectados aumenta.
-
-El entorno conserva rastros de la actividad de la colonia: equipos de extracción, infraestructura abandonada y señales de una evacuación incompleta. Los cristales, antes asociados con el progreso, ahora aparecen en los cuerpos de quienes trabajaban y vivían allí.
-
-Conforme avanza la intervención, aparecen infectados más peligrosos. El soldado debe aprovechar los recursos obtenidos, mejorar su equipo y mantener su capacidad de combate hasta completar el tiempo de contención establecido.
-
-Al final de la operación surge una entidad de infección avanzada. Derrotarla permite completar el objetivo de contención en el sector. La victoria representa un éxito local: otras áreas de exclusión permanecen activas y las consecuencias de la explotación de los cristales continúan afectando a la colonia.
->>>>>>> Stashed changes
 
 ## Estructura narrativa
 
