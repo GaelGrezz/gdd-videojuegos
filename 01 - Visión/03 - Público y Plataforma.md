@@ -6,26 +6,27 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 ## Público objetivo
 
-**Edad aproximada:**
+**Edad aproximada:** A partir de los 18 años por la ambientación oscura y el diseño de enemigos con horror corporal. La clasificación final dependerá del contenido visual del juego.
 
 **Experiencia esperada:**  
-> Casual, intermedia, avanzada.
+Jugadores con experiencia básica en videojuegos de acción. El juego debe enseñar sus mecánicas principales durante las primeras fases.
 
-**Intereses relevantes:**
+**Intereses relevantes:** Supervivencia por oleadas, mejora de habilidades y equipo; defensa de objetivos, combate bajo presión y juegos de temática oscura.
 
-**Conocimientos previos necesarios:**
+**Conocimientos previos necesarios:** Ninguno. El juego está diseñado para que cualquier persona pueda comprender sus controles y objetivos desde las primeras fases. La dificultad se centra en decidir cuándo debilitar enemigos, reparar generadores y defenderlos, sin exigir experiencia previa en el género.
+
 
 ## Plataforma
 
 | Elemento                | Decisión                                    |
 | ----------------------- | ------------------------------------------- |
-| Plataforma principal    |                                             |
-| Plataformas secundarias |                                             |
+| Plataforma principal    | PC                                          |
+| Plataformas secundarias | Móvil                                       |
 | Método de entrada       | Teclado / Mouse / Control / Pantalla táctil |
 | Resolución objetivo     |                                             |
 | Relación de aspecto     |                                             |
 | Rendimiento objetivo    | FPS                                         |
-| Conexión requerida      | Sí / No                                     |
+| Conexión requerida      | No                                          |
 
 ## Restricciones de plataforma
 
@@ -33,20 +34,20 @@ Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribu
 
 ## Sesión de juego
 
-**Duración esperada de una sesión:**
+**Duración esperada de una sesión:** 10 min.
 
-**Duración total estimada del juego:**
+**Duración total estimada del juego:** 50 min.
 
 ## Modelo de distribución
 
-> Gratuito, pago único, educativo, prototipo académico, etc.
+Prototipo académico
 
 ## Consideraciones
 
-- [ ] Controles adaptados a la plataforma
-- [ ] Interfaz legible
+- [x] Controles adaptados a la plataforma
+- [x] Interfaz legible
 - [ ] Rendimiento considerado
-- [ ] Resoluciones consideradas
+- [x] Resoluciones consideradas
 - [ ] Guardado compatible
 
 
