@@ -4,23 +4,30 @@
 
 Los pilares son los principios que deben mantenerse durante todo el desarrollo. Cuando dos ideas entren en conflicto, los pilares ayudan a decidir cuál encaja mejor con la identidad del juego.
 
-## Pilar 1 — 
+## Pilar 1 — La luz como herramienta de supervivencia.
 
-**Descripción:**
+**Descripción:** La luz es la mecánica que define cómo el jugador se enfrenta a los infectados.
 
-**¿Cómo se refleja en el juego?**
+**¿Cómo se refleja en el juego?** ¿Cómo se refleja en el juego? La linterna proyecta un cono de luz que aplica efectos debilitantes a los enemigos. Sus mejoras cambian la forma en que el jugador combate y aprovecha la visibilidad limitada del complejo.
 
-## Pilar 2 — 
+## Pilar 2 — Defender para avanzar.
 
-**Descripción:**
+**Descripción:** El jugador debe proteger y reparar la infraestructura necesaria para completar cada fase.
 
-**¿Cómo se refleja en el juego?**
+**¿Cómo se refleja en el juego?** Durante los ataques, el jugador decide cuándo combatir, cuándo reparar los generadores y cómo defenderlos. Los generadores también proporcionan luz y mejoran las propiedades de la linterna.
 
-## Pilar 3 — 
+## Pilar 3 — Estrategias construidas durante la partida.
 
-**Descripción:**
+**Descripción:** El jugador puede adaptar su forma de sobrevivir mediante las mejoras y herramientas que elige.
 
-**¿Cómo se refleja en el juego?**
+**¿Cómo se refleja en el juego?** Puede combinar mejoras para la linterna, armas, potenciadores y estructuras de defensa. Las rachas de eliminaciones otorgan potenciadores que influyen en las decisiones durante el combate.
+
+## Pilar 4 — Tensión en medio de la acción
+
+**Descripción:** El juego busca mantener al jugador bajo presión mediante oleadas intensas, visibilidad limitada y enemigos de aspecto perturbador.
+
+**¿Cómo se refleja en el juego?** La oscuridad dificulta percibir las amenazas, mientras que el número creciente de infectados obliga a reaccionar sin perder de vista los generadores. El horror corporal y la ambientación sostienen la tensión sin recurrir a los screamers.
+
 
 ## Reglas de decisión
 
