@@ -15,31 +15,6 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 | Director de enemigos             | Seleccionar amenazas mediante tickets que aumentan con el tiempo | Tiempo, catálogo de enemigos, estado de la partida | Diseño |
 | Mejoras y potenciadores          | Modificar las herramientas y capacidades del jugador             | Linterna, combate, generadores, rachas             | Diseño |
 | Objetivos y resultado de partida | Determinar la aparición del jefe final, la victoria y la derrota | Todos los sistemas anteriores                      | Diseño |
-## Plantilla de sistema
-
-### Nombre
-
-**Objetivo:**
-
-**Entradas:**
-
-**Procesamiento / reglas:**
-
-**Salidas:**
-
-**Estados posibles:**
-
-**Dependencias:**
-
-**Interacciones:**
-
-**Datos que necesita:**
-
-**Datos que genera:**
-
-**Riesgos:**
-
-**Criterios de aceptación:**
 
 ## Relaciones entre sistemas
 
@@ -143,15 +118,15 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Objetivo:** Aumentar y variar la presión sobre el jugador conforme transcurre la partida.
 
-**Entradas:** Tiempo transcurrido, tickets disponibles, catálogo y costo de enemigos, enemigos presentes y estado de la partida.
+**Entradas:** Tiempo transcurrido, tickets disponibles, catálogo, costo de enemigos, enemigos presentes y estado de la partida.
 
-**Procesamiento / reglas:** Recibe tickets con el paso del tiempo. Selecciona enemigos que puede pagar con su presupuesto y descuenta su costo al introducirlos. Conforme aumenta la cantidad de tickets disponible, puede seleccionar amenazas más peligrosas. Respeta las restricciones de aparición que defina el equipo.
+**Procesamiento / reglas:** Recibe tickets con el paso del tiempo. Selecciona enemigos que puede pagar con su presupuesto y descuenta su costo al introducirlos. Conforme aumenta la cantidad de tickets disponible, puede seleccionar amenazas más peligrosas.
 
 **Salidas:** Órdenes de aparición de enemigos y presupuesto restante.
 
-**Estados posibles:** Inactivo, generando amenazas, detenido por final de partida.
+**Estados posibles:** Inactivo y generando amenazas.
 
-**Dependencias:** Reloj de partida, catálogo de enemigos y sistema de objetivos.
+**Dependencias:** Reloj de partida, catálogo de enemigos y sistema de aparicion.
 
 **Interacciones:** Envía amenazas al combate y ejerce presión sobre el jugador y los generadores.
 

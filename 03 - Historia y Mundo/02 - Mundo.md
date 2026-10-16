@@ -6,11 +6,11 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 
 ## Concepto del mundo
 
-**Época:** Futuro de expansión espacial. La humanidad ha desarrollado los medios para establecer colonias y mantener rutas entre sistemas. La fecha exacta está por definir.
+**Época:** Futuro de expansión espacial. La humanidad ha desarrollado los medios para establecer colonias y mantener rutas entre sistemas.
 
 **Lugar:** Centro científico que funge como refugio principal de Vimer.
 
-**Contexto:** Centro científico desarrollado para contener las anomalías que contiene el planeta Terra.
+**Contexto:** Centro científico desarrollado para estudiar las anomalías que contiene el planeta Hades.
 
 **Reglas especiales del mundo:**
 
@@ -24,48 +24,111 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 
 ### Antes del juego
 
-### Durante el juego
-La zona de exclusión. Aquella área que prometía desenterrar las anomalías de Terra, descubrió la vida detrás del color: Vimer. Como si Cerbero descubriese por olfato, resguardo la zona antes de la fuga e infección de los presentes. Contuvo las oleadas el tiempo posible hasta que no hubo más rastro de vimer, como si aquello supiera lo que le esperaba si pensaba salir. En consecuencia, envían lotes de soldados para erradicar la infección desde dentro.     
+Los cielos de Hades eran morados y sus formaciones minerales parecían extraídas de un mundo hostil: oscuras, irregulares y atravesadas por protuberancias cristalinas. Las montañas rasgaban el horizonte mientras densas nubes apagaban la poca claridad que alcanzaba la superficie. Incluso cuando el sol conseguía asomarse, parecía ser consumido por el planeta.
 
+La humanidad llegó a Hades como parte de su expansión colonial. Lo que inicialmente debía funcionar como un punto estratégico de abastecimiento cambió tras el descubrimiento de enormes depósitos cristalinos con un potencial energético extraordinario.
+
+La extracción transformó rápidamente la colonia. Se construyeron instalaciones mineras, centros de procesamiento y complejos científicos destinados a estudiar tanto los cristales como las anomalías presentes en el subsuelo de Hades.
+
+Pero el recurso que prometía impulsar la expansión humana ocultaba un peligro.
+
+La exposición prolongada a determinadas formaciones cristalinas comenzó a provocar alteraciones en los organismos vivos. Los primeros casos fueron considerados incidentes aislados, hasta que los afectados comenzaron a sufrir cambios físicos y neurológicos cada vez más severos.
+
+Así aparecieron los Vimers.
+
+La infección deformaba progresivamente a sus portadores, corrompiendo cuerpo y mente hasta convertirlos en criaturas violentas vinculadas de alguna forma con los propios cristales.
+
+Cuando los incidentes dejaron de poder ocultarse, el gobierno central creó **CERBERUS — Centralized Emergency Response Bureau for Extranormal Recovery & Urban Security**, una organización encargada de contener amenazas extraordinarias, asegurar instalaciones críticas y evitar que los brotes alcanzaran los principales asentamientos de la colonia.
+
+CERBERUS estableció zonas de exclusión alrededor de las áreas contaminadas y asumió el control de las operaciones relacionadas con la infección.
+
+Uno de los mayores centros científicos de Hades quedó dentro de uno de estos perímetros.
+
+El complejo había sido construido para estudiar las anomalías del planeta.
+
+Terminó convirtiéndose en una de ellas.
+
+**Información reservada para el equipo de desarrollo:**  
+CERBERUS llegó a conocer los efectos que la exposición prolongada a los cristales podía provocar en seres humanos. A pesar de ello, la extracción y los experimentos continuaron debido a la importancia energética del recurso.
+
+Parte del personal científico intentó detener o denunciar las investigaciones. Esto provocó un conflicto interno entre investigadores, administradores y altos mandos de CERBERUS.
+
+Algunas de las decisiones tomadas durante este periodo están directamente relacionadas con el origen y la evolución posterior de los Vimers.
+### Durante el juego
+
+El centro científico permanece completamente aislado dentro de una zona de exclusión.
+
+Sus laboratorios, instalaciones de extracción y sectores de mantenimiento han quedado ocupados por los infectados. Las defensas exteriores de CERBERUS mantienen cerrado el perímetro mientras las fuerzas desplegadas contienen cualquier intento de los Vimers por abandonar el complejo.
+
+Durante un tiempo, las oleadas contra el perímetro fueron constantes.
+
+Después comenzaron a disminuir.
+
+Finalmente, cesaron.
+
+CERBERUS no interpreta aquel silencio como una victoria.
+
+Los Vimers continúan presentes dentro de la instalación, pero han dejado de atacar las defensas exteriores. Su comportamiento parece haber cambiado, como si comprendieran el peligro que supone abandonar la zona protegida por el perímetro.
+
+Ante esta aparente retirada, CERBERUS inicia una serie de operaciones de limpieza.
+
+Pequeños contingentes de soldados son enviados al interior con la misión de restaurar sectores estratégicos, recuperar información y erradicar progresivamente la infección.
+
+El jugador forma parte de una de estas intervenciones.
+
+Una vez dentro del complejo, deberá desplazarse entre instalaciones parcialmente destruidas, sectores sin energía y áreas completamente tomadas por crecimientos cristalinos.
+
+Para mantener abierta la operación tendrá que reparar y defender generadores, combatir a los Vimers y recuperar los recursos necesarios para continuar avanzando.
+
+Sin embargo, la misión comienza a revelar algo más importante que la presencia de los infectados.
+
+Equipos abandonados, registros científicos, comunicaciones internas y restos de experimentos permiten reconstruir gradualmente lo ocurrido antes del cierre de la instalación.
+
+El jugador descubre que el desastre no comenzó simplemente con una infección inesperada.
+
+El complejo estaba investigando algo que CERBERUS ya conocía parcialmente.
+
+Y cuanto más avanza hacia las zonas profundas de la instalación, más evidente resulta que los Vimers no son únicamente criaturas atrapadas dentro del perímetro.
+
+Algo dentro del centro los mantiene allí.
 ### Después del juego
 
-Los cielos eran morados y las piedras parecían extraídas del Hades: oscuras, con protuberancias violentas. Las montañas rascaban el cielo y las nubes respondían apagando la poca claridad que alcanzaba la superficie. El sol se asomaba y era consumido.
+El resultado de la operación determina el destino inmediato del centro científico, pero no elimina la amenaza de Hades.
 
-El descubrimiento del potencial energético de los cristales transformó la colonia. A las instalaciones de abastecimiento se sumaron operaciones de extracción y centros científicos dedicados a comprender los recursos y las anomalías de Terra.
+Incluso si la instalación es asegurada y los principales focos de infección son destruidos, los cristales continúan presentes bajo la superficie del planeta.
 
-Entonces aparecieron los **Vimers**. La infección alteraba a sus portadores hasta convertirlos en seres violentos, corrompidos en cuerpo y mente. La promesa de prosperidad quedó comprometida por una crisis que amenazaba a los habitantes de la colonia.
+También permanece intacto el conflicto que provocó la crisis.
 
-La autoridad central creó Cerberus para responder a la emergencia. La organización estableció zonas de exclusión, desplegó fuerzas de contención y asumió investigaciones sobre la infección.
+La humanidad depende de aquello que puede destruirla.
 
-**Información reservada para el equipo de desarrollo:** Cerberus llegó a conocer las consecuencias de la exposición prolongada a los cristales, pero continuó con la experimentación y la extracción. Estas decisiones provocaron un conflicto entre el personal científico y los altos mandos.asomaba y era consumido. 
+Abandonar la extracción significaría renunciar a uno de los recursos energéticos más importantes encontrados durante la expansión colonial. Continuarla significa aceptar la posibilidad de que nuevas zonas de exclusión aparezcan en otros lugares de Hades.
 
-### Durante el juego
-El centro científico que prometía desenterrar los secretos de Terra terminó albergando aquello que intentaba comprender. Sus laboratorios y pasillos quedaron dentro de una zona de exclusión, ocupados por los infectados y separados del exterior por el perímetro de Cerberus.
+CERBERUS puede cerrar instalaciones.
 
-Como el guardián del que tomó su nombre, Cerberus vigiló los accesos y contuvo las oleadas que intentaban atravesarlos. Con el tiempo, las incursiones disminuyeron hasta que los Vimers dejaron de aparecer ante las defensas.
+Puede destruir infectados.
 
-El silencio no significaba que hubieran desaparecido. Permanecían dentro del complejo, como si supieran lo que les esperaba al salir.
+Puede levantar nuevos perímetros.
 
-Ante esta aparente retirada, Cerberus envía contingentes de soldados para erradicar la infección desde el interior. El jugador forma parte de una de estas intervenciones. Entre instalaciones dañadas y sectores sin luz, debe combatir a los Vimers, reparar generadores y proteger los puntos necesarios para continuar la operación.
+Pero no puede eliminar las decisiones que provocaron la crisis.
 
-El entorno conserva las huellas del trabajo científico y del fracaso de la contención interna. La presencia de equipos abandonados, daños y crecimientos cristalinos permite descubrir gradualmente qué ocurrió, mientras la actividad de los infectados demuestra que la amenaza sigue presente. 
+La humanidad llegó a Hades buscando ampliar sus fronteras y terminó restringiendo sus propios movimientos. Donde esperaba construir rutas, levantó muros. Donde esperaba encontrar progreso, creó zonas prohibidas.
 
-### Después del juego
-La resolución de la operación determina el destino inmediato del centro científico, pero no elimina por sí sola la infección de Terra ni las consecuencias de la extracción.
+Los mismos cristales que sostuvieron su expansión terminaron encadenándola al planeta.
 
-La humanidad llegó al planeta para ampliar sus rutas y terminó restringiendo sus propios movimientos. Allí donde esperaba construir un punto de partida, levantó perímetros, controles y zonas prohibidas. Los cristales que sostenían su expansión también la mantenían ligada a la crisis.
+Y mientras las zonas de exclusión continúen creciendo, una pregunta permanece sin respuesta:
 
-Vimer había contenido a la humanidad en su propia prisión violeta.
+¿CERBERUS está conteniendo a los Vimers dentro de sus perímetros…
 
+o está manteniendo a la humanidad fuera de algo que todavía no comprende?
 
 ## Lugares
 
 | Lugar                               | Descripción                                                            | Función jugable                                                      | Importancia narrativa                                             |
 | ----------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Terra                               | Colonia humana de cielos violetas y escasa iluminación natural         | Contexto general del escenario                                       | Representa la promesa de expansión transformada en crisis         |
+| Hades                               | Colonia humana de cielos violetas y escasa iluminación natural         | Contexto general del escenario                                       | Representa la promesa de expansión transformada en crisis         |
 | Zona de exclusión                   | Territorio restringido por la presencia de Vimer                       | Delimita el área de intervención                                     | Evidencia la magnitud de la amenaza                               |
 | Perímetro de Cerberus               | Accesos y posiciones de vigilancia alrededor del área afectada         | Punto de referencia para el despliegue y los límites de la operación | Representa el intento de impedir la propagación                   |
-| Centro científico                   | Instalación dedicada al estudio y contención de las anomalías de Terra | Escenario principal de la partida                                    | Vincula la investigación humana con la presencia de Vimer         |
+| Centro científico                   | Instalación dedicada al estudio y contención de las anomalías de Hades | Escenario principal de la partida                                    | Vincula la investigación humana con la presencia de Vimer         |
 | Laboratorios y áreas de contención  | Sectores destinados a estudiar y aislar las anomalías                  | Espacios de combate y exploración                                    | Conservan indicios de los experimentos y del brote                |
 | Sectores de energía y mantenimiento | Áreas que albergan generadores y equipos de servicio                   | Reparación y defensa de infraestructura                              | Explican la dependencia de la energía y la pérdida de iluminación |
 | Corredores y accesos internos       | Conexiones entre las áreas del complejo                                | Desplazamiento, posicionamiento y encuentros con enemigos            | Muestran cómo la infección ocupó las instalaciones                |
@@ -82,7 +145,7 @@ Vimer había contenido a la humanidad en su propia prisión violeta.
 Los Vimers se presentan como grupo antagonista. No se ha confirmado que tengan una estructura organizada o una voluntad colectiva.
 ## Coherencia del mundo
 
-1. **Terra es una colonia humana**, cuyo valor proviene tanto de su posición estratégica como de sus cristales.
+1. **Hades es una colonia humana**, cuyo valor proviene tanto de su posición estratégica como de sus cristales.
 2. **Cerberus fue creada a partir de la crisis Vimer.** Su existencia es posterior a los primeros incidentes.
 3. **El nombre oficial de la organización es Centralized Emergency Response Bureau for Extranormal Recovery & Urban Security.**
 4. **Cerberus conoce los riesgos de la exposición prolongada**, aunque ese conocimiento no tiene por qué estar disponible para todos sus integrantes.
@@ -93,6 +156,6 @@ Los Vimers se presentan como grupo antagonista. No se ha confirmado que tengan u
 9. **La ausencia de ataques no demuestra que la amenaza haya desaparecido.**
 10. **La aparente intención de Vimer se mantiene como una incógnita, solo se sabe que quieren asimilarlo todo.**
 11. **La tecnología tiene límites consistentes.** La energía, los daños y las reparaciones deben producir efectos comprensibles y acordes con la jugabilidad.
-12. **Recuperar el centro científico no equivale a resolver toda la crisis de Terra.**
+12. **Recuperar el centro científico no equivale a resolver toda la crisis de Hades.**
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Premisa y Trama]] · [[03 - Personajes]] →

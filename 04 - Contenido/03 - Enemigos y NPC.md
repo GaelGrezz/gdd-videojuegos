@@ -4,54 +4,6 @@
 
 Documenta las entidades controladas por el juego y su comportamiento.
 
-## Plantilla de enemigo
-
-### Nombre
-
-**Rol de combate:**
-
-**Comportamiento:**
-
-**Vida:**
-
-**Daño:**
-
-**Defensas:**
-
-**Velocidad:**
-
-**Rango de detección:**
-
-**Ataques:**
-
-**Debilidades:**
-
-**Recompensa:**
-
-**Estados de IA:**
-
-```text
-Patrullar → Detectar → Perseguir → Atacar
-                  ↓
-                Perder objetivo → Buscar
-```
-
-## Plantilla de NPC
-
-**Nombre:**
-
-**Función:**
-
-**Ubicación:**
-
-**Interacción:**
-
-**Diálogos:**
-
-**Condiciones:**
-
-**Recompensas / información:**
-
 ## Reglas generales de los enemigos
 
 - Cada enemigo regular tiene un costo de aparición en tickets, pendiente de balance.
@@ -206,7 +158,6 @@ Cristales y moneda. Se propone una recompensa superior a la Cáscara por el esfu
 - La posibilidad de interrumpir un ataque para evadir está por definir.
     
 - La recarga transcurre en paralelo a los demás estados y se detiene durante la pausa.
-    
 
 ## Jefe final
 
@@ -278,16 +229,17 @@ No se establece una recompensa de recursos posterior al combate, ya que la parti
 
 **Estados de IA:**
 
-|Estado|Acción|Transición|
-|---|---|---|
-|Aparición|Presenta al jefe y prepara el encuentro|Pasa a Adquirir objetivo|
-|Adquirir objetivo|Localiza al jugador|Pasa a Posicionarse|
-|Posicionarse|Ajusta la ubicación del cuerpo y los brazos|Pasa a Seleccionar ataque|
-|Seleccionar ataque|Escoge una acción disponible según distancia y recargas|Pasa a Preparar ataque|
-|Preparar ataque|Muestra la señal correspondiente|Pasa a Ejecutar ataque|
-|Ejecutar ataque|Coordina el cuerpo y los brazos participantes|Pasa a Recuperarse|
-|Recuperarse|Mantiene una ventana de respuesta para el jugador|Vuelve a Posicionarse o Seleccionar ataque|
-|Morir|El cuerpo y los brazos son absorbidos por el halo|Da paso a la cinemática de victoria|
+| Estado             | Acción                                                  | Transición                                 |
+| ------------------ | ------------------------------------------------------- | ------------------------------------------ |
+| Aparición          | Presenta al jefe y prepara el encuentro                 | Pasa a Adquirir objetivo                   |
+| Adquirir objetivo  | Localiza al jugador                                     | Pasa a Posicionarse                        |
+| Posicionarse       | Ajusta la ubicación del cuerpo y los brazos             | Pasa a Seleccionar ataque                  |
+| Seleccionar ataque | Escoge una acción disponible según distancia y recargas | Pasa a Preparar ataque                     |
+| Preparar ataque    | Muestra la señal correspondiente                        | Pasa a Ejecutar ataque                     |
+| Ejecutar ataque    | Coordina el cuerpo y los brazos participantes           | Pasa a Recuperarse                         |
+| Recuperarse        | Mantiene una ventana de respuesta para el jugador       | Vuelve a Posicionarse o Seleccionar ataque |
+| Morir              | El cuerpo y los brazos son absorbidos por el halo       | Da paso a la cinemática de victoria        |
+|                    |                                                         |                                            |
 
 **Reglas particulares:**
 
@@ -312,7 +264,7 @@ No se establece una recompensa de recursos posterior al combate, ya que la parti
 
 **Diálogos:** Breves, profesionales y orientados a la acción.
 
-> «Eco-7, aquí Enlace. Has cruzado el acceso. Revisa el sector».
+> «Eco-10, aquí Enlace. Has cruzado el acceso. Revisa el sector».
 
 > «Asegura el área antes de reparar».
 

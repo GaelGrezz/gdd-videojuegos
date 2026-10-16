@@ -38,21 +38,21 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 ## Protagonista
 
-### Soldado de Cerberus — Indicativo «Eco-7»
+### Soldado de Cerberus — Eco-10
 
 **Rol:** Protagonista controlado por el jugador.
 
 **Función jugable:** Combatir infectados, utilizar la linterna, reparar y defender generadores, recoger recursos y elegir mejoras.
 
-**Función narrativa:** Mostrar la intervención en el centro científico desde la perspectiva de un operativo que desconoce parte de las decisiones de su organización.
+**Función narrativa:** Mostrar la intervención en el centro científico desde la perspectiva de un operativo.
 
-**Descripción física:** Soldado con armadura gris oscura y negra, casco cerrado, visor y distintivos rojos de Cerberus. Su equipo presenta desgaste conforme avanza la operación.
+**Descripción física:** Soldado con armadura gris oscura y negra, casco cerrado, visor y distintivos rojos de Cerberus. Su equipo presenta desgaste.
 
 **Personalidad:** Reservado y atento al entorno. Su caracterización deja espacio para que el jugador interprete sus reacciones.
 
 **Motivaciones:** Sobrevivir, cumplir la misión y comprender lo ocurrido con los contingentes anteriores.
 
-**Objetivos:** Asegurar los sectores asignados y completar la intervención.
+**Objetivos:** Asegurar el sector asignado y completar la intervención.
 
 **Conflicto:** Debe seguir órdenes mientras encuentra evidencias que cuestionan la información recibida.
 
@@ -64,16 +64,16 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Debilidades:** Vulnerabilidad ante los infectados, visibilidad limitada y dependencia del equipo y de la información proporcionada por terceros.
 
-**Frases o tono de diálogo:** Comunicaciones breves y funcionales: «Sector asegurado», «Generador operativo», «Solicito instrucciones».
+**Frases o tono de diálogo:** Comunicaciones breves y funcionales: Sector asegurado, Generador operativo, Solicito instrucciones.
 
 **Referencias visuales:** 
 ![[Pasted image 20261003001112.png]]
 
 ## Antagonista
 
-### Vimer — Amenaza principal
+### Vimer
 
-**Rol:** Fuerza antagonista representada por los infectados del complejo.
+**Rol:** Fuerza antagonista representada por los infectados con la condición vimer.
 
 **Función jugable:** Ejercer presión mediante enemigos con diferentes capacidades y comportamientos.
 
@@ -85,13 +85,13 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Motivaciones:** Desconocidas. Sus comportamientos observables son violentos y hostiles.
 
-**Objetivos:** Sus objetivos narrativos, si existen, permanecen sin confirmar.
+**Objetivos:** Asimilación de materia organica 
 
 **Conflicto:** Su presencia impide recuperar el complejo y amenaza a quienes ingresan.
 
-**Relaciones:** Vinculada con los cristales de Terra y con las investigaciones de Cerberus.
+**Relaciones:** Ninguna.
 
-**Arco del personaje:** Se revela progresivamente mediante formas de infección cada vez más complejas.
+**Arco del personaje:** Ninguno.
 
 **Habilidades:** Varían según el tipo de infectado.
 
@@ -103,7 +103,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 ![[Pasted image 20261003001201.png|390]]![[Pasted image 20261003001237.png|421]]
 ## Personajes secundarios
 
-### Operador Nicolás Varela — Indicativo «Enlace»
+### Operador Nicolás Varela 
 
 **Rol:** Operador de comunicaciones de Cerberus y guía del jugador.
 
@@ -111,49 +111,48 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Función narrativa:** Transmitir las órdenes de los altos mandos y representar la versión institucional de la operación.
 
-**Descripción física:** aparece en retratos, lleva uniforme de comunicaciones, auriculares y equipo de enlace. No requiere presencia física en el escenario.
+**Descripción física:** lleva uniforme de comunicaciones, auriculares y equipo de comunicaciones. No requiere presencia física en el escenario.
 
 **Personalidad:** Metódico, contenido y preciso. Bajo presión, su preocupación aparece en silencios y cambios de tono.
 
-**Motivaciones:** Mantener operativo al soldado y completar el despliegue bajo su supervisión.
+**Motivaciones:** Mantener vivo al soldado y completar el despliegue bajo su supervisión.
 
 **Objetivos:** Guiar al jugador, verificar avances y transmitir las instrucciones recibidas.
 
 **Conflicto:** Debe comunicar órdenes que pueden contradecir lo que el soldado encuentra. No dispone necesariamente de toda la información de los mandos.
 
-**Relaciones:** Contacto habitual del protagonista y enlace con la cadena de mando. Su conocimiento de Issac está por definir.
+**Relaciones:** Contacto habitual del protagonista y enlace con la cadena de mando.
 
-**Arco del personaje:** Comienza con instrucciones seguras y rutinarias. Las anomalías de la misión ponen a prueba su confianza en los informes oficiales.
+**Arco del personaje:** Comienza con instrucciones seguras y rutinarias, el jugador a cuestionar la operación, desconoce de los anteriores registros por lo que evade las preguntas 
 
 **Habilidades:** Coordinación operativa, lectura de reportes y comunicación de procedimientos.
 
 **Debilidades:** Depende de los canales disponibles y de información que puede estar incompleta o restringida.
 
 **Frases o tono de diálogo:**
-
-- «Eco-7, ilumina al objetivo antes de abrir fuego».
-- «Necesitamos ese generador operativo. Evalúa el área antes de reparar».
-- «La orden está confirmada. Mantén tu posición».
+Eco-7, ilumina al objetivo antes de abrir fuego
+Necesitamos ese generador operativo. Evalúa el área antes de reparar
 
 **Referencias visuales:** 
 ![[Pasted image 20261003001301.png]]
+![[Operator.png]]
 ### Doctor Issac Ferrer
 
-**Rol:** Científico de Cerberus perteneciente al sector científico enfrentado con los altos mandos.
+**Rol:** Científico de Cerberus perteneciente a la faccion científica enfrentada con los altos mandos.
 
 **Función jugable:** Ofrecer conversaciones opcionales cuando el jugador cumpla condiciones específicas. Los requisitos y posibles beneficios están por definir.
 
 **Función narrativa:** Aportar una perspectiva interna sobre las investigaciones, la exposición a los cristales y las discrepancias dentro de Cerberus.
 
-**Descripción física:** Hombre de aspecto fatigado, uniforme científico deteriorado y equipo de protección para trabajar con material peligroso. Su ubicación y forma de contacto están por definir.
+**Descripción física:** Hombre de aspecto fatigado, uniforme científico deteriorado y equipo de protección para trabajar con material peligroso.
 
-**Personalidad:** Analítico, cauteloso y desconfiado. Evita afirmar aquello que no puede respaldar.
+**Personalidad:** Analítico, cauteloso y desconfiado.
 
-**Motivaciones:** Impedir que se repitan decisiones peligrosas y conservar el conocimiento obtenido sobre Vimer.
+**Motivaciones:** Impedir que se repitan decisiones peligrosas y conservar el conocimiento obtenido sobre Vimers.
 
 **Objetivos:** Conseguir que sus advertencias y hallazgos lleguen a alguien capaz de actuar.
 
-**Conflicto:** Pertenece a la misma organización cuyas decisiones cuestiona. Revelar información puede enfrentarlo con sus superiores.
+**Conflicto:** Pertenece a la misma organización cuyas decisiones cuestiona, revelar información puede enfrentarlo con sus superiores.
 
 **Relaciones:** Integra el personal científico de Cerberus. Puede convertirse en una fuente de información para el protagonista, sin que la confianza entre ambos sea inmediata.
 
@@ -161,21 +160,19 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Habilidades:** Análisis de la infección, interpretación de registros científicos y conocimiento de protocolos de exposición.
 
-**Debilidades:** Capacidad de combate limitada, acceso restringido a recursos y dependencia de las condiciones que permiten establecer contacto.
+**Debilidades:** Capacidad de combate limitada y acceso restringido a recursos .
 
 **Frases o tono de diálogo:**
 
-- «Que pueda producir energía no significa que sea seguro».
-- «Antes de responder, necesito saber qué encontraste».
-- «Los resultados estaban ahí. La decisión fue continuar».
+Antes de responder, necesito saber qué encontraste
 
 **Referencias visuales:** 
 ![[Pasted image 20261003001429.png|284]]![[Pasted image 20261003001533.png|371]]
 
-
+![[Ilustración2.png]]
 ### Personajes secundarios
 
-Estos personajes murieron antes de la llegada del protagonista. Su participación ocurre mediante registros —“logs”— encontrados junto a sus cuerpos o equipos.
+Estos personajes murieron antes de la llegada del protagonista. Su participación ocurre mediante registros “logs”encontrados junto a sus cuerpos o equipos.
 
 Cada registro debe aportar una perspectiva distinta y evitar repetir información que el jugador ya conoce.
 
@@ -235,11 +232,11 @@ Los siguientes personajes existen dentro del mundo, pero **no se mencionan expl�
 
 **Rol:** Autoridad política superior a Cerberus.
 
-**Función narrativa:** Explicar el respaldo institucional de la organización y el marco en el que se toman decisiones sobre Terra.
+**Función narrativa:** Explicar el respaldo institucional de la organización y el marco en el que se toman decisiones sobre Hades.
 
 **Motivaciones:** Proteger los asentamientos humanos y sostener la estabilidad de los territorios bajo su administración.
 
-**Conflicto:** La importancia de Terra y de sus recursos dificulta resolver la crisis sin consecuencias para otros territorios.
+**Conflicto:** La importancia de Hades y de sus recursos dificulta resolver la crisis sin consecuencias para otros territorios.
 
 **Relación con el jugador:** No mantiene contacto directo con el soldado.
 

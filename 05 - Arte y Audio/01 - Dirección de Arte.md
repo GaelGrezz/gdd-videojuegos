@@ -146,7 +146,7 @@ Las prendas claras distinguen a los científicos. Los elementos oscuros y rojos 
 12. **Destacar el halo durante la muerte del Ascendido.** La absorción del cuerpo y los brazos debe entenderse con claridad.
 13. **Mantener simples las victorias.** Utilizar encuadres breves, animaciones contenidas y recursos del propio escenario.
 14. **Adaptar los conceptos realistas al acabado final.** Sirven para definir vestuario y materiales, pero no determinan el nivel de detalle del juego.
-15. **Conservar diseños propios.** La referencia a SIGNALIS orienta el tratamiento visual; los personajes, símbolos y espacios pertenecen al universo de Terra.
+15. **Conservar diseños propios.** La referencia a SIGNALIS orienta el tratamiento visual; los personajes, símbolos y espacios pertenecen al universo de AfterLight.
 
 ## Referencias
 

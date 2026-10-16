@@ -1,42 +1,6 @@
 # Mecánicas
 
 ## Descripción de la sección
-
-Una mecánica es una regla o interacción mediante la cual el jugador puede actuar dentro del sistema del juego.
-
-Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
-
-## Plantilla de mecánica
-
-### Nombre de la mecánica
-
-**Propósito:**  
-¿Qué aporta a la experiencia?
-
-**Activación:**  
-¿Qué debe hacer el jugador?
-
-**Reglas:**  
-¿Qué puede y qué no puede ocurrir?
-
-**Entrada:**  
-¿Qué botón, gesto o acción la activa?
-
-**Estado inicial:**
-
-**Estado final:**
-
-**Recursos utilizados:**
-
-**Recompensa:**
-
-**Penalización:**
-
-**Interacciones con otras mecánicas:**
-
-**Casos límite:**  
-¿Qué ocurre en situaciones poco comunes?
-
 ## Mecánicas principales
 
 ### Mecánica 01: Linterna y batería
@@ -56,7 +20,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 
 **Entrada:** Movimiento del cursor para orientar la linterna.
-**Estado inicial:** Linterna disponible, con carga inicial y efectos básicos por definir.
+**Estado inicial:** Linterna disponible, con carga inicial y estadísticas base.
 **Estado final:** El jugador deja de utilizarla, la batería se agota o termina la partida.
 **Recursos utilizados:** Carga de batería.
 **Recompensa:** Los enemigos iluminados quedan debilitados, lo que facilita enfrentarlos.
@@ -74,7 +38,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 **Activación:** El jugador apunta y utiliza un arma contra los infectados.
 
 **Reglas:**
-- Los ataques afectan a los enemigos según el alcance, daño y funcionamiento del arma utilizada.
+- Los ataques afectan a los enemigos según el daño y funcionamiento del arma utilizada.
 - Los efectos de la linterna pueden modificar la vulnerabilidad de los enemigos.
 - Los infectados pueden atacar al soldado o amenazar los generadores.
 - Las eliminaciones consecutivas pueden activar potenciadores asociados a una racha.
@@ -83,11 +47,11 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Entrada:** Movimiento y apuntado con teclado y ratón;
 
-**Estado inicial:** Soldado equipado con un arma inicial y salud completa; valores por definir.
+**Estado inicial:** Soldado equipado con un arma inicial y salud completa.
 
 **Estado final:** El enemigo es eliminado, deja de estar al alcance, el jugador interrumpe el ataque o termina la partida.
 
-**Recursos utilizados:** Los recursos propios del arma equipada, si corresponde. Debe definirse si las armas utilizan munición, tiempo de recarga u otro límite.
+**Recursos utilizados:** balas en el cargador.
 
 **Recompensa:** Eliminación de amenazas, protección de los objetivos y posible avance de la racha de eliminaciones.
 
@@ -95,7 +59,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Interacciones con otras mecánicas:** Los efectos de la linterna influyen en los enfrentamientos. Las mejoras modifican las armas o al soldado. El director de enemigos determina qué amenazas pueden aparecer con el paso del tiempo.
 
-**Casos límite:** Debe definirse qué sucede si un enemigo recibe un ataque en el mismo instante en que muere o desaparece, y si una eliminación causada por una defensa cuenta para la racha del jugador.
+**Casos límite:** Si un enemigo muere, este debe de dejar de tener un collider. Toda muerte de un enemigo incrementa la racha.
 
 ### Mecánica 03: Reparación y defensa de generadores
 
@@ -104,12 +68,11 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 **Activación:** El jugador se acerca a un generador e inicia su reparación. La defensa ocurre al combatir a los infectados que lo amenazan.
 
 **Reglas:**
-- Solo se puede reparar un generador cuando el jugador cumple sus condiciones de interacción.
 - La reparación aumenta su progreso hasta alcanzar el estado operativo.
 - Los infectados pueden dañar los generadores.
 - El jugador puede invertir mejoras en los generadores.
 
-**Entrada:** Acción de interacción cerca del generador; tecla "E". Su defensa utiliza los controles normales de movimiento, linterna y combate.
+**Entrada:** Acción de interacción cerca del generador; tecla "E". 
 
 **Estado inicial:** Generador  parcialmente reparado
 
@@ -117,7 +80,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Recursos utilizados:** Tiempo de reparación.
 
-**Recompensa:** permite al jugador rellenar su lintarna, disponibilidad de la fuente de luz y beneficios asociados al generador.
+**Recompensa:** permite al jugador rellenar su lintarna, tener disponibilidad de una fuente de luz y beneficios asociados al generador.
 
 **Penalización:** Reparar requiere tiempo y puede dejar al soldado expuesto
 

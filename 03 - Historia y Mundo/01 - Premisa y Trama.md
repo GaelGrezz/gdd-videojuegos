@@ -7,7 +7,7 @@ Aquí se documenta la narrativa que sostiene la experiencia. La historia debe ex
 ## Premisa
 
 Resume el conflicto principal en pocas líneas.
-La humanidad hace frente a una plaga conocida como "Violeta mortífera" (también denominada Vimer) que muta aquellos quienes la portan a una entidad violenta, corrompida en piel y mente. Para hacer frente a las oleadas de infectados y conocer la causa de la propagación, se envía una guarnición de soldados para hacer frente al misterio que rodea a esta infección.  
+La humanidad hace frente a una plaga conocida como "Violeta mortífera" (también denominada Vimer) que muta aquellos quienes la portan a una entidad violenta, corrompida en piel y mente. Para hacer frente a las oleadas de infectados, se envía una guarnición de soldados para hacer frente al misterio que rodea a esta infección.  
 
 ## Sinopsis
 
@@ -18,7 +18,7 @@ El jugador se coloca el traje de un soldado quien fue desplegado para indagar la
 
 ### Acto / Etapa 1: Ingreso al área de exclusión
 
-El soldado recibe la orden de intervenir en un sector afectado por Vimer. Su preparación parte del conocimiento que Cerberus tiene sobre los infectados y su vulnerabilidad a la luz.
+El soldado recibe la orden de intervenir en un sector afectado por Vimer. Su preparación parte del conocimiento provisto por Cerberus.
 
 Al ingresar, encuentra infraestructura dañada y los primeros enemigos. Repara un generador para recuperar un punto de apoyo e inicia la contención.
 
@@ -88,7 +88,7 @@ Esta sección está destinada al equipo de desarrollo. Contiene información sob
 
 La crisis de **Violeta Mortífera (Vimer)** está relacionada con los cristales extraídos de la colonia humana para abastecer de energía a la humanidad. La exposición prolongada a estos cristales provoca alteraciones físicas y mentales vinculadas con la transformación de los infectados.
 
-Queda por definir la naturaleza exacta del agente que desencadena estas alteraciones y cómo se propaga la infección más allá de la exposición directa.
+Queda por definir la naturaleza exacta del agente(se propone como resonancia que funcione como activador para acelerar los efectos anteriormente mencionados).
 
 ### La creación de Cerberus
 
@@ -100,7 +100,7 @@ Las áreas de exclusión delimitan zonas de propagación donde Cerberus desplieg
 
 Durante sus investigaciones, Cerberus identificó las consecuencias de la exposición prolongada a los cristales. A pesar de conocer los riesgos, continuó con la experimentación y la extracción.
 
-Por tanto, su responsabilidad no consiste necesariamente en haber originado la primera infección, sino en haber mantenido actividades peligrosas después de conocer sus consecuencias. Quedan por concretar los motivos de esta decisión y cuánto sabía la autoridad que supervisaba a la organización.
+Por tanto, su responsabilidad no consiste necesariamente en la contencion, sino en haber mantenido actividades peligrosas después de conocer sus consecuencias.
 
 ### El conflicto interno
 

@@ -14,7 +14,7 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 | Disparar                    | —           | Clic izquierdo        | Por definir |
 | Abrir menú de mejoras       | Por definir | —                     | Por definir |
 | Cambiar de arma             | Por definir | Por definir           | Por definir |
-| Abrir menú de pausa         | Por definir | —                     | Por definir |
+| Abrir menú de pausa         | ESC         | —                     | Por definir |
 ## Principios de control
 
 - El movimiento utiliza W, A, S y D, correspondientes a arriba, izquierda, abajo y derecha desde la perspectiva de la cámara.

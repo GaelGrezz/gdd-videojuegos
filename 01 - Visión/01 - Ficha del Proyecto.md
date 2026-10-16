@@ -8,7 +8,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 | Campo                        | Información                                                     |
 | ---------------------------- | --------------------------------------------------------------- |
-| **Nombre del proyecto**      | Punto Terra (Provicional)                                       |
+| **Nombre del proyecto**      | AfterLight                                                      |
 | **Nombre clave**             | POT<!-- Identificador interno si existe -->                     |
 | **Versión del GDD**          | 0.1.0                                                           |
 | **Estado del proyecto**      | **Concepto** / Preproducción / Producción / Pruebas / Publicado |

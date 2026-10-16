@@ -86,7 +86,7 @@ Protagonista, Nicolás, Ascendido e Issac, si se desarrolla su contenido opciona
 
 **Nivel relacionado:**
 
-Centro científico de Terra.
+Centro científico de Hades.
 
 ## Objetivo introductorio
 
@@ -138,7 +138,7 @@ Protagonista y Nicolás.
 
 **Nivel relacionado:**
 
-Centro científico de Terra.
+Centro científico de Hades.
 
 ## Cadena opcional de Issac
 
@@ -189,7 +189,7 @@ Issac y Lucía Ferrán, mediante su registro.
 
 **Nivel relacionado:**
 
-Centro científico de Terra.
+Centro científico de Hades.
 
 ### 2. Lo sabían
 
@@ -238,7 +238,7 @@ Issac, Julián Ocampo, Rodrigo Valcárcel y Beatriz Alcázar.
 
 **Nivel relacionado:**
 
-Centro científico de Terra.
+Centro científico de Hades.
 
 ### 3. Fuera de su alcance
 
@@ -287,7 +287,7 @@ Issac y el protagonista.
 
 **Nivel relacionado:**
 
-Centro científico de Terra.
+Centro científico de Hades.
 
 ## Objetivo de exploración
 
@@ -336,7 +336,7 @@ Operativos fallecidos de Cerberus e Issac en los archivos vinculados con sus pet
 
 **Nivel relacionado:**
 
-Centro científico de Terra.
+Centro científico de Hades.
 
 ## Desafíos durante la partida
 

@@ -3,37 +3,7 @@
 ## Descripción de la sección
 
 Cada nivel debe documentar su propósito jugable, estructura, dificultad, contenido y condiciones de entrada/salida.
-
-## Plantilla de nivel
-
-### Nombre del nivel
-
-**Objetivo principal:**
-
-**Objetivos secundarios:**
-
-**Duración estimada:**
-
-**Dificultad:**
-
-**Mecánicas introducidas:**
-
-**Mecánicas utilizadas:**
-
-**Enemigos / obstáculos:**
-
-**Recompensas:**
-
-**Puntos de guardado:**
-
-**Condición de entrada:**
-
-**Condición de salida:**
-
-**Eventos narrativos:**
-
-**Mapa / diagrama:**
-## Nivel único: Centro científico de Terra
+## Nivel único: Centro científico de Hades
 
 **Objetivo principal:**
 

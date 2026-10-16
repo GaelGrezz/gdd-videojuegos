@@ -6,15 +6,15 @@ Organiza el contenido del videojuego en unidades manejables: mundos, capítulos,
 
 ## Estructura
 
-|Unidad|Contenido|Forma de progresión|
-|---|---|---|
-|Inicio|Menú del soldado frente a las puertas y cinemática de entrada|El jugador selecciona Iniciar|
-|Nivel único: Centro científico de Terra|Combate, exploración, reparación y defensa de generadores|Tiempo de juego transcurrido|
-|Introducción|Contacto con Nicolás y presentación de las mecánicas|Primeros momentos de la partida y acciones del jugador|
-|Supervivencia|Aumento de la presión mediante los tickets del director|El director recibe presupuesto conforme pasa el tiempo|
-|Contenido opcional|Registros de operativos fallecidos y peticiones de Issac|Exploración y cumplimiento de condiciones específicas|
-|Enfrentamiento final|Aparición del Ascendido dentro del mismo nivel|Alcanzar el tiempo establecido|
-|Desenlace|Victoria normal, victoria «Ni uno más» o derrota|Resultado del combate y cumplimiento de las peticiones de Issac|
+| Unidad                                  |Contenido|Forma de progresión|
+| --------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- |
+| Inicio                                  |Menú del soldado frente a las puertas y cinemática de entrada|El jugador selecciona Iniciar|
+| Nivel único: Centro científico de Hades |Combate, exploración, reparación y defensa de generadores|Tiempo de juego transcurrido|
+| Introducción                            |Contacto con Nicolás y presentación de las mecánicas|Primeros momentos de la partida y acciones del jugador|
+| Supervivencia                           |Aumento de la presión mediante los tickets del director|El director recibe presupuesto conforme pasa el tiempo|
+| Contenido opcional                      |Registros de operativos fallecidos y peticiones de Issac|Exploración y cumplimiento de condiciones específicas|
+| Enfrentamiento final                    |Aparición del Ascendido dentro del mismo nivel|Alcanzar el tiempo establecido|
+| Desenlace                               |Victoria normal, victoria «Ni uno más» o derrota|Resultado del combate y cumplimiento de las peticiones de Issac|
 
 La introducción, la supervivencia y el enfrentamiento final son momentos de una misma partida, sin cambios de nivel ni pantallas de carga entre ellos.
 
@@ -45,7 +45,7 @@ Los requisitos de Issac deben poder cumplirse dentro de la duración prevista de
 
 | Tipo                                | Cantidad                                                                          |
 | ----------------------------------- | --------------------------------------------------------------------------------- |
-| Mundos                              | 1: Terra                                                                          |
+| Mundos                              | 1: Hades                                                                          |
 | Niveles                             | 1: centro científico                                                              |
 | Zonas internas                      | Por definir dentro del mismo mapa                                                 |
 | Misiones principales                | 1 operación de intervención y supervivencia                                       |

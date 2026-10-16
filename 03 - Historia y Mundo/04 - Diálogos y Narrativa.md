@@ -188,7 +188,7 @@ Los finales dependen de las acciones realizadas durante la partida. No se requie
 
 Los textos de interfaz, subtítulos, registros y pantallas de resultado deben mantenerse separados de las imágenes para facilitar su traducción.
 
-Los nombres propios **Terra**, **Vimer** y **C.E.R.B.E.R.U.S.** se conservan. Los rangos, objetivos e indicaciones se adaptan al idioma correspondiente.
+Los nombres propios **Hades**, **Vimer** y **C.E.R.B.E.R.U.S.** se conservan. Los rangos, objetivos e indicaciones se adaptan al idioma correspondiente.
 
 La adaptación del nombre de **C.E.R.B.E.R.U.S.** de español a ingles son:
 Comando de Emergencias, Recuperación Biológica, Exploración, Resguardo Urbano y Seguridad.

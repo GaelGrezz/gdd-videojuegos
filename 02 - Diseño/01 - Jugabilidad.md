@@ -1,9 +1,4 @@
 # Jugabilidad
-
-## Descripción de la sección
-
-La jugabilidad explica **qué hace el jugador, qué recibe a cambio y cómo evoluciona la experiencia**.
-
 ## Bucle principal de juego
 
 Describe el ciclo que se repite durante la experiencia.
@@ -48,9 +43,6 @@ Para ganar, el jugador debe sobrevivir durante un tiempo determinado y superar a
 La partida termina si la salud el soldado llega a cero o se queda mucho tiempo sin una fuente de luz
 
 ## Ritmo
-
-Describe cómo alternan:
-
 
 - **Exploración:** Periodos breves para reconocer el entorno, localizar objetivos y elegir una ruta.
 - **Acción:** Enfrentamientos frecuentes durante las oleadas, en los que el jugador combina la linterna con sus armas.

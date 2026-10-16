@@ -48,7 +48,7 @@ Durante la partida, el personaje amplía sus capacidades mediante mejoras de equ
 | Desbloqueo                           | Requisito                            | Efecto                                                             |
 | ------------------------------------ | ------------------------------------ | ------------------------------------------------------------------ |
 | Mejoras del jugador  y potenciadores | subir de nivel, Tienda               | Modifican sus propiedades o los efectos aplicados a los infectados |
-| Nuevas armas                         | Tienda                               | Amplían las opciones de combate                                    |
+| Nuevas armas(por definir)            | Tienda                               | Amplían las opciones de combate                                    |
 | generadores                          | Subir de nivel, Tienda               | Modifican sus capacidades defensivas o beneficios                  |
 | Potenciadores por racha              | Alcanzar una racha de eliminaciones; | Otorgan beneficios acumulables según el potenciador                |
 ## Curva de dificultad
