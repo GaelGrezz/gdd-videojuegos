@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+                "file": "10 - Referencia/02 - Referencias e Inspiración.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Diálogos y Narrativa"
+              "title": "02 - Referencias e Inspiración"
             }
           },
           {
@@ -183,13 +183,23 @@
               "icon": "lucide-list",
               "title": "Esquema"
             }
+          },
+          {
+            "id": "e3eeced8f7d86efa",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,11 +209,14 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "c225944662618e57",
   "lastOpenFiles": [
+    "10 - Referencia/01 - Glosario.md",
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
     "03 - Historia y Mundo/01 - Premisa y Trama.md",
     "02 - Diseño/04 - Controles.md",
     "02 - Diseño/03 - Sistemas.md",
