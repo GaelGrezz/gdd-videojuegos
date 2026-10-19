@@ -29,8 +29,8 @@ Esta sección conserva las decisiones importantes del proyecto y el razonamiento
 ## Registro
 
 | Fecha | Tema | Decisión | Responsable |
-|---|---|---|---|
-| | | | |
+| ----- | ---- | -------- | ----------- |
+|       |      |          |             |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Referencias e Inspiración]] · [[04 - Historial de Versiones]] →
