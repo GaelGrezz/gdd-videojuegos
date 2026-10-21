@@ -15,7 +15,7 @@ Sobrevivir durante el tiempo establecido y derrotar al Ascendido cuando aparezca
 - Recuperar registros de los operativos fallecidos.
 - Cumplir las condiciones para establecer contacto con Issac.
 - Completar las peticiones de Issac para acceder al final **Ni uno más**.
-- Obtener cristales y moneda para fortalecer al personaje.
+- Obtener cristales para fortalecer al personaje.
 
 **Duración estimada:**
 
@@ -35,7 +35,7 @@ La dificultad combina cantidad de amenazas, variedad de comportamientos y presi�
 - Uso de la linterna para debilitar infectados.
 - Ataque con armas.
 - Reparación y defensa de generadores.
-- Recolección de cristales y moneda.
+- Recolección de cristales.
 - Selección de mejoras al subir de nivel.
 - Recuperación de salud mediante botiquines.
 - Consulta de registros e interacción narrativa.
@@ -47,20 +47,19 @@ Nicolás presenta las acciones esenciales mediante comunicaciones asociadas a la
 - Gestión de salud y batería.
 - Posicionamiento para evitar ataques y cercos.
 - Priorización de enemigos y generadores amenazados.
-- Compras de armas y mejoras en la tienda.
 - Obtención de rachas de eliminaciones sin recibir daño.
 - Elección de mejoras que complementen la estrategia.
 - Exploración opcional mientras avanza la partida.
 - Cumplimiento de las peticiones de Issac.
 
-La forma de acceder a la tienda y el método de recuperación de batería están pendientes de definición.
+La batería se recarga al permanecer cerca de un generador operativo. El prototipo no incluye tienda.
 
 **Enemigos / obstáculos:**
 
 | Elemento                      | Función dentro del nivel                                                                                          |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Cáscara                       | Presenta la amenaza básica y presiona al jugador mediante el acercamiento                                         |
-| quimera                       | Combina resistencia elevada con un desplazamiento evasivo al recibir luz; su habilidad tiene un tiempo de recarga |
+| Quimera                       | Combina resistencia elevada con un desplazamiento evasivo al recibir luz; su habilidad tiene un tiempo de recarga |
 | Ascendido                     | Jefe final que exige aprovechar las herramientas y mejoras obtenidas                                              |
 | Oscuridad                     | Limita la información visual y refuerza la importancia de orientar la linterna                                    |
 | Infraestructura dañada        | Obliga a decidir cuándo reparar y cuándo priorizar la defensa                                                     |
@@ -71,7 +70,6 @@ Los ataques concretos del Ascendido y las variantes adicionales de enemigos se d
 **Recompensas:**
 
 - Cristales para subir de nivel y escoger mejoras.
-- Moneda para comprar armas y mejoras.
 - Potenciadores al alcanzar umbrales de racha.
 - Recuperación de los beneficios de los generadores al repararlos.
 - Registros que amplían el conocimiento sobre el complejo y Cerberus.
@@ -132,7 +130,7 @@ El área del jefe pertenece al mismo nivel. Su ubicación y la forma de iniciar 
 |Entrada|Cruza las puertas y recibe la comunicación de Nicolás|Se entrega el control y comienza el reloj|
 |Introducción|Aprende a moverse, iluminar, atacar y reparar|Las instrucciones se activan según sus acciones|
 |Supervivencia|Combate, gestiona recursos y mantiene generadores|El tiempo aumenta la presión del director|
-|Desarrollo del personaje|Recoge cristales, elige mejoras y compra equipo|Ocurre durante la supervivencia, según los recursos obtenidos|
+|Desarrollo del personaje|Recoge cristales y elige mejoras|Ocurre durante la supervivencia, según los recursos obtenidos|
 |Exploración opcional|Recupera registros y atiende las peticiones de Issac|Ocurre en paralelo a la misión principal|
 |Enfrentamiento final|Combate al Ascendido|Se activa al alcanzar el tiempo establecido|
 |Resolución|Obtiene una victoria o sufre una derrota|Se registra el resultado y se presenta el desenlace|

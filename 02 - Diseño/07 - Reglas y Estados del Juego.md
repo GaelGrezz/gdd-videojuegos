@@ -10,7 +10,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Menú principal | Permite iniciar una partida, consultar opciones, acceder a los créditos o salir.                                                      |
 | Carga          | Prepara el escenario, al jugador, los generadores y los sistemas necesarios.                                                          |
-| Jugando        | El jugador combate, recoge recursos, obtiene mejoras, compra equipo y repara generadores. El director recibe y utiliza tickets.       |
+| Jugando        | El jugador combate, recoge recursos, obtiene mejoras y repara generadores. El director recibe y utiliza tickets.       |
 | Pausa          | Detiene temporalmente la simulación y permite consultar opciones o abandonar la partida.                                              |
 | Victoria       | Se alcanza al derrotar al jefe final después del periodo de supervivencia establecido.                                                |
 | Derrota        | Se activa cuando la salud llega a cero o se supera el tiempo permitido con la batería al 0 %. Detiene la partida y registra la causa. |
@@ -48,7 +48,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 6. Los generadores recuperan integridad al repararse. Un generador destruido puede recuperarse y su destrucción no provoca una derrota directa.
 7. Los botiquines son la principal fuente de curación. Algunas mejoras permiten recuperar salud al cumplir condiciones específicas.
 8. Los cristales permiten subir de nivel al jugador y escoger una mejora. El contador se reinicia al confirmar la selección.
-9. La moneda permite comprar armas y mejoras en la tienda. No se puede comprar sin saldo suficiente.
+9. La batería se recarga al permanecer cerca de un generador operativo. El prototipo no incluye moneda ni tienda.
 10. La racha de eliminaciones no tiene límite máximo y se reinicia cuando el jugador recibe daño. Los potenciadores dependen de umbrales definidos.
 11. Durante la pausa se detienen los enemigos, los proyectiles, las reparaciones, el consumo de batería, los efectos temporales, la generación de tickets y el reloj de partida.
 12. Cada partida puede registrar un único resultado final. Tras una victoria o derrota, se detiene la simulación.
@@ -65,7 +65,7 @@ El reloj de partida permanece detenido. La aparición del jefe se evalúa al rea
 
 ### Recuperación de batería durante el periodo de tolerancia
 
-**Regla propuesta:** Recuperar carga por encima del 0 % cancela y reinicia el contador
+**Regla:** Recuperar carga por encima del 0 % cancela y reinicia el contador.
 
 ### Destrucción de uno o varios generadores
 
@@ -79,17 +79,17 @@ Recibir daño reinicia el contador de eliminaciones y los potenciadores.
 
 El contador se reinicia al confirmar la mejora.
 
-### Menú de mejoras y tienda
+### Menú de mejoras
 
-Son interfaces disponibles durante la partida en las que el juego debe de estar en pausa.
+Es una interfaz disponible durante la partida en la que el juego debe estar en pausa.
 
 ### Comportamiento del director durante el jefe final
 
-el director no debe de generar enemigos ni tickets mientras el jefe este vivo.
+El director no recibe tickets ni genera enemigos mientras el jefe esté vivo. El jefe puede invocar sus propias entidades; su repertorio está por definir.
 
 ### Reinicio de partida
 
-Reintentar restablece el tiempo, los enemigos, los generadores, la racha, mejoras, monedas y el resultado de la partida.
+Reintentar restablece el tiempo, los enemigos, los generadores, la racha, las mejoras, los cristales y el resultado de la partida.
 
 ### Error durante la carga
 

@@ -13,7 +13,7 @@ Documenta las entidades controladas por el juego y su comportamiento.
 - La linterna aplica efectos debilitantes según sus propiedades y mejoras.
 - Los efectos de la luz deben ser visibles y consistentes.
 - La pausa y la selección de mejoras detienen sus movimientos, ataques y tiempos de recarga.
-- Los enemigos eliminados pueden soltar cristales y moneda; cantidades y reglas de aparición pendientes de definición.
+- Los enemigos eliminados pueden soltar cristales; cantidades y reglas de aparición pendientes de definición.
 - Cada muerte se registra una sola vez para otorgar recursos y aumentar la racha.
 - La selección entre atacar al jugador o a los generadores debe definirse por tipo de enemigo.
 
@@ -63,7 +63,7 @@ Golpe cuerpo a cuerpo con una preparación breve y reconocible. Alcance, frecuen
 
 **Recompensa:**
 
-Cristales y moneda según la tabla de recompensas que se establezca. Cuenta como una eliminación para la racha.
+Cristales según la tabla de recompensas que se establezca. Cuenta como una eliminación para la racha.
 
 **Estados de IA:**
 
@@ -128,7 +128,7 @@ El cristal central no se considera automáticamente un punto débil; esa propied
 
 **Recompensa:**
 
-Cristales y moneda. Se propone una recompensa superior a la Cáscara por el esfuerzo necesario para eliminarlo. Cuenta como una eliminación para la racha.
+Cristales. Se propone una recompensa superior a la Cáscara por el esfuerzo necesario para eliminarlo. Cuenta como una eliminación para la racha.
 
 **Estados de IA:**
 
@@ -248,7 +248,7 @@ No se establece una recompensa de recursos posterior al combate, ya que la parti
 - El cuerpo coordina los brazos para evitar ataques simultáneos no previstos.
 - Al morir, se cancelan sus acciones y las de sus brazos.
 - La animación de absorción se reproduce una sola vez.
-- El comportamiento del director y de los enemigos regulares durante este combate está por definir.
+- Durante este combate el director permanece en pausa. Las entidades que invoque el propio Ascendido están por definir.
 
 ## NPC
 
@@ -304,7 +304,7 @@ Proporciona instrucciones, objetivos y avisos. No entrega recursos directamente.
 
 Aporta información sobre Vimer y las decisiones de Cerberus. Completar sus peticiones habilita el final **Ni uno más** si el jugador derrota al Ascendido.
 
-No se han definido recompensas adicionales de armas, moneda o mejoras.
+No se han definido recompensas adicionales de armas o mejoras.
 
 ## Entidades narrativas sin IA activa
 
@@ -320,7 +320,7 @@ Los dirigentes de Cerberus, el consejo y los operativos que combaten fuera del �
 - Detección, pérdida de objetivo y búsqueda.
 - Efectos concretos de la linterna sobre cada variante.
 - Ataques definitivos del Ascendido e interacción con sus brazos.
-- Comportamiento del director durante el jefe final.
+- Entidades invocadas por el Ascendido.
 - Ubicación, condiciones de contacto y peticiones de Issac.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →

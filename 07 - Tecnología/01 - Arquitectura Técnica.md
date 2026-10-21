@@ -1,5 +1,9 @@
 # Arquitectura Técnica
 
+## Descripción de la sección
+
+Explica cómo está construido técnicamente el videojuego y cómo se comunican sus componentes.
+
 ## Arquitectura general
 
 ```text
@@ -37,7 +41,6 @@ Sistemas
 ├── Enemigos
 ├── Generadores
 ├── Mejoras
-├── Economía
 ├── Progresión
 └── GameManager / Mediator
     ↓
@@ -76,7 +79,6 @@ Presentación
 |**EnemyFactory**|Crea enemigos a partir de configuraciones definidas.|EnemyData, prefabs|
 |**GeneratorSystem**|Controla estado, reparación, daño y funcionamiento de los generadores.|GameMediator|
 |**UpgradeSystem**|Gestiona selección y aplicación de mejoras durante la partida.|UpgradeData, PlayerStats|
-|**EconomySystem**|Gestiona moneda y recursos obtenidos durante la partida.|UpgradeSystem|
 |**ProgressionSystem**|Controla experiencia, cristales, nivel y selección de mejoras.|UpgradeSystem|
 |**SaveSystem**|Guarda y recupera configuraciones y progreso persistente.|Datos serializables|
 |**UIManager**|Actualiza HUD, menús y pantallas según el estado del juego.|Eventos de gameplay|
@@ -98,9 +100,10 @@ Move
 Aim
 Fire
 Interact
-Flashlight
 Pause
 ```
+
+La linterna no tiene una acción propia: permanece encendida y se orienta con `Aim`, igual que el arma.
 
 El flujo esperado es:
 
@@ -172,10 +175,10 @@ Ejemplo:
 Generador reparado
        ↓
 GameMediator
-   ↙        ↘
-DirectorIA   UI
+   ↙              ↘
+FlashlightSystem   UI
    ↓
-Modifica presión
+Habilita la recarga de batería
 ```
 
 Otro ejemplo:
@@ -315,15 +318,14 @@ Ejemplo:
 Tickets disponibles: 10
 
 Cáscara        = 1
-Cuadrúpedo     = 3
-Élite          = 5
+Quimera        = 3
 ```
 
 El Director puede construir una oleada como:
 
 ```text
 4 Cáscaras     = 4
-2 Cuadrúpedos  = 6
+2 Quimeras     = 6
 -----------------
 Total          = 10
 ```
@@ -354,7 +356,7 @@ Esto permite solicitar:
 
 ```text
 Crear Cáscara
-Crear Cuadrúpedo
+Crear Quimera
 Crear Ascendido
 ```
 
@@ -390,6 +392,8 @@ Efecto especial
 
 Cáscara Élite
 ```
+
+La Cáscara Élite es un ejemplo hipotético; no forma parte del diseño actual.
 
 Debe utilizarse únicamente cuando la creación de una entidad requiera múltiples configuraciones.
 
@@ -534,11 +538,9 @@ Ejemplos:
     
 - controles;
     
-- progreso desbloqueado;
     
-- opciones de accesibilidad;
+- opciones de accesibilidad.
     
-- datos permanentes del jugador.
     
 
 Los datos temporales de una partida permanecen en memoria y no necesariamente se almacenan.
@@ -662,10 +664,9 @@ Generador destruido
        ↓
 GameMediator
        ↓
-├── Director aumenta presión
+├── FlashlightSystem desactiva la recarga de ese generador
 ├── UI muestra alerta
-├── Audio cambia
-└── GameManager evalúa derrota
+└── Audio cambia
 ```
 
 ---
@@ -764,8 +765,7 @@ Assets/
     │   ├── Director
     │   ├── Generators
     │   ├── Progression
-    │   ├── Upgrades
-    │   └── Economy
+    │   └── Upgrades
     │
     ├── Data/
     │   ├── PlayerData
@@ -780,44 +780,5 @@ Assets/
 ```
 
 Esta estructura funciona como referencia inicial y puede cambiar conforme aumente la complejidad del proyecto. El objetivo no es mantener una jerarquía rígida, sino evitar que código de responsabilidades diferentes termine mezclado.
-## Descripción de la sección
-
-Explica cómo está construido técnicamente el videojuego y cómo se comunican sus componentes.
-
-## Arquitectura
-
-```text
-Entrada
-  ↓
-Controlador
-  ↓
-Lógica de juego
-  ↓
-Sistemas
-  ↓
-Datos / Persistencia
-  ↓
-Presentación
-```
-
-## Componentes principales
-
-| Componente | Responsabilidad | Dependencias |
-|---|---|---|
-| | | |
-| | | |
-
-## Comunicación
-
-¿Cómo intercambian información los sistemas?
-
-## Principios técnicos
-
-- Bajo acoplamiento cuando sea razonable.
-- Responsabilidades claras.
-- Código mantenible.
-- Datos separados de lógica cuando corresponda.
-- Evitar dependencias innecesarias.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Guardado y Configuración]] · [[02 - Motor y Herramientas]] →

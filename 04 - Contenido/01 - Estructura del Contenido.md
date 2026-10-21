@@ -25,13 +25,14 @@ La introducción, la supervivencia y el enfrentamiento final son momentos de una
 - Alcanzar el tiempo establecido provoca la aparición del Ascendido.
 - La victoria requiere derrotarlo; cumplir el tiempo por sí solo no termina la partida.
 - La pausa y la selección de mejoras detienen el reloj y la simulación.
-- La duración total prevista, los intervalos de dificultad y el comportamiento del director durante el jefe están por definir.
+- Durante el combate contra el Ascendido, el director permanece en pausa.
+- La duración total prevista y los intervalos de dificultad están por definir.
 
 ### Progresión del personaje
 
 La progresión temporal de la partida y la subida de nivel del soldado son sistemas distintos.
 
-Los cristales obtenidos de los enemigos permiten subir de nivel y seleccionar mejoras. La moneda permite comprar armas y mejoras en la tienda. Estas acciones fortalecen al jugador, pero no adelantan el reloj ni desbloquean niveles de escenario.
+Los cristales obtenidos de los enemigos permiten subir de nivel y seleccionar mejoras. El prototipo no incluye moneda ni tienda. Estas acciones fortalecen al jugador, pero no adelantan el reloj ni desbloquean niveles de escenario.
 
 ### Contenido opcional
 
@@ -49,14 +50,14 @@ Los requisitos de Issac deben poder cumplirse dentro de la duración prevista de
 | Niveles                             | 1: centro científico                                                              |
 | Zonas internas                      | Por definir dentro del mismo mapa                                                 |
 | Misiones principales                | 1 operación de intervención y supervivencia                                       |
-| Peticiones secundarias              | Cadena de eventos "ni uno menos"; cantidad por definir                            |
-| Tipos de enemigos regulares         | Cáscaras                                                                          |
+| Peticiones secundarias              | Cadena de Issac hacia «Ni uno más»: 3 peticiones           |
+| Tipos de enemigos regulares         | 2: Cáscara y Quimera                                                                 |
 | Enemigos por partida                | Variable según el tiempo, los tickets y los límites del director                  |
 | Jefes                               | 1: el Ascendido                                                                   |
 | NPC con interacción narrativa       | 2: Nicolás e Issac                                                                |
 | Personajes fallecidos con registros | 28 propuestos; cantidad final ajustable al mapa                                   |
 | Generadores                         | Por definir                                                                       |
-| Objetos y equipo                    | Cristales, moneda, botiquines, armas y mejoras; cantidades y catálogo por definir |
+| Objetos y equipo                    | Cristales, botiquines, arma inicial y mejoras; cantidades y catálogo por definir   |
 | Finales de victoria                 | 2: Información recuperada y Ni uno más                                            |
 
 Los operativos fallecidos son elementos narrativos del escenario, no NPC activos. Los dirigentes de Cerberus y el consejo pertenecen al trasfondo y no requieren encuentros propios.
@@ -71,7 +72,6 @@ Los operativos fallecidos son elementos narrativos del escenario, no NPC activos
 |Reparación y defensa|Generadores funcionales y sistema de daño|Permitir recuperar y proteger la infraestructura|
 |Escalada de dificultad|Reloj, tickets y enemigos con costos definidos|Regular la presión durante la supervivencia|
 |Selección de mejoras|Obtención de cristales y opciones de mejora|Ofrecer progresión al personaje y pausar hasta confirmar|
-|Tienda|Moneda, catálogo y precios|Permitir compras coherentes con la economía|
 |Registros recuperables|Autores, textos e interacción de recogida|Presentar testimonios y conservar la información descubierta|
 |Peticiones de Issac|Condiciones de contacto y objetivos definidos|Permitir completar su contenido opcional|
 |Aparición del Ascendido|Tiempo objetivo y espacio de combate preparado|Iniciar el enfrentamiento final dentro del nivel|

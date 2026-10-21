@@ -9,7 +9,7 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 | Versión | Fecha | Cambios principales | Responsable |
 |---|---|---|---|
 | 0.1.0 | | Creación del documento | |
-| | | | |
+| 0.2.0 | 2026-10-20 | Unificación de reglas y nombres entre secciones; linterna siempre encendida; tienda y moneda fuera del prototipo; plataforma PC con teclado y mouse | |
 
 ## Convención sugerida
 

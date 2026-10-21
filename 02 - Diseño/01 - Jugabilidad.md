@@ -5,7 +5,7 @@ Describe el ciclo que se repite durante la experiencia.
 
 **Ejemplo conceptual:**
 
-`Identificar amenazas y objetivos → Debilitar infectados con la linterna → Combatir a los infectados → Reparar los generadores → rellenar la bateria de la linterna → subir de nivel →  Elegir mejoras`
+`Identificar amenazas y objetivos → Debilitar infectados con la linterna → Combatir a los infectados → Reparar los generadores → Recargar la batería junto a un generador operativo → subir de nivel →  Elegir mejoras`
 
 El jugador alterna entre defenderse y atender los generadores. Al subir de nivel obtiene nuevas opciones de mejora para adaptar su estrategia a oleadas más exigentes.
 
@@ -16,14 +16,14 @@ El jugador alterna entre defenderse y atender los generadores. Al subir de nivel
 | Acción                       | Propósito                                                            | Resultado                                                                                      |
 | ---------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Desplazarse por el escenario | Evitar ataques, buscar posiciones seguras y llegar a los generadores | Cambia su posición frente a los enemigos y los objetivos                                       |
-| Apuntar con la linterna      | Iluminar y debilitar a los infectados                                | Facilita enfrentarlos con las armas disponibles                                                |
+| Apuntar con el cursor        | Orientar a la vez la linterna y el arma                              | Los infectados iluminados quedan debilitados y expuestos al disparo                            |
 | Atacar a los infectados      | Contener las oleadas y proteger los objetivos                        | Elimina amenazas y puede generar rachas de eliminaciones                                       |
 | Reparar generadores          | Recuperar la infraestructura necesaria para avanzar                  | provee al jugador distintos beneficios                                                         |
 | Defender generadores         | Impedir que los infectados interrumpan el progreso                   | Mantiene operativos los objetivos y las fuentes de luz                                         |
 | Elegir mejoras               | Adaptar las herramientas a la dificultad creciente                   | Modifica las capacidades de la linterna, el combate o la defensa del jugador o los generadores |
 ## Experiencia segundo a segundo
 
-Durante los primeros minutos, el jugador aprende a moverse por una zona de visibilidad limitada, localizar infectados y apuntarles con la linterna para debilitarlos antes de atacar. Después identifica un generador que necesita reparación. La llegada de enemigos lo obliga a interrumpir la reparación, defenderse y decidir cuándo es seguro volver al objetivo.
+Durante los primeros minutos, el jugador aprende a moverse por una zona de visibilidad limitada, localizar infectados y apuntarles: la linterna, siempre encendida, los debilita mientras el arma dispara en la misma dirección. Después identifica un generador que necesita reparación. La llegada de enemigos lo obliga a interrumpir la reparación, defenderse y decidir cuándo es seguro volver al objetivo.
 
 Durante el combate, observa la posición de los infectados, orienta el cono de luz, se desplaza para evitar quedar rodeado y aprovecha las herramientas que ha mejorado.
 
@@ -36,11 +36,11 @@ El jugador resiste oleadas mientras se desplaza entre puntos estratégicos del c
 El interés por continuar surge de superar oleadas cada vez más exigentes y probar distintas combinaciones de linterna, armas, potenciadores y defensas. Conforme aparecen nuevas amenazas, el jugador debe revisar la estrategia que le funcionó anteriormente y encontrar otras formas de proteger los generadores.
 ## Condición de victoria
 
-Para ganar, el jugador debe sobrevivir durante un tiempo determinado y superar a los jefes de cada oleada. El juego termina al eliminar al ultimo jefe
+Para ganar, el jugador debe sobrevivir durante un tiempo determinado y derrotar al jefe final, el Ascendido, que aparece al cumplirse ese tiempo. La partida termina al eliminarlo.
 
 ## Condición de derrota
 
-La partida termina si la salud el soldado llega a cero o se queda mucho tiempo sin una fuente de luz
+La partida termina si la salud del soldado llega a cero o si la batería de la linterna permanece al 0 % durante el periodo de tolerancia.
 
 ## Ritmo
 
@@ -48,7 +48,7 @@ La partida termina si la salud el soldado llega a cero o se queda mucho tiempo s
 - **Acción:** Enfrentamientos frecuentes durante las oleadas, en los que el jugador combina la linterna con sus armas.
 - **Descanso:** Pausas al subir de nivel para comprender lo ocurrido y elegir mejoras.
 - **Desafío:** Nuevas oleadas aumentan la presión sobre el jugador y los generadores.
-- **Recompensa:** Completar una fase permite avanzar y obtener mejoras; las rachas de eliminaciones pueden aportar potenciadores durante el combate.
+- **Recompensa:** Recoger cristales permite subir de nivel y obtener mejoras; las rachas de eliminaciones pueden aportar potenciadores durante el combate.
 - **Historia:** El entorno y el avance por el complejo revelan gradualmente el contexto de la infección, sin detener el ritmo principal del juego; mientras que los cuerpos de antiguos aliados contienen códices que detallan a profundidad acontecimientos que llevaron a la situación actual del jugador o protagonista.
 
 

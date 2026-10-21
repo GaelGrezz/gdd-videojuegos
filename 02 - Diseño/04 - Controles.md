@@ -6,19 +6,23 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 
 ## Mapa de controles
 
-| Acción                      | Teclado     | Mouse                 | Táctil      |
-| --------------------------- | ----------- | --------------------- | ----------- |
-| Mover                       | W, A, S, D  | —                     | Por definir |
-| Apuntar                     | —           | Movimiento del cursor | Por definir |
-| Interactuar con generadores | E           | —                     | Por definir |
-| Disparar                    | —           | Clic izquierdo        | Por definir |
-| Abrir menú de mejoras       | Por definir | —                     | Por definir |
-| Cambiar de arma             | Por definir | Por definir           | Por definir |
-| Abrir menú de pausa         | ESC         | —                     | Por definir |
+| Acción                      | Teclado     | Mouse                 |
+| --------------------------- | ----------- | --------------------- |
+| Mover                       | W, A, S, D  | —                     |
+| Apuntar arma y linterna     | —           | Movimiento del cursor |
+| Interactuar con generadores | E           | —                     |
+| Disparar                    | —           | Clic izquierdo        |
+| Abrir menú de mejoras       | Por definir | —                     |
+| Cambiar de arma             | Por definir | Por definir           |
+| Abrir menú de pausa         | ESC         | —                     |
+
+La plataforma del prototipo es PC con teclado y mouse.
+
 ## Principios de control
 
 - El movimiento utiliza W, A, S y D, correspondientes a arriba, izquierda, abajo y derecha desde la perspectiva de la cámara.
-- El apuntado sigue la posición del cursor.
+- El apuntado sigue la posición del cursor y orienta a la vez el arma y la linterna.
+- La linterna no tiene tecla de encendido: permanece activa durante toda la partida.
 - La interacción con objetos utiliza E y muestra una indicación cuando hay una acción disponible.
 - Las acciones frecuentes deben poder ejecutarse sin combinaciones complejas.
 - Cada entrada debe producir una respuesta visible o sonora que permita reconocer su resultado.
@@ -32,7 +36,7 @@ Por definir. Se propone permitir la reasignación de las teclas de movimiento, i
 | Entrada                               | Respuesta del juego                                    | Retroalimentación                                                            |
 | ------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Presionar W, A, S o D                 | El soldado se desplaza en la dirección correspondiente | Movimiento y animación del personaje                                         |
-| Mover el cursor                       | Cambia la dirección de apuntado                        | Orientación del soldado y del indicador de apuntado                          |
+| Mover el cursor                       | Cambia la dirección de apuntado                        | Orientación del soldado, del cono de luz y del indicador de apuntado         |
 | Hacer clic izquierdo                  | El arma dispara si puede hacerlo                       | Animación, efecto visual y sonido del disparo                                |
 | Presionar E cerca de un objeto válido | Se inicia la interacción disponible                    | Indicación visual de la acción y, cuando corresponda, progreso de reparación |
 | Abrir el menú de mejoras              | Se muestran las opciones disponibles                   | Panel con la descripción y los efectos de cada mejora                        |

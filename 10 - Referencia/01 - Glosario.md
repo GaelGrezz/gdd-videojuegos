@@ -38,7 +38,6 @@
 | **Generador**         | Objetivo estratégico que proporciona energía a sectores de la instalación y que puede requerir reparación y defensa.                                         |
 | **Reparación**        | Acción mediante la cual el jugador restaura el funcionamiento de un generador u otro sistema.                                                                |
 | **Cristal**           | Recurso que puede ser liberado por determinados enemigos y utilizado para progresión durante la partida.                                                     |
-| **Moneda**            | Recurso utilizado para adquirir mejoras o equipamiento en sistemas de compra.                                                                                |
 | **Mejora**            | Modificación que aumenta, altera o especializa las capacidades del jugador, arma, linterna o sistema.                                                        |
 | **Carta de mejora**   | Representación dentro de la interfaz de una mejora disponible para ser seleccionada.                                                                         |
 | **Racha**             | Progresión acumulativa obtenida mediante determinadas acciones consecutivas y que puede perderse al recibir daño.                                            |

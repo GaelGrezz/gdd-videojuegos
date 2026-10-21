@@ -33,7 +33,7 @@ El juego incluye mecánicas no exploradas en el catálogo de Rogue Lite debido a
 Lista las características que definen la experiencia.
 
 1.- Baja visibilidad en el entorno dificultando la capacidad visual del jugador a su alrededor.
-2.- La linterna es la mecánica principal que el jugador hace uso durante toda la partida: ésta proyecta luz cónica con la que podrá aplicar diferentes debuffs a los enemigos. La linterna podrá ser mejorada (a elección del jugador). 
+2.- La linterna es la mecánica principal que el jugador hace uso durante toda la partida: permanece encendida toda la partida y se orienta con el mismo cursor que el arma, por lo que la luz siempre apunta hacia donde dispara el jugador. Proyecta luz cónica con la que podrá aplicar diferentes debuffs a los enemigos. La linterna podrá ser mejorada (a elección del jugador). 
 3.- Los generadores proveen de energía a la infraestructura, así como emitir fuentes de luz que permiten mejorar las propiedades de la linterna del jugador. 
 4.- Capacidad de planificar estrategias aprovechando la infraestructura del juego: usar potenciadores, armas específicas y estructuras de defensa que le permitan cumplir su misión de forma más efectiva.
 5.- Uso de potenciadores acumulables por racha de eliminaciones.
@@ -42,7 +42,7 @@ Lista las características que definen la experiencia.
 
 ¿Qué hace que este videojuego sea reconocible frente a otros del mismo género?
 
-El juego se distingue por convertir la luz en la herramienta central de combate y defensa. El jugador controla a un soldado que debe usar una linterna para debilitar a los enemigos mientras repara y protege generadores necesarios para avanzar. Cada fase lo obliga a decidir cuándo concentrarse en sobrevivir y cuándo exponerse para completar el objetivo. Las mejoras pueden aplicarse tanto a la linterna como a los generadores, lo que permite construir distintas estrategias defensivas. Su ambientación oscura y los enemigos de horror corporal refuerzan una identidad visual reconocible.
+El juego se distingue por convertir la luz en la herramienta central de combate y defensa. El jugador controla a un soldado que debe usar una linterna para debilitar a los enemigos mientras repara y protege generadores necesarios para avanzar. Cada momento de la partida lo obliga a decidir cuándo concentrarse en sobrevivir y cuándo exponerse para completar el objetivo. Las mejoras pueden aplicarse tanto a la linterna como a los generadores, lo que permite construir distintas estrategias defensivas. Su ambientación oscura y los enemigos de horror corporal refuerzan una identidad visual reconocible.
 
 ## Límites del concepto
 

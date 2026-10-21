@@ -22,7 +22,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Objetivo:** Mantener el estado del soldado y determinar si puede continuar la partida.
 
-**Entradas:** Daño recibido, carga y consumo de batería, recuperación de batería y estado de los generadores indispensables.
+**Entradas:** Daño recibido, carga y consumo de batería, recuperación de batería por cercanía a generadores operativos.
 
 **Procesamiento / reglas:** La salud disminuye al recibir daño. La batería disminuye al utilizar la linterna. Si la salud llega a cero, la partida termina. Si la batería permanece al 0 % durante el tiempo límite, también termina.
 
@@ -46,13 +46,13 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Objetivo:** Determinar qué enemigos reciben la luz y qué efectos debilitantes se les aplican.
 
-**Entradas:** Posición y orientación del jugador, activación de la linterna, batería disponible, posición de los enemigos y mejoras equipadas.
+**Entradas:** Posición del jugador, orientación del cursor (compartida con el arma), batería disponible, posición de los enemigos y mejoras equipadas.
 
-**Procesamiento / reglas:** El sistema calcula el cono de luz y detecta a los enemigos alcanzados. Aplica los efectos correspondientes y consume batería mientras la linterna está en uso. Sin carga, no aplica efectos.
+**Procesamiento / reglas:** El sistema calcula el cono de luz y detecta a los enemigos alcanzados. Aplica los efectos correspondientes y consume batería de forma continua, ya que la linterna permanece siempre encendida. Sin carga, no aplica efectos.
 
 **Salidas:** Enemigos afectados, efectos activos, consumo de batería y respuesta visual de la luz.
 
-**Estados posibles:** Apagada, encendida, sin batería.
+**Estados posibles:** Encendida, sin batería.
 
 **Dependencias:** Jugador, enemigos, batería y mejoras.
 
@@ -96,7 +96,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Entradas:** Interacción del jugador, tiempo dedicado a reparar, daño enemigo y mejoras elegidas.
 
-**Procesamiento / reglas:** Aumenta el progreso de reparación mientras se cumplen las condiciones de interacción. Reduce la integridad cuando el generador recibe daño. Al estar operativo, proporciona los beneficios de luz definidos para ese generador. Si uno indispensable queda destruido, informa la derrota.
+**Procesamiento / reglas:** Aumenta el progreso de reparación mientras se cumplen las condiciones de interacción. Reduce la integridad cuando el generador recibe daño. Al estar operativo, proporciona los beneficios de luz definidos para ese generador. Mientras está operativo, recarga la batería del jugador cercano. Si queda destruido, pierde sus beneficios y la recarga hasta repararse, sin provocar una derrota. Al completar su reparación es invulnerable durante unos segundos.
 
 **Salidas:** Progreso de reparación, integridad, estado operativo, beneficios activos y avisos de ataque.
 
@@ -106,13 +106,13 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Interacciones:** Sus fuentes de luz pueden mejorar las propiedades de la linterna. Los enemigos pueden dañarlos y el jugador puede protegerlos mediante el combate.
 
-**Datos que necesita:** Progreso requerido, integridad máxima y actual, importancia para el objetivo y beneficios otorgados.
+**Datos que necesita:** Progreso requerido, integridad máxima y actual, radio y velocidad de recarga de batería, duración de la invulnerabilidad tras repararse y beneficios otorgados.
 
 **Datos que genera:** Cambios de progreso e integridad, activación de beneficios y evento de destrucción.
 
 **Riesgos:** Que el jugador no sepa si una reparación está avanzando o cuál generador requiere atención.
 
-**Criterios de aceptación:** La reparación y el daño actualizan el estado visible del generador; sus beneficios se activan solo cuando corresponde; destruir uno indispensable provoca la derrota.
+**Criterios de aceptación:** La reparación y el daño actualizan el estado visible del generador; sus beneficios se activan solo cuando corresponde; su destrucción interrumpe beneficios y recarga sin provocar una derrota.
 
 ## Sistema: Director de enemigos
 
@@ -178,7 +178,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Interacciones:** Recibe los eventos de los demás sistemas y comunica cuándo deben detenerse al terminar la partida.
 
-**Datos que necesita:** Tiempo necesario para que aparezca el jefe, tiempo límite sin batería, lista de generadores indispensables y estado del jefe.
+**Datos que necesita:** Tiempo necesario para que aparezca el jefe, tiempo límite sin batería y estado del jefe.
 
 **Datos que genera:** Tiempo restante, estado del objetivo y resultado final.
 

@@ -33,7 +33,7 @@ La cámara se desplaza hasta la perspectiva superior utilizada durante la partid
 
 **Propuesta de primera comunicación:**
 
-> **Nicolás:** «Eco-7, aquí Enlace. Confirma recepción… Te recibo. Has cruzado el acceso. Enciende la linterna y revisa el sector. Necesitamos recuperar la energía».
+> **Nicolás:** «Eco-10, aquí Enlace. Confirma recepción… Te recibo. Has cruzado el acceso. Mantén la luz sobre lo que se mueva y revisa el sector. Necesitamos recuperar la energía».
 
 Las instrucciones posteriores aparecen cuando corresponde realizar cada acción, evitando concentrar todo el tutorial en esta conversación.
 
@@ -49,7 +49,7 @@ Sus brazos suspendidos son arrastrados hacia el halo. Después, el torso y las e
 
 La cinemática utiliza un plano breve del soldado junto a la salida del complejo. Baja ligeramente el arma mientras escucha la comunicación de Nicolás.
 
-> **Nicolás:** «Eco-7, objetivo neutralizado. Información asegurada. Procede al punto de extracción».
+> **Nicolás:** «Eco-10, objetivo neutralizado. Información asegurada. Procede al punto de extracción».
 
 El soldado avanza fuera de cuadro. La imagen funde a negro y aparece el resultado de la operación.
 
@@ -76,7 +76,7 @@ El escenario deja de mostrarse con detalle y la composición centra la atención
 | Enemigo o causa                | Animación propuesta                                                                                         |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------- |
 | Cáscara                        | Se abalanza sobre el soldado, lo derriba y se inclina sobre él antes del corte a negro                      |
-| Cuadrúpedo de múltiples torsos | Derriba al soldado y lo aplasta con una de sus extremidades                                                 |
+| Quimera                        | Derriba al soldado y lo aplasta con una de sus extremidades                                                 |
 | Ascendido                      | Sus brazos suspendidos inmovilizan al soldado y lo elevan; las siluetas se cierran sobre él antes del corte |
 | Otros infectados               |                                                                                                             |
 | Causa sin variante específica  | El soldado cae de rodillas, pierde el apoyo y desaparece en negro                                           |

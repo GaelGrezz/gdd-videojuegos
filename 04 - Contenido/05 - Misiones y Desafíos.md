@@ -35,7 +35,6 @@ Las misiones y desafíos convierten las mecánicas en objetivos concretos para e
 **Nivel relacionado:**
 
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Objetos y Coleccionables]] · [[01 - Dirección de Arte]] →
 ## Misión principal
 
 ### Operación: Umbral
@@ -347,7 +346,6 @@ Son objetivos de desempeño integrados en las mecánicas. No necesitan convertir
 |Mantener la racha|Eliminar enemigos sin recibir daño|Alcanzar los umbrales establecidos|Potenciadores de racha|
 |Recuperar infraestructura|Reparar un generador destruido|Completar su reparación|Recuperación de sus beneficios y curación si corresponde por mejora|
 |Crecer bajo presión|Recoger cristales mientras se sobrevive|Alcanzar el requisito de subida de nivel|Selección de una mejora|
-|Preparar el equipo|Reunir moneda y elegir una compra|Adquirir un arma o mejora disponible|Beneficio del objeto comprado|
 |Explorar y regresar|Obtener un registro sin descuidar los recursos|Recuperar el archivo y continuar con vida|Información narrativa|
 
 Los valores de racha, requisitos de cristales y precios permanecen pendientes de balance. No se añaden recompensas extras a estos desafíos salvo que se definan posteriormente.
@@ -364,3 +362,5 @@ Los valores de racha, requisitos de cristales y precios permanecen pendientes de
 8. Las peticiones completadas antes de derrotar al jefe cuentan para evaluar el final. Si podrán continuarse durante su combate queda por definir.
 9. No completar el contenido de Issac permite obtener la victoria normal.
 10. Las misiones no desbloquean otros niveles ni sustituyen la progresión temporal.
+
+> **Navegación:** [[00 - Índice]] · ← [[04 - Objetos y Coleccionables]] · [[01 - Dirección de Arte]] →

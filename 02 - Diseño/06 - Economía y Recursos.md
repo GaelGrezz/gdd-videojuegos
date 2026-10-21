@@ -8,10 +8,9 @@ Documenta cualquier recurso cuantificable: dinero, vida, energía, munición, ex
 | Recurso                       | Obtención                                              | Uso                                                 | Límite                                    | Pérdida                                                                                        |
 | ----------------------------- | ------------------------------------------------------ | --------------------------------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Salud del soldado             | Principalmente botiquines y efectos de mejoras         | Permite resistir ataques                            | Salud máxima por definir                  | Disminuye al recibir daño; llegar a cero provoca derrota                                       |
-| Batería de la linterna        | Estar cerca de un generador                            | Alimenta la linterna y sus efectos                  | Entre 0 % y 100 %                         | Se consume durante su uso; permanecer al 0 % durante el tiempo límite provoca derrota          |
+| Batería de la linterna        | Permanecer cerca de un generador operativo             | Alimenta la linterna y sus efectos                  | Entre 0 % y 100 %                         | Se consume durante su uso; permanecer al 0 % durante el tiempo límite provoca derrota          |
 | Integridad de los generadores | Se recupera al repararlos                              | Mantiene los generadores en funcionamiento          | Entre 0 % y 100 %                         | Disminuye al recibir ataques; al llegar a cero, el generador queda destruido y puede repararse |
 | Cristales                     | Los sueltan los enemigos al ser eliminados             | Permiten subir de nivel y escoger una mejora        | Cantidad requerida por nivel, por definir | El contador se reinicia al escoger una mejora                                                  |
-| Moneda —nombre provisional—   | La sueltan los enemigos al ser eliminados              | Permite comprar armas y mejoras en la tienda        | Sin limite                                | Se descuenta el precio de cada compra                                                          |
 | Racha de eliminaciones        | Eliminaciones consecutivas sin recibir daño            | Permite alcanzar umbrales que otorgan potenciadores | Sin límite                                | Se reinicia cuando el jugador recibe daño                                                      |
 | Tickets del director          | Asignación inicial y obtención conforme pasa el tiempo | Permiten al director seleccionar y generar enemigos | Presupuesto máximo por definir            | Se descuentan al generar enemigos                                                              |
 Los tickets pertenecen al director de enemigos. El jugador no puede obtenerlos, gastarlos ni intercambiarlos.
@@ -24,16 +23,15 @@ El tiempo transcurrido también se registra: determina el crecimiento del presup
 - Los botiquines son la principal fuente de recuperación de salud.
 - Algunas mejoras permiten recuperar salud al cumplir condiciones específicas. Por ejemplo, completar la reparación de un generador destruido.
 - La reparación recupera la integridad de los generadores.
-- Los enemigos eliminados sueltan cristales y moneda.
+- Los enemigos eliminados sueltan cristales.
 - Las eliminaciones sin recibir daño incrementan la racha.
 - El director recibe tickets conforme transcurre el tiempo.
-- La batería de la linterna se recupera al estar cerca de un generador.
+- La batería de la linterna se recupera al permanecer cerca de un generador operativo.
 
 **Sumideros:**
 - Los ataques reducen la salud del soldado o la integridad de los generadores.
 - Utilizar la linterna consume batería.
 - Elegir una mejora tras subir de nivel reinicia los cristales acumulados.
-- Comprar armas y mejoras consume moneda.
 - Recibir daño reinicia la racha de eliminaciones.
 - Generar enemigos consume tickets del director.
 
@@ -46,14 +44,14 @@ El tiempo transcurrido también se registra: determina el crecimiento del presup
 - La curación asociada a una mejora solo se activa si el jugador posee esa mejora y cumple su condición.
 - Llegar a cero de salud provoca una derrota inmediata.
 - Llegar al 0 % de batería inicia un periodo de tolerancia. Si el jugador permanece sin carga durante ese tiempo, pierde la partida.
-- La duración del periodo de tolerancia y el comportamiento del contador al recuperar batería están por definir.
+- Recuperar batería por encima del 0 % cancela y reinicia el periodo de tolerancia. Su duración se ajusta en la hoja de estadísticas.
 
 ### Generadores
 
 - Reparar un generador recupera su integridad hasta el máximo establecido.
 - Un generador destruido puede volver a funcionar tras su reparación.
 - Su destrucción interrumpe sus beneficios hasta recuperarlo; no provoca una derrota directa.
-- Las condiciones para interrumpir la reparación es recibir daño.
+- La reparación se interrumpe si el soldado recibe daño.
 
 ### Cristales y subida de nivel
 
@@ -65,10 +63,7 @@ El tiempo transcurrido también se registra: determina el crecimiento del presup
 
 ### Moneda y tienda
 
-- La moneda recogida se acumula en el saldo del jugador.
-- Las compras solo pueden completarse si tiene suficiente moneda.
-- Cada compra descuenta su precio y entrega el arma o aplica la mejora correspondiente.
-- Los precios, el catálogo y la forma de acceder a la tienda están por definir.
+Fuera del prototipo. No existen moneda ni tienda; las mejoras se obtienen únicamente al subir de nivel con cristales. Ver [[03 - Registro de Decisiones]].
 
 ### Rachas y potenciadores
 
@@ -87,7 +82,7 @@ El tiempo transcurrido también se registra: determina el crecimiento del presup
 
 ### Recolección de recursos
 
-- Las cantidades y probabilidades de aparición de cristales y moneda dependen de la dificultad del enemigo.
+- Las cantidades y probabilidades de aparición de cristales dependen de la dificultad del enemigo.
 - Los recursos tienen un tiempo limite y desaparecen si no son recogidos a tiempo.
 
 ## Balance
@@ -95,16 +90,16 @@ El tiempo transcurrido también se registra: determina el crecimiento del presup
 **¿Qué comportamiento queremos incentivar?**
 
 - Eliminar enemigos y recoger sus recursos para fortalecer al personaje.
-- Usar la linterna de forma intencional y vigilar la batería.
+- Orientar la luz con intención y vigilar la batería para regresar a tiempo a un generador operativo.
 - Evitar daño para conservar la racha y alcanzar nuevos umbrales.
 - Buscar botiquines cuando sea necesario.
 - Reparar y defender generadores para mantener sus beneficios.
-- Elegir mejoras y compras que complementen la estrategia del jugador.
+- Elegir mejoras que complementen la estrategia del jugador.
 - Equilibrar la búsqueda de recursos con la supervivencia y la defensa.
 
 **¿Qué comportamiento queremos evitar?**
 
-- Que conservar batería obligue a pasar la mayor parte de la partida sin utilizar la linterna.
+- Que el consumo constante de la linterna obligue a permanecer junto a los generadores la mayor parte de la partida.
 - Que quedarse sin carga provoque una derrota inevitable sin oportunidad de recuperarse.
 - Que dejar destruir un generador para repararlo y recuperar salud sea más conveniente que defenderlo.
 - Que reparar generadores ocupe tanto tiempo que impida combatir.

@@ -38,6 +38,7 @@ El horror corporal se representa mediante alteraciones claras de anatomía, post
 | Soldados de Cerberus | Siluetas compactas, cascos cerrados y placas angulares                 |
 | Personal científico  | Prendas claras y alargadas, protección industrial e instrumental       |
 | Cáscara              | Silueta humana deteriorada y crecimientos cristalinos iniciales        |
+| Quimera              | Cuatro torsos como extremidades y núcleo cristalino central            |
 | Ascendido            | Figura vertical, cuatro brazos suspendidos y halo de cristal dominante |
 | Escenario            | Estructuras modulares, puertas pesadas, paneles y conducciones         |
 | Cristales            | Caras geométricas, puntas y agrupaciones irregulares                   |
@@ -159,7 +160,7 @@ Material visual que debe acompañar esta sección:
 - Lámina de paleta del personal científico de Cerberus.
 ![[Pasted image 20261003013158.png]]
 - Concepto de Issac como referencia de vestuario, adaptado posteriormente a baja poligonización.
-- Diseños aprobados de la Cáscara, el cuadrúpedo y el Ascendido.
+- Diseños aprobados de la Cáscara, la Quimera y el Ascendido.
 - Pruebas del escenario desde la cámara superior y bajo la iluminación real de juego.
 
 Las texturas detalladas de las láminas de paleta orientan la naturaleza del material. Su representación final debe simplificarse para respetar el estilo establecido.

@@ -11,7 +11,7 @@ La humanidad hace frente a una plaga conocida como "Violeta mortífera" (tambié
 
 ## Sinopsis
 
-El jugador se coloca el traje de un soldado quien fue desplegado para indagar las aulas científicas de la agencia Cerberus y hacer frente a los infectados denominados "Vimers". Más allá de los pasillos, entre la oscuridad que carcome la poca luz existente; un destello ilumina los escombros y el cañón del rifle se mantiene frío en espera de su víctima cubierta de cirstales y desperdicio órganico. La llegada de su próximo allegado se reduce a segundos, el jugador planifica entre restaurar la luz o esperar a los anfitriones de la cueva. Mientras desciende en las fauces del lobo, si quiere mantenerse con vida debe idear un plan para asegurar la zona y mantenerse con vida.     
+El jugador se coloca el traje de un soldado quien fue desplegado para indagar las aulas científicas de la agencia Cerberus y hacer frente a los infectados denominados "Vimers". Más allá de los pasillos, entre la oscuridad que carcome la poca luz existente; un destello ilumina los escombros y el cañón del rifle se mantiene frío en espera de su víctima cubierta de cristales y desperdicio órganico. La llegada de su próximo allegado se reduce a segundos, el jugador planifica entre restaurar la luz o esperar a los anfitriones de la cueva. Mientras desciende en las fauces del lobo, si quiere mantenerse con vida debe idear un plan para asegurar la zona y mantenerse con vida.     
 
 
 ## Estructura narrativa
@@ -53,12 +53,12 @@ El jugador debe derrotarla utilizando las herramientas y mejoras obtenidas. Su e
 | 7     | Resolución de la intervención                      | Derrota al jefe o sucumbe                                    | La contención local tiene éxito o fracasa         |
 ## Finales
 
-### Victoria: Sector contenido
+### Victoria: Información recuperada
 
 **Condición:** Resistir durante el tiempo establecido y derrotar al jefe final.
 
 El soldado completa la intervención y neutraliza la principal amenaza del sector. Cerberus registra la operación como un éxito de contención. Esto no implica que la zona esté libre de infección ni que la colonia se haya recuperado.
-### Victoria: Ni uno mas
+### Victoria: Ni uno más
 
 **Condición:** Resistir durante el tiempo establecido, derrotar al jefe final y haber cumplido con las peticiones de Issac.
 

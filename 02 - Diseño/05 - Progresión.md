@@ -38,7 +38,7 @@ Durante la partida, el personaje amplía sus capacidades mediante mejoras de equ
 | **Vida**         | La existencia de mejoras de salud máxima o recuperación.                                                                                                                     |
 | **Daño**         | Las armas y los potenciadores pueden mejorar la capacidad de eliminar infectados.                                                                                            |
 | **Habilidades**  | Las mejoras de la linterna permiten modificar los efectos debilitantes aplicados a los enemigos al igual que escoger mejoras que le permitan desbloquear nuevas habilidades. |
-| **Equipo**       | El jugador obtiene acceso a armas y mejoras ya sea por nivel o el acceso a una tienda.                                                                                       |
+| **Equipo**       | El jugador obtiene mejoras al subir de nivel. El prototipo no incluye tienda ni nuevas armas.                                                                                       |
 | **Recursos**     | El jugador obtiene mejoras en la bateria, generadores y armamento                                                                                                            |
 | **Conocimiento** | El jugador reconoce comportamientos enemigos, posiciones útiles y combinaciones de mejoras que favorecen su estrategia.                                                      |
 
@@ -47,9 +47,9 @@ Durante la partida, el personaje amplía sus capacidades mediante mejoras de equ
 
 | Desbloqueo                           | Requisito                            | Efecto                                                             |
 | ------------------------------------ | ------------------------------------ | ------------------------------------------------------------------ |
-| Mejoras del jugador  y potenciadores | subir de nivel, Tienda               | Modifican sus propiedades o los efectos aplicados a los infectados |
-| Nuevas armas(por definir)            | Tienda                               | Amplían las opciones de combate                                    |
-| generadores                          | Subir de nivel, Tienda               | Modifican sus capacidades defensivas o beneficios                  |
+| Mejoras del jugador  y potenciadores | Subir de nivel                       | Modifican sus propiedades o los efectos aplicados a los infectados |
+| Nuevas armas                         | Fuera del prototipo                  | Amplían las opciones de combate                                    |
+| Generadores                          | Subir de nivel                       | Modifican sus capacidades defensivas o beneficios                  |
 | Potenciadores por racha              | Alcanzar una racha de eliminaciones; | Otorgan beneficios acumulables según el potenciador                |
 ## Curva de dificultad
 La dificultad aumenta con el tiempo mediante el presupuesto de tickets del director de enemigos. Al disponer de más tickets, puede seleccionar enemigos más peligrosos y combinaciones que exijan distintas respuestas.

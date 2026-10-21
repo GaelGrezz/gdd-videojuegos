@@ -8,11 +8,11 @@ Los pilares son los principios que deben mantenerse durante todo el desarrollo. 
 
 **Descripción:** La luz es la mecánica que define cómo el jugador se enfrenta a los infectados.
 
-**¿Cómo se refleja en el juego?** ¿Cómo se refleja en el juego? La linterna proyecta un cono de luz que aplica efectos debilitantes a los enemigos. Sus mejoras cambian la forma en que el jugador combate y aprovecha la visibilidad limitada del complejo.
+**¿Cómo se refleja en el juego?** La linterna permanece encendida y sigue al cursor junto con el arma. Proyecta un cono de luz que aplica efectos debilitantes a los enemigos. Sus mejoras cambian la forma en que el jugador combate y aprovecha la visibilidad limitada del complejo.
 
 ## Pilar 2 — Defender para avanzar.
 
-**Descripción:** El jugador debe proteger y reparar la infraestructura necesaria para completar cada fase.
+**Descripción:** El jugador debe proteger y reparar la infraestructura necesaria para resistir hasta el enfrentamiento final.
 
 **¿Cómo se refleja en el juego?** Durante los ataques, el jugador decide cuándo combatir, cuándo reparar los generadores y cómo defenderlos. Los generadores también proporcionan luz y mejoran las propiedades de la linterna.
 

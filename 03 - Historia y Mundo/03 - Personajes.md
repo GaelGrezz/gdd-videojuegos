@@ -130,7 +130,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 **Debilidades:** Depende de los canales disponibles y de información que puede estar incompleta o restringida.
 
 **Frases o tono de diálogo:**
-Eco-7, ilumina al objetivo antes de abrir fuego
+Eco-10, ilumina al objetivo antes de abrir fuego
 Necesitamos ese generador operativo. Evalúa el área antes de reparar
 
 **Referencias visuales:** 
