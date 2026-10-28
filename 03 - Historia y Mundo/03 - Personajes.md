@@ -67,7 +67,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 **Frases o tono de diálogo:** Comunicaciones breves y funcionales: Sector asegurado, Generador operativo, Solicito instrucciones.
 
 **Referencias visuales:** 
-![[Pasted image 20261003001112.png]]
+![[Eco-10.webp|380]]
 
 ## Antagonista
 
@@ -135,7 +135,6 @@ Necesitamos ese generador operativo. Evalúa el área antes de reparar
 
 **Referencias visuales:** 
 ![[Pasted image 20261003001301.png]]
-![[Operator.png]]
 ### Doctor Issac Ferrer
 
 **Rol:** Científico de Cerberus perteneciente a la faccion científica enfrentada con los altos mandos.
@@ -167,9 +166,7 @@ Necesitamos ese generador operativo. Evalúa el área antes de reparar
 Antes de responder, necesito saber qué encontraste
 
 **Referencias visuales:** 
-![[Pasted image 20261003001429.png|284]]![[Pasted image 20261003001533.png|371]]
-
-![[Ilustración2.png]]
+![[Issac Ferrer.webp|380]]
 ### Personajes secundarios
 
 Estos personajes murieron antes de la llegada del protagonista. Su participación ocurre mediante registros “logs”encontrados junto a sus cuerpos o equipos.

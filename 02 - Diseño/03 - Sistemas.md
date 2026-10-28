@@ -8,13 +8,13 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 | Sistema                          | Propósito                                                        | Dependencias                                       | Estado |
 | -------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------- | ------ |
-| Jugador y supervivencia          | Gestionar salud, batería y derrota                               | Linterna, combate, objetivos                       | Diseño |
-| Linterna y efectos de luz        | Debilitar infectados mediante un cono de luz                     | Jugador, enemigos, mejoras, generadores            | Diseño |
-| Combate                          | Resolver ataques, daño y eliminaciones                           | Jugador, enemigos, linterna                        | Diseño |
-| Generadores                      | Gestionar reparación, daño, defensa y beneficios                 | Jugador, combate, enemigos                         | Diseño |
-| Director de enemigos             | Seleccionar amenazas mediante tickets que aumentan con el tiempo | Tiempo, catálogo de enemigos, estado de la partida | Diseño |
-| Mejoras y potenciadores          | Modificar las herramientas y capacidades del jugador             | Linterna, combate, generadores, rachas             | Diseño |
-| Objetivos y resultado de partida | Determinar la aparición del jefe final, la victoria y la derrota | Todos los sistemas anteriores                      | Diseño |
+| Jugador y supervivencia          | Gestionar salud, batería y derrota                               | Linterna, combate, objetivos                       | Prototipo |
+| Linterna y efectos de luz        | Debilitar infectados mediante un cono de luz                     | Jugador, enemigos, mejoras, generadores            | Prototipo |
+| Combate                          | Resolver ataques, daño y eliminaciones                           | Jugador, enemigos, linterna                        | Prototipo |
+| Generadores                      | Gestionar reparación, daño, defensa y beneficios                 | Jugador, combate, enemigos                         | Prototipo |
+| Director de enemigos             | Seleccionar amenazas mediante tickets que aumentan con el tiempo | Tiempo, catálogo de enemigos, estado de la partida | Prototipo |
+| Mejoras y potenciadores          | Modificar las herramientas y capacidades del jugador             | Linterna, combate, generadores, rachas             | Prototipo parcial |
+| Objetivos y resultado de partida | Determinar la aparición del jefe final, la victoria y la derrota | Todos los sistemas anteriores                      | Prototipo parcial |
 
 ## Relaciones entre sistemas
 
