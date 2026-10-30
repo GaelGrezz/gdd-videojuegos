@@ -12,6 +12,7 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 | Apuntar arma y linterna     | —           | Movimiento del cursor |
 | Interactuar con generadores | E           | —                     |
 | Disparar                    | —           | Clic izquierdo        |
+| Recargar                    | R           | —                     |
 | Abrir menú de mejoras       | Por definir | —                     |
 | Cambiar de arma             | Por definir | Por definir           |
 | Abrir menú de pausa         | ESC         | —                     |
@@ -38,6 +39,7 @@ Por definir. Se propone permitir la reasignación de las teclas de movimiento, i
 | Presionar W, A, S o D                 | El soldado se desplaza en la dirección correspondiente | Movimiento y animación del personaje                                         |
 | Mover el cursor                       | Cambia la dirección de apuntado                        | Orientación del soldado, del cono de luz y del indicador de apuntado         |
 | Hacer clic izquierdo                  | El arma dispara si puede hacerlo                       | Animación, efecto visual y sonido del disparo                                |
+| Presionar R                           | El arma se recarga; también ocurre al vaciar el cargador | Indicador de recarga en la interfaz                                          |
 | Presionar E cerca de un objeto válido | Se inicia la interacción disponible                    | Indicación visual de la acción y, cuando corresponda, progreso de reparación |
 | Abrir el menú de mejoras              | Se muestran las opciones disponibles                   | Panel con la descripción y los efectos de cada mejora                        |
 | Cambiar de arma                       | Se equipa otra arma disponible                         | Actualización del arma visible y de su indicador en la interfaz              |

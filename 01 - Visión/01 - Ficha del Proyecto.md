@@ -10,13 +10,13 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------- | --------------------------------------------------------------- |
 | **Nombre del proyecto**      | AfterLight                                                      |
 | **Nombre clave**             | POT<!-- Identificador interno si existe -->                     |
-| **Versión del GDD**          | 0.2.0                                                           |
-| **Estado del proyecto**      | **Concepto** / Preproducción / Producción / Pruebas / Publicado |
+| **Versión del GDD**          | 0.3.1                                                           |
+| **Estado del proyecto**      | Concepto / **Preproducción** / Producción / Pruebas / Publicado |
 | **Equipo**                   | <!-- Integrantes -->                                            |
 | **Responsable del proyecto** | <!-- Persona responsable --><br>Gutiérrez Hernández Gael Yannik |
 | **Fecha de inicio**          | <!-- AAAA-MM-DD --><br>25 de septiembre de 2026                 |
-| **Última actualización**     | 2026-10-20                                             |
-| **Repositorio**              | <!-- Enlace -->                                                 |
+| **Última actualización**     | 2026-10-28                                             |
+| **Repositorio**              | <!-- Enlace --><br>https://github.com/purefootsoldier/AfterLight |
 
 ## Identidad del videojuego
 
@@ -56,10 +56,10 @@ El jugador limpia la zona de infectados dentro de un complejo científico recurr
 
 ## Estado actual
 
-- [ ] Concepto definido
+- [x] Concepto definido
 - [ ] Alcance inicial definido
-- [ ] Mecánica principal definida
-- [ ] Prototipo funcional
+- [x] Mecánica principal definida
+- [x] Prototipo funcional
 - [ ] Vertical slice
 - [ ] Producción
 - [ ] Pruebas
