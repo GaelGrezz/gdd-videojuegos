@@ -7,20 +7,20 @@ Documenta cualquier recurso cuantificable: dinero, vida, energía, munición, ex
 ## Recursos
 | Recurso                       | Obtención                                              | Uso                                                 | Límite                                    | Pérdida                                                                                        |
 | ----------------------------- | ------------------------------------------------------ | --------------------------------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Salud del soldado             | Principalmente botiquines y efectos de mejoras         | Permite resistir ataques                            | Salud máxima por definir                  | Disminuye al recibir daño; llegar a cero provoca derrota                                       |
+| Salud del soldado             | Regeneración tras recibir daño y efectos de mejoras    | Permite resistir ataques                            | Se proponen 100 PV                        | Disminuye al recibir daño; llegar a cero provoca derrota                                       |
 | Batería de la linterna        | Permanecer cerca de un generador operativo             | Alimenta la linterna y sus efectos                  | Entre 0 % y 100 %                         | Se consume durante su uso; permanecer al 0 % durante el tiempo límite provoca derrota          |
 | Integridad de los generadores | Se recupera al repararlos                              | Mantiene los generadores en funcionamiento          | Entre 0 % y 100 %                         | Disminuye al recibir ataques; al llegar a cero, el generador queda destruido y puede repararse |
 | Cristales                     | Los sueltan los enemigos al ser eliminados             | Permiten subir de nivel y escoger una mejora        | Cantidad requerida por nivel, por definir | El contador se reinicia al escoger una mejora                                                  |
 | Racha de eliminaciones        | Eliminaciones consecutivas sin recibir daño            | Permite alcanzar umbrales que otorgan potenciadores | Sin límite                                | Se reinicia cuando el jugador recibe daño                                                      |
 | Tickets del director          | Asignación inicial y obtención conforme pasa el tiempo | Permiten al director seleccionar y generar enemigos | Presupuesto máximo por definir            | Se descuentan al generar enemigos                                                              |
-Los tickets pertenecen al director de enemigos. El jugador no puede obtenerlos, gastarlos ni intercambiarlos.
+Los tickets pertenecen al Director de IA. El jugador no puede obtenerlos, gastarlos ni intercambiarlos.
 
 El tiempo transcurrido también se registra: determina el crecimiento del presupuesto del director y la aparición del jefe final. No funciona como una moneda ni se consume al realizar acciones.
 ## Fuentes y sumideros
 
 **Fuentes:**
 
-- Los botiquines son la principal fuente de recuperación de salud.
+- La salud se regenera con el tiempo después de recibir daño.
 - Algunas mejoras permiten recuperar salud al cumplir condiciones específicas. Por ejemplo, completar la reparación de un generador destruido.
 - La reparación recupera la integridad de los generadores.
 - Los enemigos eliminados sueltan cristales.
@@ -40,7 +40,7 @@ El tiempo transcurrido también se registra: determina el crecimiento del presup
 ### Salud y batería
 
 - La salud y la batería permanecen entre cero y sus respectivos valores máximos.
-- Los botiquines recuperan una cantidad de salud por definir, sin superar la salud máxima.
+- La regeneración no supera la salud máxima. Se proponen 5 s de espera después del daño y 2 PV/s; un nuevo golpe reinicia la espera.
 - La curación asociada a una mejora solo se activa si el jugador posee esa mejora y cumple su condición.
 - Llegar a cero de salud provoca una derrota inmediata.
 - Llegar al 0 % de batería inicia un periodo de tolerancia. Si el jugador permanece sin carga durante ese tiempo, pierde la partida.
@@ -71,7 +71,7 @@ Fuera del prototipo. No existen moneda ni tienda; las mejoras se obtienen única
 - Recibir daño reinicia la racha a cero.
 - Los potenciadores se otorgan al alcanzar umbrales definidos.
 - Una racha ilimitada no implica que los beneficios aumenten sin límite.
--  perder la racha anula los potenciadores.
+- Perder la racha anula los potenciadores.
 
 ### Tickets del director
 
@@ -83,7 +83,7 @@ Fuera del prototipo. No existen moneda ni tienda; las mejoras se obtienen única
 ### Recolección de recursos
 
 - Las cantidades y probabilidades de aparición de cristales dependen de la dificultad del enemigo.
-- Los recursos tienen un tiempo limite y desaparecen si no son recogidos a tiempo.
+- Los recursos tienen un tiempo límite y desaparecen si no son recogidos a tiempo.
 
 ## Balance
 
@@ -92,7 +92,6 @@ Fuera del prototipo. No existen moneda ni tienda; las mejoras se obtienen única
 - Eliminar enemigos y recoger sus recursos para fortalecer al personaje.
 - Orientar la luz con intención y vigilar la batería para regresar a tiempo a un generador operativo.
 - Evitar daño para conservar la racha y alcanzar nuevos umbrales.
-- Buscar botiquines cuando sea necesario.
 - Reparar y defender generadores para mantener sus beneficios.
 - Elegir mejoras que complementen la estrategia del jugador.
 - Equilibrar la búsqueda de recursos con la supervivencia y la defensa.

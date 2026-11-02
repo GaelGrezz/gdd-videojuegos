@@ -35,11 +35,11 @@ Durante la partida, el personaje amplía sus capacidades mediante mejoras de equ
 
 | Aspecto          | Progresión                                                                                                                                                                   |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Vida**         | La existencia de mejoras de salud máxima o recuperación.                                                                                                                     |
+| **Vida**         | Mejoras de salud máxima o de recuperación.                                                                                                                     |
 | **Daño**         | Las armas y los potenciadores pueden mejorar la capacidad de eliminar infectados.                                                                                            |
 | **Habilidades**  | Las mejoras de la linterna permiten modificar los efectos debilitantes aplicados a los enemigos al igual que escoger mejoras que le permitan desbloquear nuevas habilidades. |
 | **Equipo**       | El jugador obtiene mejoras al subir de nivel. El prototipo no incluye tienda ni nuevas armas.                                                                                       |
-| **Recursos**     | El jugador obtiene mejoras en la bateria, generadores y armamento                                                                                                            |
+| **Recursos**     | El jugador obtiene mejoras en la batería, generadores y armamento                                                                                                            |
 | **Conocimiento** | El jugador reconoce comportamientos enemigos, posiciones útiles y combinaciones de mejoras que favorecen su estrategia.                                                      |
 
 
@@ -47,12 +47,12 @@ Durante la partida, el personaje amplía sus capacidades mediante mejoras de equ
 
 | Desbloqueo                           | Requisito                            | Efecto                                                             |
 | ------------------------------------ | ------------------------------------ | ------------------------------------------------------------------ |
-| Mejoras del jugador  y potenciadores | Subir de nivel                       | Modifican sus propiedades o los efectos aplicados a los infectados |
+| Mejoras del jugador                  | Subir de nivel                       | Modifican sus propiedades o los efectos aplicados a los infectados |
 | Nuevas armas                         | Fuera del prototipo                  | Amplían las opciones de combate                                    |
 | Generadores                          | Subir de nivel                       | Modifican sus capacidades defensivas o beneficios                  |
-| Potenciadores por racha              | Alcanzar una racha de eliminaciones; | Otorgan beneficios acumulables según el potenciador                |
+| Potenciadores por racha              | Alcanzar una racha de eliminaciones  | Otorgan beneficios acumulables según el potenciador                |
 ## Curva de dificultad
-La dificultad aumenta con el tiempo mediante el presupuesto de tickets del director de enemigos. Al disponer de más tickets, puede seleccionar enemigos más peligrosos y combinaciones que exijan distintas respuestas.
+La dificultad aumenta con el tiempo mediante el presupuesto de tickets del Director de IA. Al disponer de más tickets, puede seleccionar enemigos más peligrosos y combinaciones que exijan distintas respuestas.
 
 Al principio, las amenazas deben permitir comprender los controles y la relación entre linterna y combate. Después, la presión exige atender simultáneamente la batería, la salud y los generadores.
 

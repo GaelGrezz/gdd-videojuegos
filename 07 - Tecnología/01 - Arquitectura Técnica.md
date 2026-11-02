@@ -79,8 +79,8 @@ Presentación
 |**EnemyFactory**|Crea enemigos a partir de configuraciones definidas.|EnemyData, prefabs|
 |**GeneratorSystem**|Controla estado, reparación, daño y funcionamiento de los generadores.|GameMediator|
 |**UpgradeSystem**|Gestiona selección y aplicación de mejoras durante la partida.|UpgradeData, PlayerStats|
-|**ProgressionSystem**|Controla experiencia, cristales, nivel y selección de mejoras.|UpgradeSystem|
-|**SaveSystem**|Guarda y recupera configuraciones y progreso persistente.|Datos serializables|
+|**ProgressionSystem**|Controla cristales, nivel y selección de mejoras.|UpgradeSystem|
+|**SaveSystem**|Guarda y recupera configuraciones.|Datos serializables|
 |**UIManager**|Actualiza HUD, menús y pantallas según el estado del juego.|Eventos de gameplay|
 |**AudioManager**|Reproduce música, ambientes y efectos de sonido.|Eventos del juego|
 |**VFXManager**|Gestiona efectos visuales reutilizables como impactos, cristales y partículas.|Eventos de combate|
@@ -144,10 +144,12 @@ Estados previstos:
 MainMenu
 Loading
 Playing
+UpgradeSelection
 Paused
 Victory
 Defeat
 GameOver
+Credits
 ```
 
 Sus responsabilidades incluyen:
@@ -414,7 +416,7 @@ Ascendido
 └── Brazo 04
 ```
 
-Cada brazo puede:
+Cada brazo podría, según se defina en [[03 - Enemigos y NPC]]:
 
 - recibir daño;
     
@@ -780,5 +782,10 @@ Assets/
 ```
 
 Esta estructura funciona como referencia inicial y puede cambiar conforme aumente la complejidad del proyecto. El objetivo no es mantener una jerarquía rígida, sino evitar que código de responsabilidades diferentes termine mezclado.
+
+## Decisiones pendientes
+
+- Los estados de enemigos de esta nota (Idle, Stunned) no coinciden con los de [[03 - Enemigos y NPC]] (Preparar ataque, Recuperarse).
+
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Guardado y Configuración]] · [[02 - Motor y Herramientas]] →

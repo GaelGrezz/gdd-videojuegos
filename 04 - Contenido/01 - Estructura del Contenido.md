@@ -26,7 +26,7 @@ La introducción, la supervivencia y el enfrentamiento final son momentos de una
 - La victoria requiere derrotarlo; cumplir el tiempo por sí solo no termina la partida.
 - La pausa y la selección de mejoras detienen el reloj y la simulación.
 - Durante el combate contra el Ascendido, el director permanece en pausa.
-- La duración total prevista y los intervalos de dificultad están por definir.
+- El periodo de supervivencia dura 10 minutos; los intervalos de dificultad están por definir.
 
 ### Progresión del personaje
 
@@ -57,10 +57,10 @@ Los requisitos de Issac deben poder cumplirse dentro de la duración prevista de
 | NPC con interacción narrativa       | 2: Nicolás e Issac                                                                |
 | Personajes fallecidos con registros | 28 propuestos; cantidad final ajustable al mapa                                   |
 | Generadores                         | Por definir                                                                       |
-| Objetos y equipo                    | Cristales, botiquines, arma inicial y mejoras; cantidades y catálogo por definir   |
+| Objetos y equipo                    | Cristales, arma inicial y mejoras; cantidades por definir                          |
 | Finales de victoria                 | 2: Información recuperada y Ni uno más                                            |
 
-Los operativos fallecidos son elementos narrativos del escenario, no NPC activos. Los dirigentes de Cerberus y el consejo pertenecen al trasfondo y no requieren encuentros propios.
+Los operativos fallecidos son elementos narrativos del escenario, no NPC activos. Los dirigentes de CERBERUS y el consejo pertenecen al trasfondo y no requieren encuentros propios.
 
 ## Dependencias
 

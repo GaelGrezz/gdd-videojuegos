@@ -239,7 +239,6 @@ No se establece una recompensa de recursos posterior al combate, ya que la parti
 | Ejecutar ataque    | Coordina el cuerpo y los brazos participantes           | Pasa a Recuperarse                         |
 | Recuperarse        | Mantiene una ventana de respuesta para el jugador       | Vuelve a Posicionarse o Seleccionar ataque |
 | Morir              | El cuerpo y los brazos son absorbidos por el halo       | Da paso a la cinemática de victoria        |
-|                    |                                                         |                                            |
 
 **Reglas particulares:**
 
@@ -283,7 +282,7 @@ Proporciona instrucciones, objetivos y avisos. No entrega recursos directamente.
 
 **Nombre:** Issac Ferrer.
 
-**Función:** Representar al sector científico de Cerberus y ofrecer una investigación opcional relacionada con los riesgos de los cristales.
+**Función:** Representar al sector científico de CERBERUS y ofrecer una investigación opcional relacionada con los riesgos de los cristales.
 
 **Ubicación:** Por definir. También está pendiente si el contacto es presencial, remoto o combina ambos medios.
 
@@ -302,7 +301,7 @@ Proporciona instrucciones, objetivos y avisos. No entrega recursos directamente.
 
 **Recompensas / información:**
 
-Aporta información sobre Vimer y las decisiones de Cerberus. Completar sus peticiones habilita el final **Ni uno más** si el jugador derrota al Ascendido.
+Aporta información sobre la Violeta Mortífera y las decisiones de CERBERUS. Completar sus peticiones habilita el final **Ni uno más** si el jugador derrota al Ascendido.
 
 No se han definido recompensas adicionales de armas o mejoras.
 
@@ -310,7 +309,7 @@ No se han definido recompensas adicionales de armas o mejoras.
 
 Los operativos fallecidos se documentan en la sección **Personajes**. Sus cuerpos y equipos permiten recuperar registros, pero no patrullan, combaten ni responden al jugador.
 
-Los dirigentes de Cerberus, el consejo y los operativos que combaten fuera del área del protagonista pertenecen al trasfondo. No requieren IA dentro del nivel mientras no se defina una participación directa.
+Los dirigentes de CERBERUS, el consejo y los operativos que combaten fuera del área del protagonista pertenecen al trasfondo. No requieren IA dentro del nivel mientras no se defina una participación directa.
 
 ## Decisiones pendientes
 
@@ -321,6 +320,6 @@ Los dirigentes de Cerberus, el consejo y los operativos que combaten fuera del �
 - Efectos concretos de la linterna sobre cada variante.
 - Ataques definitivos del Ascendido e interacción con sus brazos.
 - Entidades invocadas por el Ascendido.
-- Ubicación, condiciones de contacto y peticiones de Issac.
+- Ubicación de Issac y medio de contacto definitivo.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →

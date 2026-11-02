@@ -38,6 +38,13 @@ Esta sección conserva las decisiones importantes del proyecto y el razonamiento
 | 2026-10-20 | Batería | Se recarga al permanecer cerca de un generador operativo; recuperar carga reinicia el periodo de tolerancia | |
 | 2026-10-20 | Director y jefe | El director se pausa mientras el Ascendido está vivo; el jefe puede invocar entidades propias | |
 | 2026-10-20 | Nombres | Protagonista: Eco-10. Segundo enemigo: Quimera. Final normal: Información recuperada | |
+| 2026-11-02 | Balas | No son un recurso; el cargador es una característica del arma | |
+| 2026-11-02 | Hades | Hades es un planeta | |
+| 2026-11-02 | Movimiento del jugador | `PlayerController` usa `Rigidbody` | |
+| 2026-11-02 | Duración | El juego tiene un solo nivel de 10 minutos | |
+| 2026-11-02 | Ascendido | Aparece al cumplirse los 10 minutos de supervivencia | |
+| 2026-11-02 | Curación | Se quitan los botiquines; la salud se regenera con el tiempo después de recibir daño | |
+| 2026-11-02 | Nombre de la organización | CERBERUS es el nombre de la organización; C.E.R.B.E.R.U.S. es una variante gráfica | |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Referencias e Inspiración]] · [[04 - Historial de Versiones]] →

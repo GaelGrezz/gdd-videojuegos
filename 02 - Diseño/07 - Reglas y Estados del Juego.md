@@ -11,6 +11,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | Menú principal | Permite iniciar una partida, consultar opciones, acceder a los créditos o salir.                                                      |
 | Carga          | Prepara el escenario, al jugador, los generadores y los sistemas necesarios.                                                          |
 | Jugando        | El jugador combate, recoge recursos, obtiene mejoras y repara generadores. El director recibe y utiliza tickets.       |
+| Selección de mejora | Detiene la simulación hasta que el jugador confirma una mejora.                                                                 |
 | Pausa          | Detiene temporalmente la simulación y permite consultar opciones o abandonar la partida.                                              |
 | Victoria       | Se alcanza al derrotar al jefe final después del periodo de supervivencia establecido.                                                |
 | Derrota        | Se activa cuando la salud llega a cero o se supera el tiempo permitido con la batería al 0 %. Detiene la partida y registra la causa. |
@@ -27,6 +28,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | Selección de mejora | Confirmar una opción                        | Jugando             | Se aplica la mejora y se reinicia el contador de cristales           |
 | Jugando             | Abrir pausa                                 | Pausa               | La partida no ha terminado                                           |
 | Pausa               | Reanudar                                    | Jugando             | El jugador solicita continuar                                        |
+| Pausa               | Reiniciar partida                           | Carga               | El jugador confirma que desea reiniciar                              |
 | Pausa               | Abandonar partida                           | Menú principal      | El jugador confirma que desea salir                                  |
 | Jugando             | Cumplir el tiempo de supervivencia          | Jugando: jefe final | El jefe todavía no ha aparecido y no existe una condición de derrota |
 | Jugando             | Derrotar al jefe final                      | Victoria            | No se ha activado una condición de derrota                           |
@@ -46,7 +48,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 4. La salud del soldado al llegar a cero provoca una derrota.
 5. La batería al llegar al 0 % inicia un periodo de tolerancia. Permanecer sin carga hasta agotarlo provoca una derrota.
 6. Los generadores recuperan integridad al repararse. Un generador destruido puede recuperarse y su destrucción no provoca una derrota directa.
-7. Los botiquines son la principal fuente de curación. Algunas mejoras permiten recuperar salud al cumplir condiciones específicas.
+7. La salud se regenera con el tiempo después de recibir daño. Algunas mejoras permiten recuperar salud al cumplir condiciones específicas.
 8. Los cristales permiten subir de nivel al jugador y escoger una mejora. El contador se reinicia al confirmar la selección.
 9. La batería se recarga al permanecer cerca de un generador operativo. El prototipo no incluye moneda ni tienda.
 10. La racha de eliminaciones no tiene límite máximo y se reinicia cuando el jugador recibe daño. Los potenciadores dependen de umbrales definidos.

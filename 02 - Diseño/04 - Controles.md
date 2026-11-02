@@ -10,7 +10,7 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 | --------------------------- | ----------- | --------------------- |
 | Mover                       | W, A, S, D  | —                     |
 | Apuntar arma y linterna     | —           | Movimiento del cursor |
-| Interactuar con generadores | E           | —                     |
+| Interactuar con objetos     | E           | —                     |
 | Disparar                    | —           | Clic izquierdo        |
 | Recargar                    | R           | —                     |
 | Abrir menú de mejoras       | Por definir | —                     |
@@ -44,5 +44,12 @@ Por definir. Se propone permitir la reasignación de las teclas de movimiento, i
 | Abrir el menú de mejoras              | Se muestran las opciones disponibles                   | Panel con la descripción y los efectos de cada mejora                        |
 | Cambiar de arma                       | Se equipa otra arma disponible                         | Actualización del arma visible y de su indicador en la interfaz              |
 | Abrir el menú de pausa                | Se muestra el menú de pausa                            | Panel de opciones y señal visual de pausa                                    |
+
+## Decisiones pendientes
+
+- Si reparar es mantener E o pulsarla una vez. En el prototipo se mantiene.
+- Tecla del menú de mejoras. En el prototipo se abre solo al reunir los cristales requeridos.
+- Tecla para cambiar de arma. El prototipo tiene una sola arma.
+
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Sistemas]] · [[05 - Progresión]] →

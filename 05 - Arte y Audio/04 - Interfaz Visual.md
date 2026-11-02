@@ -42,7 +42,7 @@ Documenta estados normales, advertencias, daño, éxito, error y bloqueo.
 
 **Tipografía:** *Kdam Thmor* para el logotipo. *Kelly Slab* para títulos, números y nombres (PAUSA, ELIGE UNA MEJORA, el reloj, la munición, los generadores y las cartas). *Inter* (Bold y Regular) para etiquetas, opciones de menú y mensajes de Enlace.
 
-**Iconografía:** Rayo para los generadores (rojo si están averiados), gemas para los cristales, teclas dentro de un recuadro (E, R), retícula circular y el emblema del lobo de Cerberus en el menú principal.
+**Iconografía:** Rayo para los generadores (rojo si están averiados), gemas para los cristales, teclas dentro de un recuadro (E, R), retícula circular y el emblema del lobo de CERBERUS en el menú principal.
 
 **Tamaños mínimos:** Por definir. Las etiquetas del HUD miden 12 px a 1080p y las del resumen de la pausa, 10 px.
 
@@ -57,6 +57,7 @@ Documenta estados normales, advertencias, daño, éxito, error y bloqueo.
 - Elige una mejora: diseñada.
 - Pausa: diseñada.
 - Configuración: por diseñar.
+- Archivo del jugador: por diseñar.
 - Inventario: no se incluye.
 - Mapa: no se incluye.
 - Victoria: por diseñar.

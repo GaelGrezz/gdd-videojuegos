@@ -105,3 +105,8 @@ Un juego puede combinar varios géneros.
 
 > [!warning] Evita acumular etiquetas
 > Si necesitas seis subgéneros para explicar el juego, probablemente todavía no has definido con claridad cuál es su experiencia principal.
+
+## Decisiones pendientes
+
+- Third Person Shooter: contradice la perspectiva Top-down de [[04 - Perspectivas y Cámaras]].
+- Tower Defense: requiere estructuras de defensa, que no tienen mecánica en [[02 - Mecánicas]].

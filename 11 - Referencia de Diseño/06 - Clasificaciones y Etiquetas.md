@@ -51,6 +51,6 @@ Por ejemplo:
 
 > **RPG de acción en tercera persona para PC, un jugador, con mundo semiabierto, exploración, crafteo y narrativa ramificada.**
 
-Roguelite de supervivencia en tercera persona para PC de un jugador, con mundo semi-abierto donde sus decisiones conduzcan al éxito en su objetivo: asegurar la zona de infectados. 
+Roguelite de supervivencia top-down para PC de un jugador, en un único nivel donde sus decisiones conduzcan al éxito en su objetivo: asegurar la zona de infectados. 
 
 Eso describe mucho mejor el proyecto que una lista de diez géneros.

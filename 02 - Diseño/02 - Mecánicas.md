@@ -1,6 +1,11 @@
 # Mecánicas
 
 ## Descripción de la sección
+
+Una mecánica es una regla o interacción mediante la cual el jugador puede actuar dentro del sistema del juego.
+
+Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
+
 ## Mecánicas principales
 
 ### Mecánica 01: Linterna y batería
@@ -46,21 +51,21 @@
 - Si la salud del soldado llega a cero, la partida termina.
 
 
-**Entrada:** Movimiento con teclado y apuntado con el ratón; el apuntado también orienta la linterna.
+**Entrada:** Movimiento con teclado y apuntado con el mouse; el apuntado también orienta la linterna.
 
 **Estado inicial:** Soldado equipado con un arma inicial y salud completa.
 
 **Estado final:** El enemigo es eliminado, deja de estar al alcance, el jugador interrumpe el ataque o termina la partida.
 
-**Recursos utilizados:** balas en el cargador.
+**Recursos utilizados:** Ninguno.
 
 **Recompensa:** Eliminación de amenazas, protección de los objetivos y posible avance de la racha de eliminaciones.
 
 **Penalización:** Combatir expone al soldado a recibir daño y puede apartarlo de la reparación de los generadores.
 
-**Interacciones con otras mecánicas:** Los efectos de la linterna influyen en los enfrentamientos. Las mejoras modifican las armas o al soldado. El director de enemigos determina qué amenazas pueden aparecer con el paso del tiempo.
+**Interacciones con otras mecánicas:** Los efectos de la linterna influyen en los enfrentamientos. Las mejoras modifican las armas o al soldado. El Director de IA determina qué amenazas pueden aparecer con el paso del tiempo.
 
-**Casos límite:** Si un enemigo muere, este debe de dejar de tener un collider. Toda muerte de un enemigo incrementa la racha; recibir daño la reinicia (ver [[06 - Economía y Recursos]]).
+**Casos límite:** Si un enemigo muere, este debe dejar de tener un collider. Toda muerte de un enemigo incrementa la racha; recibir daño la reinicia (ver [[06 - Economía y Recursos]]).
 
 ### Mecánica 03: Reparación y defensa de generadores
 
@@ -89,7 +94,7 @@
 
 **Casos límite:** el progreso de reparación se conserva, un generador operativo puede volver a dañarse, el generador se vuelve invulnerable durante unos segundos al ser reparado completamente.
 
-### Mecánica 04: Director de enemigos y tickets
+### Mecánica 04: Director de IA y tickets
 
 **Propósito:** Incrementa la dificultad durante la partida y permite variar la composición de las amenazas sin utilizar niveles como medida de progreso.
 
@@ -123,7 +128,15 @@
 ## Mecánicas secundarias
 - **Mejoras:** Permiten modificar la linterna, las armas o las defensas según las opciones disponibles durante la partida. Se obtienen al subir de nivel con cristales. En el prototipo no hay tienda.
 - **Rachas de eliminaciones:** Las eliminaciones consecutivas pueden otorgar potenciadores acumulables. Recibir daño interrumpe la racha y anula los potenciadores. Falta definir qué potenciadores existen, sus umbrales y cuánto duran.
+- **Regeneración de salud:** Después de recibir daño, la salud del soldado se recupera con el tiempo, sin superar la salud máxima. Se proponen 5 s de espera y 2 PV/s; un nuevo golpe reinicia la espera.
 - **Encuentro con el jefe final:** Comienza al cumplirse el tiempo de supervivencia establecido. Derrotar al jefe es necesario para ganar la partida; sobrevivir hasta su aparición no constituye una victoria por sí solo.
+
+## Decisiones pendientes
+
+- Efectos de la linterna: [[02 - Visión del Juego]] menciona diferentes debuffs; el prototipo aplica solo +25 % de daño.
+- Potenciadores de racha: cuáles existen, sus umbrales y su duración. Se proponen +15 % de daño (5 eliminaciones), +15 % de cadencia (10) y +10 % de velocidad (20).
+- Mejoras y beneficios de los generadores, además de la luz y la recarga de batería.
+- Estructuras de defensa: aparecen en [[02 - Visión del Juego]], [[04 - Pilares de Diseño]] y en la combinación Tower Defense, pero no tienen mecánica. Falta diseñarlas o quitarlas.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

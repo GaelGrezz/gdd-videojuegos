@@ -1,4 +1,9 @@
 # Glosario
+
+## Descripción de la sección
+
+Centraliza términos técnicos, de diseño y propios del universo del videojuego.
+
 ## Términos de desarrollo y diseño
 
 | Término            | Definición                                                                                                                                                                                   |
@@ -46,6 +51,10 @@
 | **Director de IA**    | Sistema encargado de regular dinámicamente la presión sobre el jugador mediante aparición, cantidad y tipo de enemigos.                                      |
 | **Tickets**           | Recurso interno utilizado por el Director de IA para determinar qué enemigos puede generar. Enemigos más peligrosos requieren una mayor cantidad de tickets. |
 | **Zona de aparición** | Área válida desde la cual pueden generarse enemigos.                                                                                                         |
+| **Potenciador** | Beneficio acumulable que se obtiene al alcanzar un umbral de racha y se anula al recibir daño. |
+| **Regeneración** | Recuperación de salud con el tiempo después de recibir daño. |
+| **Registro** | Archivo con el testimonio de un operativo fallecido. |
+| **Archivo del jugador** | Parte de la interfaz donde se consultan los registros recuperados. |
 
 
 ---
@@ -55,7 +64,7 @@
 | Término                   | Definición                                                                                                                                                                                  |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **AfterLight**            | Nombre del videojuego y del proyecto.                                                                                                                                                       |
-| **Hades**                 | Colonia humana y escenario principal de los acontecimientos del juego. Posee grandes depósitos de cristales utilizados como fuente energética.                                              |
+| **Hades**                 | Planeta colonizado y escenario principal de los acontecimientos del juego. Posee grandes depósitos de cristales utilizados como fuente energética.                                              |
 | **CERBERUS**              | Organización encargada de responder a amenazas extraordinarias, contener brotes, proteger instalaciones estratégicas y controlar Zonas de Exclusión.                                        |
 | **Zona de Exclusión**     | Área cerrada por CERBERUS debido a contaminación, presencia de Vimers o riesgo extraordinario para la población.                                                                            |
 | **Cristales de Hades**    | Formaciones minerales con un elevado potencial energético cuya explotación está relacionada con la crisis de la colonia.                                                                    |
@@ -69,6 +78,12 @@
 | **Operación de limpieza** | Intervención militar destinada a recuperar sectores contaminados y eliminar focos activos de Vimers.                                                                                        |
 | **Perímetro**             | Línea defensiva establecida alrededor de una Zona de Exclusión para controlar accesos y evitar fugas.                                                                                       |
 | **Área contaminada**      | Sector donde existe evidencia de infección, crecimiento cristalino o presencia activa de Vimers.                                                                                            |
+| **Eco-10** | Indicativo del soldado de CERBERUS que controla el jugador. |
+| **Enlace** | Indicativo de Nicolás Varela, operador de comunicaciones de CERBERUS. |
+| **Issac Ferrer** | Científico de CERBERUS que ofrece las peticiones opcionales. |
+| **Cáscara** | Vimer básico de persecución. |
+| **Quimera** | Vimer pesado que evade la luz. |
+| **Ascendido** | Jefe final de la partida. |
 
 ---
 
@@ -80,7 +95,7 @@ Esta sección establece cómo deben escribirse los principales términos del pro
 
 Escribir siempre:
 
-**AFTERLIGHT**
+**AfterLight**
 
 Evitar:
 
@@ -105,7 +120,7 @@ Evitar:
 
 - Cerberus
 - Cerbero, cuando se esté hablando de la organización.
-- C.E.R.B.E.R.U.S., salvo que se establezca específicamente como variante gráfica.
+- C.E.R.B.E.R.U.S., salvo como variante gráfica, por ejemplo en el rótulo del arma.
 
 **Cerbero** se reserva exclusivamente para la criatura de la mitología griega.
 
@@ -116,7 +131,7 @@ Evitar:
 Escribir:
 **Hades**
 
-Se utiliza como nombre propio de la colonia.
+Se utiliza como nombre propio del planeta.
 
 Evitar utilizar:
 - HADES, excepto en señalética o elementos gráficos.
@@ -215,4 +230,10 @@ Cuando se describa el concepto genéricamente se utilizan minúsculas.
 Siempre que se introduzca un nuevo personaje, enemigo, organización, recurso, lugar, sistema o término propio del universo deberá añadirse a este glosario.
 
 Si existen dos palabras diferentes para describir exactamente el mismo concepto, deberá seleccionarse una como término oficial y utilizarla de manera consistente en todo el GDD.
+
+## Decisiones pendientes
+
+- *Vida* y *salud* nombran lo mismo: este Glosario, el xlsx y la interfaz usan *vida*; Diseño y Contenido usan *salud*. Falta elegir una.
+
+
 > **Navegación:** [[00 - Índice]] · ← [[04 - Criterios de Aceptación]] · [[02 - Referencias e Inspiración]] →

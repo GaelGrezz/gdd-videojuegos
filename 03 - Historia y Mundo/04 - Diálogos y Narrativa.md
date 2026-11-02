@@ -43,7 +43,7 @@ El **Ascendido** es el jefe final. Al recibir el daño que lo derrota, pierde la
 
 Sus brazos suspendidos son arrastrados hacia el halo. Después, el torso y las extremidades se contraen y son absorbidos hasta desaparecer en su interior. El sonido de la absorción aumenta y se interrumpe bruscamente cuando el cuerpo desaparece.
 
- El resplandor del halo disminuye y la imagen funde a negro, dando paso al desenlace correspondiente.
+El resplandor del halo disminuye y la imagen funde a negro, dando paso al desenlace correspondiente.
 
 ### Victoria: Información recuperada
 
@@ -57,7 +57,7 @@ El soldado avanza fuera de cuadro. La imagen funde a negro y aparece el resultad
 
 ### Victoria: Ni uno más
 
-Se utiliza el mismo escenario y encuadre del final anterior. Antes de retirarse, el soldado consulta su terminal. La pantalla confirma que las pruebas reunidas con Issac han sido transmitidas fuera del control exclusivo de Cerberus.
+Se utiliza el mismo escenario y encuadre del final anterior. Antes de retirarse, el soldado consulta su terminal. La pantalla confirma que las pruebas reunidas con Issac han sido transmitidas fuera del control exclusivo de CERBERUS.
 
 > **Issac:** «La copia está fuera de su alcance. Ya no podrán decir que no lo sabían».
 
@@ -78,7 +78,7 @@ El escenario deja de mostrarse con detalle y la composición centra la atención
 | Cáscara                        | Se abalanza sobre el soldado, lo derriba y se inclina sobre él antes del corte a negro                      |
 | Quimera                        | Derriba al soldado y lo aplasta con una de sus extremidades                                                 |
 | Ascendido                      | Sus brazos suspendidos inmovilizan al soldado y lo elevan; las siluetas se cierran sobre él antes del corte |
-| Otros infectados               |                                                                                                             |
+| Otros infectados               | Por definir                                                                                                 |
 | Causa sin variante específica  | El soldado cae de rodillas, pierde el apoyo y desaparece en negro                                           |
 
 Tras la animación aparece la pantalla de **Game Over**.
@@ -95,7 +95,15 @@ Tras la animación aparece la pantalla de **Game Over**.
 
 ### Escena / Conversación
 
-## Estructura de diálogo
+**Participantes:**
+
+**Objetivo de la conversación:**
+
+**Contexto:**
+
+**Opciones del jugador:**
+
+**Consecuencias:**
 
 ### Conversación: Primer contacto
 
@@ -135,7 +143,7 @@ Tras la animación aparece la pantalla de **Game Over**.
 
 **Objetivo de la conversación:** Introducir una perspectiva distinta de la versión oficial y presentar sus peticiones.
 
-**Contexto:** El jugador cumple las condiciones necesarias para establecer contacto. Estas condiciones están por definir.
+**Contexto:** El jugador cumple las condiciones necesarias para establecer contacto. Se propone recuperar el registro de Lucía Ferrán.
 
 **Opciones del jugador:** Participar en el contenido opcional de Issac y atender sus peticiones.
 
@@ -179,7 +187,7 @@ El humor, si aparece, será ocasional y propio de la convivencia entre operativo
 | --------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Consultar registros               | Leerlos o continuar                                            | Amplía el conocimiento sobre las operaciones anteriores                      |
 | Explorar el contenido de Issac    | Atender sus peticiones o seguir únicamente la misión principal | Determina la posibilidad de acceder al final alternativo                     |
-| Completar las peticiones de Issac | Cumplirlas todas o dejarlas incompletas                        | Al vencer al Ascendido, activa algun final                                   |
+| Completar las peticiones de Issac | Cumplirlas todas o dejarlas incompletas                        | Al vencer al Ascendido, determina el final de victoria                                   |
 | Omitir una cinemática             | Verla u omitirla                                               | Modifica la presentación, sin cambiar el resultado ni el progreso registrado |
 Los finales dependen de las acciones realizadas durante la partida. No se requiere una elección de diálogo al terminar para decidir qué desenlace se muestra.
 ## Localización
@@ -188,9 +196,9 @@ Los finales dependen de las acciones realizadas durante la partida. No se requie
 
 Los textos de interfaz, subtítulos, registros y pantallas de resultado deben mantenerse separados de las imágenes para facilitar su traducción.
 
-Los nombres propios **Hades**, **Vimer** y **C.E.R.B.E.R.U.S.** se conservan. Los rangos, objetivos e indicaciones se adaptan al idioma correspondiente.
+Los nombres propios **Hades**, **Vimer** y **CERBERUS** se conservan. Los rangos, objetivos e indicaciones se adaptan al idioma correspondiente.
 
-La adaptación del nombre de **C.E.R.B.E.R.U.S.** de español a ingles son:
+Las formas del nombre de **CERBERUS** en español e inglés son:
 Comando de Emergencias, Recuperación Biológica, Exploración, Resguardo Urbano y Seguridad.
 Centralized Emergency Response Bureau for Extranormal Recovery & Urban Security.
 
