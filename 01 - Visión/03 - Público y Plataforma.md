@@ -34,9 +34,9 @@ Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribu
 
 ## Sesión de juego
 
-**Duración esperada de una sesión:** 10 min.
+**Duración esperada de una sesión:** 10 min de supervivencia más el combate contra el Ascendido.
 
-**Duración total estimada del juego:** 50 min.
+**Duración total estimada del juego:** 10 min de supervivencia más el combate contra el Ascendido.
 
 ## Modelo de distribución
 

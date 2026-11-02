@@ -8,13 +8,13 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 
 **Época:** Futuro de expansión espacial. La humanidad ha desarrollado los medios para establecer colonias y mantener rutas entre sistemas.
 
-**Lugar:** Centro científico que funge como refugio principal de Vimer.
+**Lugar:** Centro científico que funge como refugio principal de los Vimers.
 
 **Contexto:** Centro científico desarrollado para estudiar las anomalías que contiene el planeta Hades.
 
 **Reglas especiales del mundo:**
 
-- La exposición prolongada a los cristales está relacionada con la infección Vimer y sus alteraciones físicas y mentales.
+- La exposición prolongada a los cristales está relacionada con la Violeta Mortífera y sus alteraciones físicas y mentales.
 - Los infectados desarrollan deformaciones orgánicas y crecimientos cristalinos. Sus capacidades varían según la transformación.
 - La luz utilizada por el jugador debilita a los Vimers, pero no cura la infección.
 - El resplandor violeta de los cristales no tiene el mismo efecto que la luz empleada contra los infectados.
@@ -38,7 +38,7 @@ Así aparecieron los Vimers.
 
 La infección deformaba progresivamente a sus portadores, corrompiendo cuerpo y mente hasta convertirlos en criaturas violentas vinculadas de alguna forma con los propios cristales.
 
-Cuando los incidentes dejaron de poder ocultarse, el gobierno central creó **CERBERUS — Centralized Emergency Response Bureau for Extranormal Recovery & Urban Security**, una organización encargada de contener amenazas extraordinarias, asegurar instalaciones críticas y evitar que los brotes alcanzaran los principales asentamientos de la colonia.
+Cuando los incidentes dejaron de poder ocultarse, el Gobierno Central creó **CERBERUS — Centralized Emergency Response Bureau for Extranormal Recovery & Urban Security**, una organización encargada de contener amenazas extraordinarias, asegurar instalaciones críticas y evitar que los brotes alcanzaran los principales asentamientos de la colonia.
 
 CERBERUS estableció zonas de exclusión alrededor de las áreas contaminadas y asumió el control de las operaciones relacionadas con la infección.
 
@@ -125,10 +125,10 @@ o está manteniendo a la humanidad fuera de algo que todavía no comprende?
 
 | Lugar                               | Descripción                                                            | Función jugable                                                      | Importancia narrativa                                             |
 | ----------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Hades                               | Colonia humana de cielos violetas y escasa iluminación natural         | Contexto general del escenario                                       | Representa la promesa de expansión transformada en crisis         |
-| Zona de exclusión                   | Territorio restringido por la presencia de Vimer                       | Delimita el área de intervención                                     | Evidencia la magnitud de la amenaza                               |
-| Perímetro de Cerberus               | Accesos y posiciones de vigilancia alrededor del área afectada         | Punto de referencia para el despliegue y los límites de la operación | Representa el intento de impedir la propagación                   |
-| Centro científico                   | Instalación dedicada al estudio y contención de las anomalías de Hades | Escenario principal de la partida                                    | Vincula la investigación humana con la presencia de Vimer         |
+| Hades                               | Planeta colonizado de cielos violetas y escasa iluminación natural         | Contexto general del escenario                                       | Representa la promesa de expansión transformada en crisis         |
+| Zona de Exclusión                   | Territorio restringido por la presencia de Vimers                      | Delimita el área de intervención                                     | Evidencia la magnitud de la amenaza                               |
+| Perímetro de CERBERUS               | Accesos y posiciones de vigilancia alrededor del área afectada         | Punto de referencia para el despliegue y los límites de la operación | Representa el intento de impedir la propagación                   |
+| Centro científico                   | Instalación dedicada al estudio y contención de las anomalías de Hades | Escenario principal de la partida                                    | Vincula la investigación humana con la presencia de Vimers        |
 | Laboratorios y áreas de contención  | Sectores destinados a estudiar y aislar las anomalías                  | Espacios de combate y exploración                                    | Conservan indicios de los experimentos y del brote                |
 | Sectores de energía y mantenimiento | Áreas que albergan generadores y equipos de servicio                   | Reparación y defensa de infraestructura                              | Explican la dependencia de la energía y la pérdida de iluminación |
 | Corredores y accesos internos       | Conexiones entre las áreas del complejo                                | Desplazamiento, posicionamiento y encuentros con enemigos            | Muestran cómo la infección ocupó las instalaciones                |
@@ -136,25 +136,25 @@ o está manteniendo a la humanidad fuera de algo que todavía no comprende?
 
 | Facción          | Objetivo                                                                                                       | Relación con el jugador                                |
 | ---------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Gobierno Central | Administrar los territorios humanos                                                                            | Autoridad que creó Cerberus y respalda su intervención |
-| C.E.R.B.E.R.U.S. | Contener emergencias extranormales, recuperar zonas comprometidas y mantener la seguridad de los asentamientos | Organización responsable del despliegue del jugador    |
+| Gobierno Central | Administrar los territorios humanos                                                                            | Autoridad que creó CERBERUS y respalda su intervención |
+| CERBERUS         | Contener emergencias extranormales, recuperar zonas comprometidas y mantener la seguridad de los asentamientos | Organización responsable del despliegue del jugador    |
 | Vimers           | Asimilar a toda forma de vida                                                                                  | Enemigos principales dentro del complejo               |
 
-**Divisiones internas de Cerberus:** La organización reúne altos mandos, personal científico y fuerzas operativas. Existe un conflicto entre científicos y mandos por la continuidad de la experimentación y la extracción pese a los riesgos conocidos. Las posturas concretas de sus integrantes están pendientes de desarrollo.
+**Divisiones internas de CERBERUS:** La organización reúne altos mandos, personal científico y fuerzas operativas. Existe un conflicto entre científicos y mandos por la continuidad de la experimentación y la extracción pese a los riesgos conocidos. Las posturas concretas de sus integrantes están pendientes de desarrollo.
 
 Los Vimers se presentan como grupo antagonista. No se ha confirmado que tengan una estructura organizada o una voluntad colectiva.
 ## Coherencia del mundo
 
-1. **Hades es una colonia humana**, cuyo valor proviene tanto de su posición estratégica como de sus cristales.
-2. **Cerberus fue creada a partir de la crisis Vimer.** Su existencia es posterior a los primeros incidentes.
+1. **Hades es un planeta colonizado por la humanidad**, cuyo valor proviene tanto de su posición estratégica como de sus cristales.
+2. **CERBERUS fue creada a partir de la crisis de la Violeta Mortífera.** Su existencia es posterior a los primeros incidentes.
 3. **El nombre oficial de la organización es Centralized Emergency Response Bureau for Extranormal Recovery & Urban Security.**
-4. **Cerberus conoce los riesgos de la exposición prolongada**, aunque ese conocimiento no tiene por qué estar disponible para todos sus integrantes.
+4. **CERBERUS conoce los riesgos de la exposición prolongada**, aunque ese conocimiento no tiene por qué estar disponible para todos sus integrantes.
 5. **La experimentación y la extracción continuaron después de identificar sus consecuencias.** Este hecho forma parte de la responsabilidad de la organización.
-6. **El conflicto interno de Cerberus debe mantenerse presente.** Sus científicos y altos mandos no actúan necesariamente con los mismos intereses.
+6. **El conflicto interno de CERBERUS debe mantenerse presente.** Sus científicos y altos mandos no actúan necesariamente con los mismos intereses.
 7. **La luz debilita a los infectados; no elimina automáticamente la infección.**
 8. **El brillo de los cristales se distingue de la iluminación que afecta a los Vimers.** Su presencia no vuelve seguros los espacios oscuros.
 9. **La ausencia de ataques no demuestra que la amenaza haya desaparecido.**
-10. **La aparente intención de Vimer se mantiene como una incógnita, solo se sabe que quieren asimilarlo todo.**
+10. **La aparente intención de los Vimers se mantiene como una incógnita, solo se sabe que quieren asimilarlo todo.**
 11. **La tecnología tiene límites consistentes.** La energía, los daños y las reparaciones deben producir efectos comprensibles y acordes con la jugabilidad.
 12. **Recuperar el centro científico no equivale a resolver toda la crisis de Hades.**
 

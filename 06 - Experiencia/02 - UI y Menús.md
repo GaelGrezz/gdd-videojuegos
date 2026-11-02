@@ -19,6 +19,7 @@ Partida
 │   ├── Opciones (por diseñar)
 │   ├── Reiniciar partida → Carga
 │   └── Abandonar sistema → Menú principal
+├── Archivo del jugador (por diseñar)
 ├── Cristales completos → Elige una mejora → Partida
 ├── Derrota → Game Over (por diseñar) → Reintentar / Menú principal
 └── Victoria (por diseñar) → Menú principal
@@ -30,7 +31,7 @@ Partida
 
 **Propósito:** Iniciar la partida, consultar opciones o salir del juego.
 
-**Elementos:** Emblema del lobo de Cerberus sobre el logotipo *AFTER LIGHT* («LIGHT» en rojo), el lema «La oscuridad te espera», un haz de luz diagonal, partículas y la ayuda de controles (↑ ↓ seleccionar, Enter confirmar).
+**Elementos:** Emblema del lobo de CERBERUS sobre el logotipo *AFTER LIGHT* («LIGHT» en rojo), el lema «La oscuridad te espera», un haz de luz diagonal, partículas y la ayuda de controles (↑ ↓ seleccionar, Enter confirmar).
 
 ![[UI - Menú principal.png]]
 
@@ -96,11 +97,13 @@ Reintentar desde Game Over no requiere confirmación.
 
 ## Decisiones pendientes
 
-- Diseñar las pantallas de carga, opciones, victoria (*Información recuperada* y *Ni uno más*), derrota, Game Over, créditos y los diálogos de confirmación.
+- Diseñar las pantallas de carga, opciones, victoria (*Información recuperada* y *Ni uno más*), derrota, Game Over, créditos, archivo del jugador y los diálogos de confirmación.
 - Agregar la opción Créditos al menú principal.
 - Mostrar al soldado frente a las puertas del complejo en el menú principal, como propone [[01 - Estructura del Contenido]].
 - Usar textos distintos para *Abandonar sistema*: en el menú principal cierra el juego y en la pausa regresa al menú.
 - Permitir el uso del mouse en todos los menús, además de las flechas y Enter.
+- El menú dice *Iniciar despliegue*; [[01 - Estructura del Contenido]], [[02 - Niveles]] y [[04 - Diálogos y Narrativa]] dicen *Iniciar*.
+- El logotipo dice *AFTER LIGHT*; el [[01 - Glosario]] pide *AfterLight*.
 - Unificar los datos de ejemplo: la pausa muestra 0/3 generadores operativos y el HUD de la misma partida muestra uno.
 - Las cartas usan los valores del prototipo (por ejemplo, *Recolector magnético* +0.5 m) y no los del xlsx actual (+1.2 m).
 

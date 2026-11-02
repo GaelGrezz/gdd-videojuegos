@@ -81,12 +81,10 @@ Videojuegos ejecutados mediante tecnologías web.
 - El formato de juego que se tiene conceptualizado está enfocado a un modelo de juego en computadora debido a su estilo de gameplay. 
 - La PC es una distribución más versátil en configuraciones y ajustes que demande el desarrollo del juego.
 - El gameplay será mejor en periféricos como teclado y mouse.
-- La PC es amigable con las preferencias del jugador, es posible jugar en teclado o mando y hay más apertura a los ajustes de rendimiento o gráficos.
+- La PC es amigable con las preferencias del jugador y hay más apertura a los ajustes de rendimiento o gráficos.
 
-**Plataformas secundarias:**  Navegador / Web
-**¿Qué cambios requerirían?**
-- Optimizar los recursos del juego como geometría no visible.
-- Producir una versión lite para su despliegue en la web.
+**Plataformas secundarias:**  Ninguna en el prototipo.
+**¿Qué cambios requerirían?** No aplica.
 
 > [!important] Para proyectos académicos
 > Si el equipo tiene tiempo limitado, comenzar con **una plataforma principal** suele reducir problemas de compatibilidad y alcance.

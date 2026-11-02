@@ -8,7 +8,7 @@ Aquí se define la **idea central** del videojuego. Esta sección funciona como 
 
 **El videojuego trata sobre:**
 
-El jugador debe experimentar frenetismo frente a la oleada de infectados dentro de un complejo científico. En cada partida el jugador debe planificar su estrategia para hacer frente a los infectados: ser reactivo o aprovechar los pilares de luz. De este modo, cada jugador se adapta a su propia estrategia o sobrevive a su modo. Cada partida es diferente como estrategia necesaria para hacer frente a los hostiles infectados.
+El jugador debe experimentar frenetismo frente a la oleada de infectados dentro de un complejo científico. En cada partida el jugador debe planificar su estrategia para hacer frente a los infectados: ser reactivo o aprovechar los generadores. De este modo, cada jugador se adapta a su propia estrategia o sobrevive a su modo. Cada partida es diferente como estrategia necesaria para hacer frente a los hostiles infectados.
 
 ## Experiencia deseada
 
@@ -17,7 +17,7 @@ Completa:
 Quiero que el jugador se sienta: Vulnerable y bajo tensión.
 Quiero que el jugador piense: Cómo reaccionar frente a las oleadas.
 Quiero que el jugador haga: Una estrategia que sea factible frente al nivel de la horda.
-Quiero que el jugador recuerde: Que haya un abanico de opciones para definir estrategías para lograr el objetivo.
+Quiero que el jugador recuerde: Que haya un abanico de opciones para definir estrategias para lograr el objetivo.
 
 ## Fantasía del jugador
 
@@ -26,7 +26,7 @@ Queremos permitir que el jugador planifique y sea capaz de idear estrategias con
 
 ## Propuesta de valor
 
-El juego incluye mecánicas no exploradas en el catálogo de Rogue Lite debido al uso de fórmulas repetitivas que son aprovechadas para asegurar una experiencia lineal que diferentes entregas cumplen. Nuestro juego pretende aprovechar la fórmula ya establecida, involucrando características que permitan al jugador planificar, adaptarse y usar los recursos disponibles para cumplir con su objetivo.
+El juego incluye mecánicas no exploradas en el catálogo de Roguelite debido al uso de fórmulas repetitivas que son aprovechadas para asegurar una experiencia lineal que diferentes entregas cumplen. Nuestro juego pretende aprovechar la fórmula ya establecida, involucrando características que permitan al jugador planificar, adaptarse y usar los recursos disponibles para cumplir con su objetivo.
 
 ## Características principales
 

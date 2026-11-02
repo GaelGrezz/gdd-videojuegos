@@ -12,11 +12,9 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 | Linterna y efectos de luz        | Debilitar infectados mediante un cono de luz                     | Jugador, enemigos, mejoras, generadores            | Prototipo |
 | Combate                          | Resolver ataques, daño y eliminaciones                           | Jugador, enemigos, linterna                        | Prototipo |
 | Generadores                      | Gestionar reparación, daño, defensa y beneficios                 | Jugador, combate, enemigos                         | Prototipo |
-| Director de enemigos             | Seleccionar amenazas mediante tickets que aumentan con el tiempo | Tiempo, catálogo de enemigos, estado de la partida | Prototipo |
+| Director de IA                   | Seleccionar amenazas mediante tickets que aumentan con el tiempo | Tiempo, catálogo de enemigos, estado de la partida | Prototipo |
 | Mejoras y potenciadores          | Modificar las herramientas y capacidades del jugador             | Linterna, combate, generadores, rachas             | Prototipo parcial |
 | Objetivos y resultado de partida | Determinar la aparición del jefe final, la victoria y la derrota | Todos los sistemas anteriores                      | Prototipo parcial |
-
-## Relaciones entre sistemas
 
 ## Sistema: Jugador y supervivencia
 
@@ -24,7 +22,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Entradas:** Daño recibido, carga y consumo de batería, recuperación de batería por cercanía a generadores operativos.
 
-**Procesamiento / reglas:** La salud disminuye al recibir daño. La batería disminuye al utilizar la linterna. Si la salud llega a cero, la partida termina. Si la batería permanece al 0 % durante el tiempo límite, también termina.
+**Procesamiento / reglas:** La salud disminuye al recibir daño y se regenera con el tiempo después de recibirlo. La batería disminuye al utilizar la linterna. Si la salud llega a cero, la partida termina. Si la batería permanece al 0 % durante el tiempo límite, también termina.
 
 **Salidas:** Salud y batería actuales, avisos de peligro y evento de derrota.
 
@@ -34,7 +32,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Interacciones:** Recibe daño del combate y el estado de batería de la linterna; comunica una derrota al sistema de objetivos.
 
-**Datos que necesita:** Salud máxima y actual, capacidad y carga de batería, tiempo permitido al 0 %.
+**Datos que necesita:** Salud máxima y actual, espera y velocidad de regeneración, capacidad y carga de batería, tiempo permitido al 0 %.
 
 **Datos que genera:** Cambios de salud y batería, tiempo acumulado sin carga y causa de derrota.
 
@@ -114,7 +112,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Criterios de aceptación:** La reparación y el daño actualizan el estado visible del generador; sus beneficios se activan solo cuando corresponde; su destrucción interrumpe beneficios y recarga sin provocar una derrota.
 
-## Sistema: Director de enemigos
+## Sistema: Director de IA
 
 **Objetivo:** Aumentar y variar la presión sobre el jugador conforme transcurre la partida.
 
@@ -126,7 +124,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Estados posibles:** Inactivo y generando amenazas.
 
-**Dependencias:** Reloj de partida, catálogo de enemigos y sistema de aparicion.
+**Dependencias:** Reloj de partida, catálogo de enemigos y sistema de aparición.
 
 **Interacciones:** Envía amenazas al combate y ejerce presión sobre el jugador y los generadores.
 
@@ -174,7 +172,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Estados posibles:** Supervivencia, combate contra el jefe final, victoria, derrota.
 
-**Dependencias:** Reloj de partida, jugador, generadores, combate y director de enemigos.
+**Dependencias:** Reloj de partida, jugador, generadores, combate y Director de IA.
 
 **Interacciones:** Recibe los eventos de los demás sistemas y comunica cuándo deben detenerse al terminar la partida.
 
@@ -187,6 +185,8 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 **Criterios de aceptación:** El jefe aparece una sola vez al cumplirse el tiempo; sobrevivir hasta ese momento no concede la victoria; derrotar al jefe concede la victoria solo si el jugador no ha perdido; la partida registra un único resultado final.
 
 ## Relaciones entre sistemas
+
+Describe qué sistemas dependen de otros y qué información intercambian.
 
 El **sistema de objetivos** recibe el tiempo transcurrido y los estados del jugador, los generadores y el jefe para decidir si la partida continúa o termina. El **director** utiliza el tiempo y su presupuesto de tickets para ordenar la aparición de enemigos.
 

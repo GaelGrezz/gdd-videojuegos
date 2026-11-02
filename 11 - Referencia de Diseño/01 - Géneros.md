@@ -116,7 +116,11 @@ Si el juego no encaja claramente en las categorías anteriores, documenta aquí 
 ### Elección del proyecto
 
 **Género principal:**  Roguelite.
-**Justificación:** El modelo de juego se basa en el progreso por niveles. Cada nivel logrado ofrece potenciadores (buffs), así como armas que se desbloquean de forma progresiva y oleada de enemigos que crecen en complejidad.      
+**Justificación:** El modelo de juego se basa en el progreso por niveles durante la partida. Cada nivel logrado ofrece mejoras y las oleadas de enemigos crecen en complejidad.      
 
-**Géneros secundario:**  Supervivencia.
-**Justificación:** El jugador debe administrar sus recursos, armas y enfrentar oleadas de enemigos para superar los niveles.    
+**Género secundario:**  Supervivencia.
+**Justificación:** El jugador debe administrar sus recursos, armas y enfrentar oleadas de enemigos para sobrevivir hasta el jefe final.
+
+## Decisiones pendientes
+
+- Roguelite: esta nota indica que suele conservar progresión entre partidas y [[02 - Niveles]] indica que no hay recompensas persistentes.

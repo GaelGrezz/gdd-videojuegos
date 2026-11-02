@@ -38,7 +38,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 ## Protagonista
 
-### Soldado de Cerberus — Eco-10
+### Soldado de CERBERUS — Eco-10
 
 **Rol:** Protagonista controlado por el jugador.
 
@@ -46,7 +46,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Función narrativa:** Mostrar la intervención en el centro científico desde la perspectiva de un operativo.
 
-**Descripción física:** Soldado con armadura gris oscura y negra, casco cerrado, visor y distintivos rojos de Cerberus. Su equipo presenta desgaste.
+**Descripción física:** Soldado con armadura gris oscura y negra, casco cerrado, visor y distintivos rojos de CERBERUS. Su equipo presenta desgaste.
 
 **Personalidad:** Reservado y atento al entorno. Su caracterización deja espacio para que el jugador interprete sus reacciones.
 
@@ -56,7 +56,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Conflicto:** Debe seguir órdenes mientras encuentra evidencias que cuestionan la información recibida.
 
-**Relaciones:** Recibe instrucciones del operador de Cerberus. Puede establecer contacto con Issac bajo condiciones específicas y conocer a los operativos anteriores mediante sus registros.
+**Relaciones:** Recibe instrucciones del operador de CERBERUS. Puede establecer contacto con Issac bajo condiciones específicas y conocer a los operativos anteriores mediante sus registros.
 
 **Arco del personaje:** Pasa de depender de la versión oficial a reconocer las contradicciones de la operación. Su reacción final ante ellas está por definir.
 
@@ -67,13 +67,13 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 **Frases o tono de diálogo:** Comunicaciones breves y funcionales: Sector asegurado, Generador operativo, Solicito instrucciones.
 
 **Referencias visuales:** 
-![[Eco-10.webp|380]]
+![[Eco-10 render.png|380]]
 
 ## Antagonista
 
 ### Vimer
 
-**Rol:** Fuerza antagonista representada por los infectados con la condición vimer.
+**Rol:** Fuerza antagonista formada por quienes ha transformado la Violeta Mortífera.
 
 **Función jugable:** Ejercer presión mediante enemigos con diferentes capacidades y comportamientos.
 
@@ -85,7 +85,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Motivaciones:** Desconocidas. Sus comportamientos observables son violentos y hostiles.
 
-**Objetivos:** Asimilación de materia organica 
+**Objetivos:** Asimilación de materia orgánica.
 
 **Conflicto:** Su presencia impide recuperar el complejo y amenaza a quienes ingresan.
 
@@ -105,7 +105,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 ### Operador Nicolás Varela 
 
-**Rol:** Operador de comunicaciones de Cerberus y guía del jugador.
+**Rol:** Operador de comunicaciones de CERBERUS y guía del jugador.
 
 **Función jugable:** Explicar mecánicas, comunicar objetivos y advertir sobre situaciones relevantes.
 
@@ -123,7 +123,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Relaciones:** Contacto habitual del protagonista y enlace con la cadena de mando.
 
-**Arco del personaje:** Comienza con instrucciones seguras y rutinarias, el jugador a cuestionar la operación, desconoce de los anteriores registros por lo que evade las preguntas 
+**Arco del personaje:** Comienza con instrucciones seguras y rutinarias. Cuando el jugador cuestiona la operación, evade las preguntas porque desconoce los registros anteriores. 
 
 **Habilidades:** Coordinación operativa, lectura de reportes y comunicación de procedimientos.
 
@@ -137,11 +137,11 @@ Necesitamos ese generador operativo. Evalúa el área antes de reparar
 ![[Pasted image 20261003001301.png]]
 ### Doctor Issac Ferrer
 
-**Rol:** Científico de Cerberus perteneciente a la faccion científica enfrentada con los altos mandos.
+**Rol:** Científico de CERBERUS perteneciente a la facción científica enfrentada con los altos mandos.
 
 **Función jugable:** Ofrecer conversaciones opcionales cuando el jugador cumpla condiciones específicas. Los requisitos y posibles beneficios están por definir.
 
-**Función narrativa:** Aportar una perspectiva interna sobre las investigaciones, la exposición a los cristales y las discrepancias dentro de Cerberus.
+**Función narrativa:** Aportar una perspectiva interna sobre las investigaciones, la exposición a los cristales y las discrepancias dentro de CERBERUS.
 
 **Descripción física:** Hombre de aspecto fatigado, uniforme científico deteriorado y equipo de protección para trabajar con material peligroso.
 
@@ -153,13 +153,13 @@ Necesitamos ese generador operativo. Evalúa el área antes de reparar
 
 **Conflicto:** Pertenece a la misma organización cuyas decisiones cuestiona, revelar información puede enfrentarlo con sus superiores.
 
-**Relaciones:** Integra el personal científico de Cerberus. Puede convertirse en una fuente de información para el protagonista, sin que la confianza entre ambos sea inmediata.
+**Relaciones:** Integra el personal científico de CERBERUS. Puede convertirse en una fuente de información para el protagonista, sin que la confianza entre ambos sea inmediata.
 
 **Arco del personaje:** Pasa de limitar lo que comparte a revelar información más comprometida conforme se desarrollan sus encuentros con el jugador.
 
 **Habilidades:** Análisis de la infección, interpretación de registros científicos y conocimiento de protocolos de exposición.
 
-**Debilidades:** Capacidad de combate limitada y acceso restringido a recursos .
+**Debilidades:** Capacidad de combate limitada y acceso restringido a recursos.
 
 **Frases o tono de diálogo:**
 
@@ -167,9 +167,9 @@ Antes de responder, necesito saber qué encontraste
 
 **Referencias visuales:** 
 ![[Issac Ferrer.webp|380]]
-### Personajes secundarios
+### Operativos fallecidos
 
-Estos personajes murieron antes de la llegada del protagonista. Su participación ocurre mediante registros “logs”encontrados junto a sus cuerpos o equipos.
+Estos personajes murieron antes de la llegada del protagonista. Su participación ocurre mediante registros “logs” encontrados junto a sus cuerpos o equipos.
 
 Cada registro debe aportar una perspectiva distinta y evitar repetir información que el jugador ya conoce.
 
@@ -193,7 +193,7 @@ Cada registro debe aportar una perspectiva distinta y evitar repetir informació
 |**Mateo Orduña**|Sargento de infantería|Conserva una lista de bajas y solicitudes reiteradas de relevo|Mostrar el desgaste de una unidad a lo largo del tiempo|
 |**Vera Santillán**|Sargento, especialista en riesgos extranormales|Señala contradicciones entre las lecturas obtenidas y los límites de exposición autorizados|Aportar indicios técnicos sobre protocolos inadecuados|
 |**Gabriel Téllez**|Sargento, sanitario de combate|Compara casos de operativos con síntomas similares pese a no presentar heridas de combate|Cuestionar las suposiciones iniciales sobre el contagio|
-|**Andrés Neri**|Sargento, armero|Describe daños y ajustes realizados tras encuentros con distintas formas de Vimer|Mostrar cómo las unidades intentaban adaptarse|
+|**Andrés Neri**|Sargento, armero|Describe daños y ajustes realizados tras encuentros con distintos tipos de Vimer|Mostrar cómo las unidades intentaban adaptarse|
 |**Paula Esquivel**|Subteniente de reconocimiento|Registra diferencias entre los planos entregados y los accesos que encontró su unidad|Mostrar que existían áreas omitidas de la información operativa|
 |**Damián Robles**|Subteniente de seguridad|Registra el paso de personal autorizado por sectores oficialmente clausurados|Sugerir que ciertas actividades continuaron durante la emergencia|
 |**Inés Roldán**|Teniente de infantería|Conserva solicitudes de retirada rechazadas y una declaración en defensa de sus subordinados|Mostrar el conflicto entre obediencia y responsabilidad|
@@ -205,19 +205,19 @@ Cada registro debe aportar una perspectiva distinta y evitar repetir informació
 |**Beatriz Alcázar**|Comandante de seguridad del complejo|Documenta órdenes incompatibles: limitar la exposición del personal y mantener determinadas operaciones de extracción|Mostrar la contradicción institucional sin identificar a los dirigentes|
 **Descripción física común:** Restos de operativos con uniformes y equipo acordes con su función. El rango debe reconocerse mediante insignias o identificación, sin depender únicamente del aspecto del cadáver.
 
-**Interacción:** El jugador puede recuperar sus registros. El formato —texto, audio o ambos.
+**Interacción:** El jugador puede recuperar sus registros. El formato (texto, audio o ambos) está por definir.
 
 **Regla narrativa:** Los registros describen lo que cada personaje pudo observar o conocer. Ninguno debe explicar secretos a los que no tenía acceso.
 
 ---
 
-Los siguientes personajes existen dentro del mundo, pero **no se mencionan explícitamente durante el juego**. Sus nombres y funciones sirven como referencia interna para mantener coherentes las decisiones de Cerberus.
+Los siguientes personajes existen dentro del mundo, pero **no se mencionan explícitamente durante el juego**. Sus nombres y funciones sirven como referencia interna para mantener coherentes las decisiones de CERBERUS.
 
-### Dirigentes de Cerberus
+### Dirigentes de CERBERUS
 
 |Nombre|Cargo propuesto|Motivación y objetivo|Conflicto|Influencia en la historia|
 |---|---|---|---|---|
-|**Severin Korda**|Director general|Mantener la autoridad y capacidad de respuesta de Cerberus|Reconocer los errores de la organización comprometería su posición|Define las prioridades institucionales|
+|**Severin Korda**|Director general|Mantener la autoridad y capacidad de respuesta de CERBERUS|Reconocer los errores de la organización comprometería su posición|Define las prioridades institucionales|
 |**Helena Veyr**|Directora de investigación|Conservar la continuidad de los proyectos y el acceso a los cristales|Las advertencias del personal científico cuestionan los programas que dirige|Influye en la continuidad de la experimentación|
 |**Octavio Rhen**|Director de operaciones y seguridad|Mantener los perímetros y recuperar sectores comprometidos|Las exigencias de contención superan los medios disponibles|Determina despliegues y prioridades militares|
 
@@ -227,7 +227,7 @@ Los siguientes personajes existen dentro del mundo, pero **no se mencionan expl�
 
 ### Consejo del Gobierno Central
 
-**Rol:** Autoridad política superior a Cerberus.
+**Rol:** Autoridad política superior a CERBERUS.
 
 **Función narrativa:** Explicar el respaldo institucional de la organización y el marco en el que se toman decisiones sobre Hades.
 
@@ -241,7 +241,7 @@ Los siguientes personajes existen dentro del mundo, pero **no se mencionan expl�
 
 ### Operativos en combate
 
-**Rol:** Otras unidades de Cerberus que siguen combatiendo durante la intervención del protagonista.
+**Rol:** Otras unidades de CERBERUS que siguen combatiendo durante la intervención del protagonista.
 
 **Función narrativa:** Establecer que la operación se extiende más allá del área recorrida por el jugador.
 
@@ -256,10 +256,10 @@ Los siguientes personajes existen dentro del mundo, pero **no se mencionan expl�
 | NPC o elemento          | Qué hace                                                         | Cómo interactúa con el jugador                           | Condiciones                                    |
 | ----------------------- | ---------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------- |
 | Operador Nicolás Varela | Explica mecánicas y transmite órdenes                            | Comunicaciones asociadas a eventos de la partida         | Según el avance y las necesidades del tutorial |
-| Doctor Issac Ferrer     | Aporta información sobre la investigación y el conflicto interno | Conversaciones opcionales; medio de contacto por definir | Requisitos especiales pendientes de definición |
+| Doctor Issac Ferrer     | Aporta información sobre la investigación y el conflicto interno | Conversaciones opcionales; se propone la interfaz de comunicaciones | Se propone recuperar el registro de Lucía Ferrán |
 | Personal fallecido      | Aporta testimonios de operaciones anteriores                     | Recuperación de registros junto a cuerpos o equipo       | Encontrar el registro correspondiente          |
 
-Los cuerpos y registros son elementos narrativos interactivos, no NPC activos. Los dirigentes de Cerberus, el consejo y los operativos de trasfondo no requieren interacción directa.
+Los cuerpos y registros son elementos narrativos interactivos, no NPC activos. Los dirigentes de CERBERUS, el consejo y los operativos de trasfondo no requieren interacción directa.
 
 ## Reglas de presentación
 
@@ -267,8 +267,13 @@ Los cuerpos y registros son elementos narrativos interactivos, no NPC activos. L
 - La información esencial para comprender las mecánicas no debe depender de encontrar a Issac.
 - Las conversaciones de Issac deben respetar sus condiciones de acceso.
 - Los registros deben tener autor identificable y mantener una perspectiva coherente con su cargo.
-- Los personajes no conocen automáticamente todos los secretos de Cerberus.
+- Los personajes no conocen automáticamente todos los secretos de CERBERUS.
 - Los nombres de los dirigentes y la composición del consejo permanecen en la documentación interna.
 - Las revelaciones deben distribuirse de forma que conserven el misterio sin impedir comprender la misión.
+
+## Decisiones pendientes
+
+- Aspecto de Issac: su descripción física indica un uniforme deteriorado; en su ilustración la bata se ve limpia.
+
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →

@@ -1,15 +1,22 @@
 # Jugabilidad
+
+## Descripción de la sección
+
+La jugabilidad explica **qué hace el jugador, qué recibe a cambio y cómo evoluciona la experiencia**.
+
 ## Bucle principal de juego
 
 Describe el ciclo que se repite durante la experiencia.
 
 **Ejemplo conceptual:**
 
-`Identificar amenazas y objetivos → Debilitar infectados con la linterna → Combatir a los infectados → Reparar los generadores → Recargar la batería junto a un generador operativo → subir de nivel →  Elegir mejoras`
-
-El jugador alterna entre defenderse y atender los generadores. Al subir de nivel obtiene nuevas opciones de mejora para adaptar su estrategia a oleadas más exigentes.
+`Explorar → Encontrar desafío → Resolver → Obtener recompensa → Mejorar → Explorar`
 
 **Bucle del proyecto:**
+
+`Identificar amenazas y objetivos → Debilitar infectados con la linterna → Combatir a los infectados → Reparar los generadores → Recargar la batería junto a un generador operativo → Subir de nivel → Elegir mejoras`
+
+El jugador alterna entre defenderse y atender los generadores. Al subir de nivel obtiene nuevas opciones de mejora para adaptar su estrategia a oleadas más exigentes.
 
 ## Acciones principales del jugador
 
@@ -18,7 +25,7 @@ El jugador alterna entre defenderse y atender los generadores. Al subir de nivel
 | Desplazarse por el escenario | Evitar ataques, buscar posiciones seguras y llegar a los generadores | Cambia su posición frente a los enemigos y los objetivos                                       |
 | Apuntar con el cursor        | Orientar a la vez la linterna y el arma                              | Los infectados iluminados quedan debilitados y expuestos al disparo                            |
 | Atacar a los infectados      | Contener las oleadas y proteger los objetivos                        | Elimina amenazas y puede generar rachas de eliminaciones                                       |
-| Reparar generadores          | Recuperar la infraestructura necesaria para avanzar                  | provee al jugador distintos beneficios                                                         |
+| Reparar generadores          | Recuperar la infraestructura necesaria para avanzar                  | Provee al jugador distintos beneficios                                                         |
 | Defender generadores         | Impedir que los infectados interrumpan el progreso                   | Mantiene operativos los objetivos y las fuentes de luz                                         |
 | Elegir mejoras               | Adaptar las herramientas a la dificultad creciente                   | Modifica las capacidades de la linterna, el combate o la defensa del jugador o los generadores |
 ## Experiencia segundo a segundo
@@ -49,7 +56,7 @@ La partida termina si la salud del soldado llega a cero o si la batería de la l
 - **Descanso:** Pausas al subir de nivel para comprender lo ocurrido y elegir mejoras.
 - **Desafío:** Nuevas oleadas aumentan la presión sobre el jugador y los generadores.
 - **Recompensa:** Recoger cristales permite subir de nivel y obtener mejoras; las rachas de eliminaciones pueden aportar potenciadores durante el combate.
-- **Historia:** El entorno y el avance por el complejo revelan gradualmente el contexto de la infección, sin detener el ritmo principal del juego; mientras que los cuerpos de antiguos aliados contienen códices que detallan a profundidad acontecimientos que llevaron a la situación actual del jugador o protagonista.
+- **Historia:** El entorno y el avance por el complejo revelan gradualmente el contexto de la infección, sin detener el ritmo principal del juego; mientras que los cuerpos de antiguos aliados contienen registros que detallan a profundidad acontecimientos que llevaron a la situación actual del jugador o protagonista.
 
 
 ## Principios de interacción

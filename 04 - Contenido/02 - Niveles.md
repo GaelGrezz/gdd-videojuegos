@@ -19,7 +19,7 @@ Sobrevivir durante el tiempo establecido y derrotar al Ascendido cuando aparezca
 
 **Duración estimada:**
 
-Por definir mediante pruebas de juego. La duración comprende el periodo de supervivencia y el combate contra el Ascendido.
+10 minutos de supervivencia. Al cumplirse aparece el Ascendido, y su combate se suma a ese tiempo.
 
 El reloj de partida se detiene durante la pausa y la selección de mejoras. Por ello, el tiempo real de una sesión puede ser mayor que el tiempo registrado por el juego.
 
@@ -37,7 +37,7 @@ La dificultad combina cantidad de amenazas, variedad de comportamientos y presi�
 - Reparación y defensa de generadores.
 - Recolección de cristales.
 - Selección de mejoras al subir de nivel.
-- Recuperación de salud mediante botiquines.
+- Regeneración de salud después de recibir daño.
 - Consulta de registros e interacción narrativa.
 
 Nicolás presenta las acciones esenciales mediante comunicaciones asociadas a las primeras situaciones en que se necesitan.
@@ -72,10 +72,10 @@ Los ataques concretos del Ascendido y las variantes adicionales de enemigos se d
 - Cristales para subir de nivel y escoger mejoras.
 - Potenciadores al alcanzar umbrales de racha.
 - Recuperación de los beneficios de los generadores al repararlos.
-- Registros que amplían el conocimiento sobre el complejo y Cerberus.
+- Registros que amplían el conocimiento sobre el complejo y CERBERUS.
 - Acceso al final alternativo al completar las peticiones de Issac y vencer al jefe.
 
-No hay recompensas persistentes entre partidas .
+No hay recompensas persistentes entre partidas.
 
 **Puntos de guardado:**
 
@@ -151,4 +151,10 @@ La reparación, las mejoras y la exploración se repiten según las necesidades 
 - Los enemigos y jefes disponen de señales claras para su aparición y sus ataques.
 - Las pausas y la selección de mejoras detienen correctamente el reloj y la simulación.
 - El jugador puede identificar la causa de su derrota o los requisitos que cumplió para obtener su final.
+
+## Decisiones pendientes
+
+- Distribución del mapa y posición de los generadores. Hay un plano propuesto con 3 generadores que falta validar.
+
+
 > **Navegación:** [[00 - Índice]] · ← [[01 - Estructura del Contenido]] · [[03 - Enemigos y NPC]] →

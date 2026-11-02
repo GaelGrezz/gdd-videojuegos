@@ -47,7 +47,7 @@ Sobrevivir durante el tiempo establecido y derrotar al Ascendido.
 
 **Contexto:**
 
-Cerberus despliega al soldado en el centro científico para intervenir desde el interior. Nicolás mantiene las comunicaciones y transmite las órdenes de la operación.
+CERBERUS despliega al soldado en el centro científico para intervenir desde el interior. Nicolás mantiene las comunicaciones y transmite las órdenes de la operación.
 
 **Requisitos:**
 
@@ -103,7 +103,7 @@ Nicolás identifica la pérdida de energía como un problema inmediato y guía a
 
 **Requisitos:**
 
-Encontrar un generador dañado o destruido que pueda repararse.
+Encontrar un generador averiado o destruido que pueda repararse.
 
 **Pasos:**
 
@@ -225,7 +225,7 @@ La partida concluye antes de reunir y entregar las pruebas.
 
 **Recompensa:**
 
-Revelación narrativa sobre la responsabilidad de Cerberus y acceso a la última petición.
+Revelación narrativa sobre la responsabilidad de CERBERUS y acceso a la última petición.
 
 **Consecuencias:**
 
@@ -245,7 +245,7 @@ Centro científico de Hades.
 
 **Objetivo:**
 
-Preparar una copia de las pruebas y un medio para transmitirla fuera del control exclusivo de Cerberus.
+Preparar una copia de las pruebas y un medio para transmitirla fuera del control exclusivo de CERBERUS.
 
 **Contexto:**
 
@@ -323,7 +323,7 @@ No tiene un fracaso independiente. Terminar la partida puede dejar la colección
 
 **Recompensa:**
 
-Información sobre los operativos, la infección y las decisiones de Cerberus.
+Información sobre los operativos, la infección y las decisiones de CERBERUS.
 
 **Consecuencias:**
 
@@ -331,7 +331,7 @@ Amplía la comprensión de la historia. Solo los registros señalados en las pet
 
 **Personajes relacionados:**
 
-Operativos fallecidos de Cerberus e Issac en los archivos vinculados con sus peticiones.
+Operativos fallecidos de CERBERUS e Issac en los archivos vinculados con sus peticiones.
 
 **Nivel relacionado:**
 
@@ -348,7 +348,7 @@ Son objetivos de desempeño integrados en las mecánicas. No necesitan convertir
 |Crecer bajo presión|Recoger cristales mientras se sobrevive|Alcanzar el requisito de subida de nivel|Selección de una mejora|
 |Explorar y regresar|Obtener un registro sin descuidar los recursos|Recuperar el archivo y continuar con vida|Información narrativa|
 
-Los valores de racha, requisitos de cristales y precios permanecen pendientes de balance. No se añaden recompensas extras a estos desafíos salvo que se definan posteriormente.
+Los valores de racha y los requisitos de cristales permanecen pendientes de balance. No se añaden recompensas extras a estos desafíos salvo que se definan posteriormente.
 
 ## Reglas de seguimiento
 

@@ -10,14 +10,14 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 
 Estética retro con modelos 3D de baja poligonización, texturas de baja resolución y un acabado deliberadamente pixelado. La composición prioriza siluetas reconocibles, bloques de color y contrastes marcados.
 
-La identidad propia se construye mediante los cristales violetas, el equipo negro y rojo de Cerberus y la luz como herramienta central del combate.
+La identidad propia se construye mediante los cristales violetas, el equipo negro y rojo de CERBERUS y la luz como herramienta central del combate.
 
 **Referencias:**
 
 - **SIGNALIS**, como referencia principal del tratamiento visual retro y la atmósfera.
 - Arquitectura científica e industrial para el centro de investigación.
-- Equipamiento militar y protección ambiental para Cerberus.
-- Anatomía humana y formaciones minerales para las transformaciones de Vimer, similar al horror corporal de HR Giger.
+- Equipamiento militar y protección ambiental para CERBERUS.
+- Anatomía humana y formaciones minerales para las transformaciones de los Vimers, similar al horror corporal de HR Giger.
 
 **Sensación buscada:**
 
@@ -35,7 +35,7 @@ El horror corporal se representa mediante alteraciones claras de anatomía, post
 
 | Elemento             | Lenguaje visual                                                        |
 | -------------------- | ---------------------------------------------------------------------- |
-| Soldados de Cerberus | Siluetas compactas, cascos cerrados y placas angulares                 |
+| Soldados de CERBERUS | Siluetas compactas, cascos cerrados y placas angulares                 |
 | Personal científico  | Prendas claras y alargadas, protección industrial e instrumental       |
 | Cáscara              | Silueta humana deteriorada y crecimientos cristalinos iniciales        |
 | Quimera              | Cuatro torsos como extremidades y núcleo cristalino central            |
@@ -86,7 +86,7 @@ Las paletas se mantienen y se aplican mediante bloques de color, texturas limita
 
 Predominan los tonos apagados en el cuerpo. Los violetas intensos se reservan para manifestaciones de la infección, manteniendo reconocible la silueta.
 
-### Personal operativo de Cerberus
+### Personal operativo de CERBERUS
 
 **Colores principales:** Negro blindaje y gris grafito.
 
@@ -103,7 +103,7 @@ Predominan los tonos apagados en el cuerpo. Los violetas intensos se reservan pa
 
 Las diferencias de luminosidad entre placas y uniforme evitan que el personaje se convierta en una masa negra indistinguible. El rojo se utiliza como acento institucional.
 
-### Personal científico de Cerberus
+### Personal científico de CERBERUS
 
 **Colores principales:** Blanco envejecido y gris cálido.
 
@@ -118,7 +118,7 @@ Las diferencias de luminosidad entre placas y uniforme evitan que el personaje s
 |Rojo institucional|`#B52D3A`|Insignias compartidas con los operativos|
 |Rojo indicador|`#FF5964`|Indicadores electrónicos puntuales|
 
-Las prendas claras distinguen a los científicos. Los elementos oscuros y rojos conservan su pertenencia visual a Cerberus.
+Las prendas claras distinguen a los científicos. Los elementos oscuros y rojos conservan su pertenencia visual a CERBERUS.
 
 ### Colores para información jugable
 
@@ -155,9 +155,9 @@ Material visual que debe acompañar esta sección:
 - Referencias de SIGNALIS para estudiar composición, contraste y acabado retro.
 - Lámina de paleta de Vimers.
 ![[Pasted image 20261003013133.png]]
-- Lámina de paleta del personal operativo de Cerberus.
+- Lámina de paleta del personal operativo de CERBERUS.
 ![[Pasted image 20261003013147.png]]
-- Lámina de paleta del personal científico de Cerberus.
+- Lámina de paleta del personal científico de CERBERUS.
 ![[Pasted image 20261003013158.png]]
 - Concepto de Issac como referencia de vestuario, adaptado posteriormente a baja poligonización.
 - Diseños aprobados de la Cáscara, la Quimera y el Ascendido.

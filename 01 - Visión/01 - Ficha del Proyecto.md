@@ -10,41 +10,47 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------- | --------------------------------------------------------------- |
 | **Nombre del proyecto**      | AfterLight                                                      |
 | **Nombre clave**             | POT<!-- Identificador interno si existe -->                     |
-| **Versión del GDD**          | 0.3.1                                                           |
+| **Versión del GDD**          | 0.5.0                                                           |
 | **Estado del proyecto**      | Concepto / **Preproducción** / Producción / Pruebas / Publicado |
 | **Equipo**                   | <!-- Integrantes -->                                            |
 | **Responsable del proyecto** | <!-- Persona responsable --><br>Gutiérrez Hernández Gael Yannik |
 | **Fecha de inicio**          | <!-- AAAA-MM-DD --><br>25 de septiembre de 2026                 |
-| **Última actualización**     | 2026-10-28                                             |
+| **Última actualización**     | 2026-11-02                                             |
 | **Repositorio**              | <!-- Enlace --><br>https://github.com/purefootsoldier/AfterLight |
 
 ## Identidad del videojuego
 
 **Género principal:**  
 > Consulta [[01 - Géneros]] y elige el género que mejor describa la experiencia dominante.
+- Roguelite, con Supervivencia como género secundario.
 
 **Subgéneros:**  
 > Consulta [[02 - Subgéneros y Combinaciones]] y selecciona solamente los que aporten información útil.
+- Survival Horror
 
 **Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
 
 **Plataforma objetivo:**  
 > Consulta [[03 - Plataformas y Consolas]] antes de elegir.
+- PC
 
 **Modo de juego:**  
 > Consulta [[05 - Modos de Juego]].
+- Un jugador
 
 **Perspectiva:**  
 > Consulta [[04 - Perspectivas y Cámaras]].
+- Top-down
 
 **Clasificaciones y etiquetas adicionales:**  
 > Consulta [[06 - Clasificaciones y Etiquetas]].
+- Roguelite de supervivencia top-down para PC, de un jugador, en un único nivel.
 
 **Tecnología principal:**  
 > Motor, lenguaje y herramientas principales.
 - Unity 6
 - C#
-- Blender, Substance, Photoshop, Adobe Ilustrator y After Effects.  
+- Blender, Substance, Photoshop, Adobe Illustrator y After Effects.  
 
 ## Elevator Pitch
 
@@ -52,7 +58,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 > Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
 
 **Respuesta:**
-El jugador limpia la zona de infectados dentro de un complejo científico recurriendo a diferentes decisiones que lo apoyen en cumplir su misión, sea de forma estratégica (usando reactores de luz) o reactiva (con armas y potenciadores). Su estrategia se adapta al juego para cumplir con el objetivo. 
+El jugador limpia la zona de infectados dentro de un complejo científico recurriendo a diferentes decisiones que lo apoyen en cumplir su misión, sea de forma estratégica (usando generadores) o reactiva (con armas y potenciadores). Su estrategia se adapta al juego para cumplir con el objetivo. 
 
 ## Estado actual
 
