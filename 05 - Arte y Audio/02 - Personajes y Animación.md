@@ -1,4 +1,4 @@
-# Personajes y Animación
+ # Personajes y Animación
 
 ## Descripción de la sección
 
