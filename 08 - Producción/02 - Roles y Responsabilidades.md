@@ -8,7 +8,8 @@ Define quién es responsable de cada área y evita que tareas importantes queden
 
 | Integrante | Rol principal | Responsabilidades |
 |---|---|---|
-| | | |
+| Gutiérrez Hernández Gael Yannik | Responsable del proyecto | Por definir |
+| Por definir | Por definir | Por definir |
 
 ## Áreas
 

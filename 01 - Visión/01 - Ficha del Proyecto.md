@@ -10,12 +10,12 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------- | --------------------------------------------------------------- |
 | **Nombre del proyecto**      | AfterLight                                                      |
 | **Nombre clave**             | POT<!-- Identificador interno si existe -->                     |
-| **Versión del GDD**          | 0.5.0                                                           |
+| **Versión del GDD**          | 0.8.2                                                           |
 | **Estado del proyecto**      | Concepto / **Preproducción** / Producción / Pruebas / Publicado |
-| **Equipo**                   | <!-- Integrantes -->                                            |
+| **Equipo**                   | <!-- Integrantes --><br>Por definir                             |
 | **Responsable del proyecto** | <!-- Persona responsable --><br>Gutiérrez Hernández Gael Yannik |
 | **Fecha de inicio**          | <!-- AAAA-MM-DD --><br>25 de septiembre de 2026                 |
-| **Última actualización**     | 2026-11-02                                             |
+| **Última actualización**     | 2026-11-05                                             |
 | **Repositorio**              | <!-- Enlace --><br>https://github.com/purefootsoldier/AfterLight |
 
 ## Identidad del videojuego

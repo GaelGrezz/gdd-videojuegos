@@ -6,43 +6,49 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 ## Requisitos mínimos
 
-**Sistema operativo:**
+**Sistema operativo:** Por definir
 
-**CPU:**
+**CPU:** Por definir
 
-**GPU:**
+**GPU:** Por definir
 
-**RAM:**
+**RAM:** Por definir
 
-**Almacenamiento:**
+**Almacenamiento:** Por definir
 
-**Resolución:**
+**Resolución:** Por definir. La interfaz se diseña a 1920 × 1080.
 
-**Conexión:**
+**Conexión:** No requerida
 
 ## Requisitos recomendados
 
-**Sistema operativo:**
+**Sistema operativo:** Por definir
 
-**CPU:**
+**CPU:** Por definir
 
-**GPU:**
+**GPU:** Por definir
 
-**RAM:**
+**RAM:** Por definir
 
-**Almacenamiento:**
+**Almacenamiento:** Por definir
 
 ## Objetivos de rendimiento
 
-**FPS objetivo:**
+**FPS objetivo:** Por definir
 
-**Tiempo de carga objetivo:**
+**Tiempo de carga objetivo:** Por definir
 
-**Memoria máxima:**
+**Memoria máxima:** Por definir
 
 ## Restricciones
 
 Documenta límites conocidos del proyecto.
+
+- Un jugador y un solo nivel, sin conexión ni progreso entre partidas.
+- Solo teclado y mouse.
+- La interfaz se diseña para 16:9; las demás relaciones de aspecto están por definir.
+- Modelos de baja poligonización: Eco-10 tiene 2672 triángulos, el arma 620 y el generador 742.
+- El prototipo no limita los fotogramas ni usa sincronización vertical.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Motor y Herramientas]] · [[04 - Datos y Persistencia]] →

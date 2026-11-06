@@ -26,15 +26,16 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 
 ## Herramientas
 
-| Herramienta | Propósito | Versión |
-|---|---|---|
-| Unity | Motor del juego | 6000.6.2f1 |
-| Blender | Modelado y animación del soldado | 5.2 |
-| Substance | Texturas del soldado | Por definir |
-| Figma | Diseño de la interfaz: https://www.figma.com/design/JkL3M7721mwAdL0gTmdZaW/Untitled | — |
-| Photoshop, Illustrator y After Effects | Por definir | Por definir |
-| Obsidian | Redacción del GDD | — |
-| Git y GitHub | Control de versiones | — |
+| Herramienta                            | Propósito                                                                              | Versión     |
+| -------------------------------------- | -------------------------------------------------------------------------------------- | ----------- |
+| Unity                                  | Motor del juego                                                                        | 6000.6.2f1  |
+| Blender                                | Modelado y animación del soldado,<br>y kit de escenario                                | 5.2         |
+| Substance                              | Texturas del soldado                                                                   | Por definir |
+| Figma                                  | Diseño de la interfaz: https://www.figma.com/design/CsKcKS3qtpDfb43BoK5x95             | —           |
+| Photoshop, Illustrator y After Effects | Por definir                                                                            | Por definir |
+| Google Drive                           | Recursos: <br>https://drive.google.com/drive/folders/1ulW_KsSiVsZJhayOrtwSla0eNZTLi1HK | —           |
+| Obsidian                               | Redacción del GDD                                                                      | —           |
+| Git y GitHub                           | Control de versiones                                                                   | —           |
 
 ## Dependencias
 
