@@ -9,20 +9,23 @@ Define la estructura funcional de las interfaces y menús.
 ```text
 Menú principal
 ├── Iniciar despliegue → Carga → Partida
-├── Opciones (por diseñar)
-├── Créditos (por diseñar)
+├── Opciones
+├── Créditos
 └── Abandonar sistema → Salir del juego
+
+Carga
+└── Error de carga → Reintentar / Menú principal
 
 Partida
 ├── ESC → Pausa
 │   ├── Reanudar
-│   ├── Opciones (por diseñar)
-│   ├── Reiniciar partida → Carga
-│   └── Abandonar sistema → Menú principal
-├── Archivo del jugador (por diseñar)
+│   ├── Opciones
+│   ├── Reiniciar partida → Confirmación → Carga
+│   └── Abandonar sistema → Confirmación → Menú principal
+├── Archivo del jugador
 ├── Cristales completos → Elige una mejora → Partida
-├── Derrota → Game Over (por diseñar) → Reintentar / Menú principal
-└── Victoria (por diseñar) → Menú principal
+├── Derrota → Game Over → Reintentar / Menú principal
+└── Victoria → Menú principal
 ```
 
 ## Pantallas
@@ -35,23 +38,27 @@ Partida
 
 ![[UI - Menú principal.png]]
 
-**Acciones disponibles:** Iniciar despliegue, Opciones y Abandonar sistema.
+**Acciones disponibles:** Iniciar despliegue, Opciones, Créditos y Abandonar sistema.
 
 **Estados:** La opción seleccionada aparece en negrita, en un tono claro y con dos destellos a los lados; las demás, en gris y entre guiones.
 
-**Transiciones:** Iniciar despliegue → Carga → Jugando. Abandonar sistema → Salir del juego.
+**Transiciones:** Iniciar despliegue → Carga → Jugando. Opciones → Opciones. Créditos → Créditos. Abandonar sistema → Salir del juego.
 
 ### HUD
 
 **Propósito:** Mantener visible durante la partida la información necesaria para decidir.
 
-**Elementos:** Vida, generadores (nombre, estado y porcentaje), reloj hasta la llegada del Ascendido, nivel, cristales, racha, potenciadores, mira, indicación de interacción con E y su progreso, munición con aviso de recarga y mensajes de Enlace.
+**Elementos:** Vida, batería, generadores (nombre, estado y porcentaje), reloj hasta la llegada del Ascendido, nivel, cristales, racha, potenciadores, mira, indicación de interacción con E y su progreso, munición con aviso de recarga y mensajes de Enlace.
 
 ![[UI - HUD.png]]
 
+![[UI - HUD en riesgo.png]]
+
+![[UI - Contacto con Issac.png]]
+
 **Acciones disponibles:** Ninguna directa; muestra el resultado de las acciones del jugador.
 
-**Estados:** Generador operativo, en reparación o averiado; aviso de recarga cuando queda poca munición; indicación de interacción cuando hay un generador cerca. Por diseñar: batería de la linterna (normal, baja y vacía con cuenta regresiva), generador bajo ataque y destruido, vida del Ascendido y daño recibido.
+**Estados:** Vida normal y en regeneración; batería normal, baja, vacía con cuenta regresiva y en recarga; generador operativo, en reparación, averiado, bajo ataque o destruido; daño recibido; aviso de recarga cuando queda poca munición; indicación de interacción cuando hay un generador cerca; barra del Ascendido durante el combate final y panel de contacto con Issac.
 
 **Transiciones:** ESC → Pausa. Cristales completos → Elige una mejora. Fin de la partida → Victoria o Game Over.
 
@@ -81,7 +88,95 @@ Partida
 
 **Estados:** Igual que el menú principal: opción seleccionada en negrita con destellos; las demás, en gris.
 
-**Transiciones:** Reanudar o ESC → Jugando. Reiniciar partida → Carga. Abandonar sistema → Menú principal.
+**Transiciones:** Reanudar o ESC → Jugando. Opciones → Opciones. Reiniciar partida → Confirmación → Carga. Abandonar sistema → Confirmación → Menú principal.
+
+### Carga
+
+**Propósito:** Preparar la partida y acompañar la espera con un mensaje de Enlace.
+
+**Elementos:** Título «Centro científico de Hades / Preparando despliegue», barra de progreso y mensaje de Enlace.
+
+![[UI - Carga.png]]
+
+![[UI - Error de carga.png]]
+
+**Acciones disponibles:** Ninguna mientras carga. Si falla, Reintentar y Menú principal.
+
+**Estados:** Cargando o error de carga, con el título «Despliegue interrumpido» y el aviso de que faltan elementos indispensables.
+
+**Transiciones:** Carga completa → Jugando. Reintentar → Carga. Menú principal → Menú principal.
+
+### Opciones
+
+**Propósito:** Ajustar el audio, el video, los controles y la accesibilidad.
+
+**Elementos:** Título «Configuración / Opciones» y cuatro paneles: Audio (volumen general, música, efectos y voces), Video (resolución, pantalla completa, filtro VHS y brillo), Controles (mover, interactuar, recargar, disparar y pausa) y Accesibilidad (subtítulos y tamaño de texto).
+
+![[UI - Opciones.png]]
+
+**Acciones disponibles:** Cambiar de sección con ← →, elegir un ajuste con ↑ ↓ y Volver.
+
+**Estados:** Ajuste seleccionado; los volúmenes y el brillo muestran su valor en una barra.
+
+**Transiciones:** Volver o ESC → pantalla anterior.
+
+### Créditos
+
+**Propósito:** Mostrar a los responsables del proyecto.
+
+**Elementos:** Título «AfterLight / Créditos», responsable del proyecto, equipo, guía del GDD y el botón Volver.
+
+![[UI - Créditos.png]]
+
+**Acciones disponibles:** Volver.
+
+**Estados:** No aplica.
+
+**Transiciones:** Volver o ESC → Menú principal.
+
+### Archivo del jugador
+
+**Propósito:** Consultar los registros recuperados de los operativos fallecidos.
+
+**Elementos:** Título «Registros recuperados / Archivo» con el conteo sobre 28, lista de registros con nombre y cargo, y panel con el registro seleccionado.
+
+![[UI - Archivo del jugador.png]]
+
+**Acciones disponibles:** Seleccionar con ↑ ↓, leer con Enter y volver con ESC.
+
+**Estados:** Registro seleccionado, con fondo rojo y borde claro; recuperado; o sin recuperar, en gris.
+
+**Transiciones:** ESC → pantalla anterior.
+
+### Victoria
+
+**Propósito:** Cerrar la partida con el final obtenido.
+
+**Elementos:** Título del final, mensaje de Enlace o de Issac, resumen de la partida (tiempo, nivel, registros y generadores) y la opción Volver al menú.
+
+![[UI - Victoria.png]]
+
+**Acciones disponibles:** Volver al menú.
+
+**Estados:** *Información recuperada* o *Ni uno más*.
+
+**Transiciones:** Volver al menú → Menú principal.
+
+### Derrota y Game Over
+
+**Propósito:** Mostrar la causa de la derrota y ofrecer un nuevo intento.
+
+**Elementos:** Derrota: fondo rojo y silueta negra según el atacante. Game Over: título con la causa, su explicación, resumen de la partida, Reintentar y Menú principal.
+
+![[UI - Derrota.png]]
+
+![[UI - Game Over.png]]
+
+**Acciones disponibles:** Reintentar y Menú principal.
+
+**Estados:** *Operativo caído* si la salud llega a cero y *Sin luz* si la batería agota el periodo de tolerancia.
+
+**Transiciones:** Derrota → Game Over. Reintentar → Carga. Menú principal → Menú principal.
 
 ## Confirmaciones
 
@@ -95,17 +190,16 @@ Documenta acciones destructivas o irreversibles y cómo se confirman.
 
 Reintentar desde Game Over no requiere confirmación.
 
+![[UI - Confirmación.png]]
+
 ## Decisiones pendientes
 
-- Diseñar las pantallas de carga, opciones, victoria (*Información recuperada* y *Ni uno más*), derrota, Game Over, créditos, archivo del jugador y los diálogos de confirmación.
-- Agregar la opción Créditos al menú principal.
-- Mostrar al soldado frente a las puertas del complejo en el menú principal, como propone [[01 - Estructura del Contenido]].
+- Elegir entre el menú principal actual y la propuesta con el soldado frente a las puertas del complejo, que pide [[01 - Estructura del Contenido]].
+- Definir cómo se abre el Archivo del jugador durante la partida.
 - Usar textos distintos para *Abandonar sistema*: en el menú principal cierra el juego y en la pausa regresa al menú.
 - Permitir el uso del mouse en todos los menús, además de las flechas y Enter.
 - El menú dice *Iniciar despliegue*; [[01 - Estructura del Contenido]], [[02 - Niveles]] y [[04 - Diálogos y Narrativa]] dicen *Iniciar*.
 - El logotipo dice *AFTER LIGHT*; el [[01 - Glosario]] pide *AfterLight*.
-- Unificar los datos de ejemplo: la pausa muestra 0/3 generadores operativos y el HUD de la misma partida muestra uno.
-- Las cartas usan los valores del prototipo (por ejemplo, *Recolector magnético* +0.5 m) y no los del xlsx actual (+1.2 m).
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - UX y Flujo del Jugador]] · [[03 - Accesibilidad]] →

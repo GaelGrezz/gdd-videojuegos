@@ -23,14 +23,16 @@ Jugadores con experiencia básica en videojuegos de acción. El juego debe ense�
 | Plataforma principal    | PC                                          |
 | Plataformas secundarias | Ninguna en el prototipo                     |
 | Método de entrada       | Teclado y mouse                             |
-| Resolución objetivo     |                                             |
-| Relación de aspecto     |                                             |
-| Rendimiento objetivo    | FPS                                         |
+| Resolución objetivo     | 1920 × 1080                                 |
+| Relación de aspecto     | 16:9                                        |
+| Rendimiento objetivo    | Por definir (FPS)                           |
 | Conexión requerida      | No                                          |
 
 ## Restricciones de plataforma
 
 Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribución o conectividad.
+
+El juego se diseña para teclado y mouse y no necesita conexión. La interfaz se diseñó a 1920 × 1080; se propone escalarla desde esa referencia en otras resoluciones. Los límites de hardware, memoria y almacenamiento están por definir.
 
 ## Sesión de juego
 

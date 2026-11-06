@@ -68,6 +68,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Referencias visuales:** 
 ![[Eco-10 render.png|380]]
+![[Eco-10 - Frente.png|250]]![[Eco-10 - Lateral.png|250]]![[Eco-10 - Espalda.png|250]]
 
 ## Antagonista
 

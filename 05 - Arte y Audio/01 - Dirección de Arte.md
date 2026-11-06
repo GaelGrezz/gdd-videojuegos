@@ -130,6 +130,10 @@ Las prendas claras distinguen a los científicos. Los elementos oscuros y rojos 
 | Daño o peligro crítico                   | Rojo intenso | `#FF5964` | Efecto de pantalla y marcador            |
 | Texto principal                          | Blanco suave | `#ECEAE4` | Fondo de contraste                       |
 | Cristales de experiencia                 | Violeta      | `#C18AFF` | Forma del objeto e indicador de recogida |
+| Selección, recarga y reparación          | Rosa claro   | `#FFD9DC` | Negrita, destellos o barra de progreso   |
+| Texto secundario                         | Gris claro   | `#C9C9C9` | Fondo de contraste                       |
+| Etiquetas y ayudas                       | Gris medio   | `#8A8A8A` | Fondo de contraste                       |
+| Pista de las barras                      | Gris oscuro  | `#1A1A1A` | Relleno de la barra                      |
 
 ## Reglas visuales
 
@@ -148,6 +152,7 @@ Las prendas claras distinguen a los científicos. Los elementos oscuros y rojos 
 13. **Mantener simples las victorias.** Utilizar encuadres breves, animaciones contenidas y recursos del propio escenario.
 14. **Adaptar los conceptos realistas al acabado final.** Sirven para definir vestuario y materiales, pero no determinan el nivel de detalle del juego.
 15. **Conservar diseños propios.** La referencia a SIGNALIS orienta el tratamiento visual; los personajes, símbolos y espacios pertenecen al universo de AfterLight.
+16. **Usar una sola escala de medidas.** La interfaz sigue los estilos, tamaños y colores de [[04 - Interfaz Visual]]; los personajes, [[02 - Personajes y Animación]], y los escenarios, [[03 - Entornos]].
 
 ## Referencias
 

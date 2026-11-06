@@ -45,6 +45,8 @@ Esta sección conserva las decisiones importantes del proyecto y el razonamiento
 | 2026-11-02 | Ascendido | Aparece al cumplirse los 10 minutos de supervivencia | |
 | 2026-11-02 | Curación | Se quitan los botiquines; la salud se regenera con el tiempo después de recibir daño | |
 | 2026-11-02 | Nombre de la organización | CERBERUS es el nombre de la organización; C.E.R.B.E.R.U.S. es una variante gráfica | |
+| 2026-11-02 | Estilo de la interfaz | Se diseña a 1920 × 1080 con texto mínimo de 14 px, una sola escala de estilos y los colores de la paleta | |
+| 2026-11-04 | Escala del escenario | El kit de CERBERUS y el generador se reducen ×0.4 a escala humana: 1 unidad de Blender = 1 unidad de Unity = 1 m, con un módulo de 2 m | |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Referencias e Inspiración]] · [[04 - Historial de Versiones]] →

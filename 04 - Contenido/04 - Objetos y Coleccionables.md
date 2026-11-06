@@ -80,6 +80,9 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Representación visual:** Rifle bullpup de CERBERUS en las manos del soldado, con fogonazo al disparar. Modelo de 620 triángulos con textura de color de 256 px.
 
+![[Arma CERBERUS.png|380]]
+![[Arma CERBERUS - Lateral.png|380]]
+
 ### Mejora
 
 **Tipo:** Carta de mejora.

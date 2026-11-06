@@ -6,9 +6,14 @@ Define quién es responsable de cada área y evita que tareas importantes queden
 
 ## Equipo
 
-| Integrante | Rol principal | Responsabilidades |
-|---|---|---|
-| | | |
+| Integrante                        | Rol principal            | Responsabilidades |
+| --------------------------------- | ------------------------ | ----------------- |
+| Gutiérrez Hernández Gael Yannik   | Responsable del proyecto | Por definir       |
+| Fuentes Salinas José Roberto      | Programación y Modelo 3D | Por definir       |
+| Herrera Loeza Enrique             | Arte                     | Por definir       |
+| Hernández Primo Julián            | Diseño de interfaz       | Por definir       |
+| Correa Chávez Diego Rubén         | Audio                    | Por definir       |
+| Alcazar Castellanos Jorge Alberto | Narrativa                | Por definir       |
 
 ## Áreas
 

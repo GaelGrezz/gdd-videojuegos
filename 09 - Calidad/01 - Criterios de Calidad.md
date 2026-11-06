@@ -28,5 +28,13 @@ Define qué significa que una característica esté correctamente terminada.
 
 Una característica se considera terminada cuando:
 
+Por definir. Se propone:
+
+- Cumple las reglas y casos especiales de [[07 - Reglas y Estados del Juego]] y de la nota de su sistema.
+- Cumple sus criterios de [[04 - Criterios de Aceptación]] y sus casos de [[02 - Pruebas]] están aprobados.
+- Comunica su resultado con la retroalimentación de [[01 - UX y Flujo del Jugador]].
+- Usa los valores de `AfterLight_Stats.xlsx` y los nombres del [[01 - Glosario]].
+- No tiene bugs abiertos de severidad Crítica o Alta en [[03 - Bugs y Seguimiento]].
+
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Gestión de Cambios]] · [[02 - Pruebas]] →
