@@ -23,6 +23,10 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 - Saltar: no aplica; el juego no tiene salto.
 - Caer: no aplica.
 
+![[Eco-10 - Reposo.mp4|380]]
+![[Eco-10 - Caminar.mp4|380]]
+![[Eco-10 - Correr.mp4|380]]
+
 ### Interacción
 
 - Abrir las puertas en el menú principal y en la entrada al complejo: por definir.
@@ -36,6 +40,9 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 - Preparar el ataque, atacar y recuperarse de la Cáscara y la Quimera: por definir.
 - Evasión lateral de la Quimera: por definir.
 - Golpe dirigido, barrido e impacto convergente del Ascendido: por definir.
+
+![[Eco-10 - Disparar.mp4|380]]
+![[Eco-10 - Recargar.mp4|380]]
 
 ### Daño
 
@@ -59,7 +66,7 @@ Define nombres de archivos, tamaños, esqueletos, rigging, frames o formatos cua
 
 ## Decisiones pendientes
 
-- El modelo de Unity usa `Idle_Aim`, de 151 frames, y `Run_Rifle_v2`, de 21 frames; esta nota dice `Idle_Rifle`, de 91 frames, y `Run_Rifle`, de 25 frames.
+- El modelo de Unity usa `Idle_Aim`, de 151 frames, y `Run_Rifle_v2`, de 21 frames; esta nota dice `Idle_Rifle`, de 91 frames, y `Run_Rifle`, de 25 frames. Los videos de reposo y carrera muestran las tomas de Unity.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Dirección de Arte]] · [[03 - Entornos]] →

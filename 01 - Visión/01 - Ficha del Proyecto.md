@@ -10,7 +10,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------- | --------------------------------------------------------------- |
 | **Nombre del proyecto**      | AfterLight                                                      |
 | **Nombre clave**             | POT<!-- Identificador interno si existe -->                     |
-| **Versión del GDD**          | 0.8.2                                                           |
+| **Versión del GDD**          | 0.9.0                                                           |
 | **Estado del proyecto**      | Concepto / **Preproducción** / Producción / Pruebas / Publicado |
 | **Equipo**                   | <!-- Integrantes --><br>Por definir                             |
 | **Responsable del proyecto** | <!-- Persona responsable --><br>Gutiérrez Hernández Gael Yannik |

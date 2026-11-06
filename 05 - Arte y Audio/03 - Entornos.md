@@ -38,6 +38,17 @@ El kit de CERBERUS se arma sobre una rejilla de 2 m y se reutiliza en todo el co
 | Generador | Base de 1.6 × 2.56 × 1.56 y mástil de 2.72 de alto | 742 operativo, 706 apagado y 550 destruido |
 | Zona de interacción del generador | 1.2 × 1 × 1.8 | Sin modelo visible |
 
+Piezas del kit, agrupadas como en `AfterLight_Kit_CERBERUS.blend`:
+
+- **Estructura:** ![[Kit - Estructura.png|380]]
+- **Utilería:** ![[Kit - Utilería.png|380]]
+- **Generador:** ![[Kit - Generador.png|380]]
+- **Laboratorio:** ![[Kit - Laboratorio.png|380]]
+- **Cristales:** ![[Kit - Cristales.png|380]]
+- **Centro:** ![[Kit - Centro.png|380]]
+- **Sectores:** ![[Kit - Sectores.png|380]]
+- **Rastros:** ![[Kit - Rastros.png|380]]
+
 ## Iluminación
 
 Describe iluminación global, fuentes de luz y cambios durante el juego.

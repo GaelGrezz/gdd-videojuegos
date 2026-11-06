@@ -30,6 +30,7 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 | 0.8.0   | 2026-11-05 | Se llenan UX y Flujo del Jugador, Guardado y Configuración, Datos y Persistencia, Seguridad y Riesgos Técnicos, Alcance, Roles y Responsabilidades, Gestión de Cambios, Criterios de Calidad, Pruebas, Bugs y Seguimiento y Criterios de Aceptación; el Roadmap agrega las etapas de producción, pruebas y entrega; Personajes y Animación agrega caminar, disparar y recargar |             |
 | 0.8.1   | 2026-11-05 | El Backlog marca como hechas la interfaz de Figma, el kit de CERBERUS, el arma CERBERUS y la regeneración de salud en Unity; el hito Interfaz en Unity pasa a En progreso |             |
 | 0.8.2   | 2026-11-05 | Entornos usa la escala humana del kit (×0.4, módulo de 2 m); se registra la decisión y se marca la tarea en el Backlog |             |
+| 0.9.0   | 2026-11-05 | Imágenes de Eco-10 de frente, de lado y de espalda; videos de reposo, caminar, correr, disparar y recargar en Personajes y Animación; imágenes del arma CERBERUS en Objetos y Coleccionables y de las piezas del kit en Entornos |             |
 
 ## Convención sugerida
 
