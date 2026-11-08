@@ -200,6 +200,7 @@ Reintentar desde Game Over no requiere confirmación.
 - Permitir el uso del mouse en todos los menús, además de las flechas y Enter.
 - El menú dice *Iniciar despliegue*; [[01 - Estructura del Contenido]], [[02 - Niveles]] y [[04 - Diálogos y Narrativa]] dicen *Iniciar*.
 - El logotipo dice *AFTER LIGHT*; el [[01 - Glosario]] pide *AfterLight*.
+- El HUD del prototipo no muestra el reloj hasta la llegada del Ascendido y, en su lugar, avisa cuando un generador está bajo ataque o el arma se queda sin munición; esta nota incluye el reloj entre los elementos del HUD.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - UX y Flujo del Jugador]] · [[03 - Accesibilidad]] →

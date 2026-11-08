@@ -6,9 +6,9 @@ Documenta las entidades controladas por el juego y su comportamiento.
 
 ## Reglas generales de los enemigos
 
-- Cada enemigo regular tiene un costo de aparición en tickets, pendiente de balance.
+- Cada enemigo regular tiene un costo de aparición en tickets, pendiente de balance. Se propone 1 ticket por Cáscara.
 - El director solo puede generar enemigos cuyo costo pueda cubrir.
-- La cantidad máxima de enemigos simultáneos y las reglas de aparición están por definir.
+- La cantidad máxima de enemigos simultáneos y las reglas de aparición están por definir. Se proponen 12 enemigos vivos como máximo, que aparezcan en grupo a entre 12 y 22 m del jugador y que el 35 % de los grupos vaya contra el generador operativo más cercano.
 - Los enemigos deben comunicar sus ataques mediante señales visuales o sonoras.
 - La linterna aplica efectos debilitantes según sus propiedades y mejoras.
 - Los efectos de la luz deben ser visibles y consistentes.
@@ -33,11 +33,11 @@ Conserva una silueta claramente humana. Su cuerpo presenta los primeros signos d
 
 **Vida:**
 
-Baja en comparación con las otras variantes. Valor por definir.
+Baja en comparación con las otras variantes. Se proponen 60 PV.
 
 **Daño:**
 
-Bajo por impacto individual; peligroso si varios enemigos alcanzan al jugador. Valor por definir.
+Bajo por impacto individual; peligroso si varios enemigos alcanzan al jugador. Se proponen 10 PV por golpe.
 
 **Defensas:**
 
@@ -45,15 +45,15 @@ Sin blindaje especializado. Las resistencias concretas están por definir.
 
 **Velocidad:**
 
-Velocidad base de referencia para los enemigos. Debe permitir al jugador aprender a crear distancia; valor por definir.
+Velocidad base de referencia para los enemigos. Debe permitir al jugador aprender a crear distancia. Se proponen 3.2 m/s, entre la caminata y la carrera del soldado.
 
 **Rango de detección:**
 
-Por definir. Una vez adquirido el objetivo, intenta acercarse siguiendo rutas transitables.
+Se proponen 14 m con línea de visión y 4 m aunque haya obstáculos. Una vez adquirido el objetivo, intenta acercarse siguiendo rutas transitables. Lo pierde a más de 20 m o tras 2.5 s sin verlo, y lo busca en su última posición conocida durante 4 s.
 
 **Ataques:**
 
-Golpe cuerpo a cuerpo con una preparación breve y reconocible. Alcance, frecuencia y duración por definir.
+Golpe cuerpo a cuerpo con una preparación breve y reconocible. Se propone que empiece a prepararlo a 1.5 m, con 0.6 s de preparación, 0.2 s de golpe y 0.9 s de recuperación; el golpe conecta hasta 1.9 m en un arco de 70°, así que alejarse durante la preparación lo esquiva.
 
 **Debilidades:**
 
@@ -63,7 +63,7 @@ Golpe cuerpo a cuerpo con una preparación breve y reconocible. Alcance, frecuen
 
 **Recompensa:**
 
-Cristales según la tabla de recompensas que se establezca. Cuenta como una eliminación para la racha.
+Cristales según la tabla de recompensas que se establezca; se propone 1 cristal. Cuenta como una eliminación para la racha.
 
 **Estados de IA:**
 

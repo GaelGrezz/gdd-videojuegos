@@ -8,7 +8,7 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 
 | Personaje | Modelo/Sprite | Animaciones | VFX | Estado |
 |---|---|---|---|---|
-| Eco-10 | Modelo 3D low poly de 2672 triángulos con rig humanoide de 23 huesos. Lleva el arma CERBERUS, de 620 triángulos | Reposo, caminar, carrera, disparo y recarga | Fogonazo e impacto de bala | En progreso |
+| Eco-10 | Modelo 3D low poly de 2672 triángulos con rig humanoide de 23 huesos. Lleva el arma CERBERUS, de 620 triángulos | Reposo, caminar, carrera, disparo, recarga y recibir daño | Fogonazo e impacto de bala | En progreso |
 | Cáscara | Primitivas en el prototipo; modelo por diseñar | Por definir | Muerte | Pendiente |
 | Quimera | Primitivas en el prototipo; modelo por diseñar | Por definir | Muerte | Pendiente |
 | Ascendido | Primitivas en el prototipo: cuerpo, cuatro brazos y halo; modelo por diseñar | Por definir | Por definir | Pendiente |
@@ -46,7 +46,9 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 
 ### Daño
 
-- Recibir daño: por definir.
+- Recibir daño: `Hit_Rifle` de Eco-10, 17 frames, con cada golpe que no lo derrota. El torso se echa hacia atrás, el arma se sale de la mira y vuelve a la pose de disparo; no interrumpe la recarga.
+
+![[Eco-10 - Recibir daño.mp4|380]]
 
 ### Muerte / derrota
 

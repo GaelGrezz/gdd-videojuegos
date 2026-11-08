@@ -68,7 +68,7 @@ Presentación
 |---|---|---|
 |**GameManager**|Controla el estado general de la partida: inicio, pausa, victoria, derrota y finalización.|GameMediator, sistemas principales|
 |**GameMediator**|Coordina la comunicación entre sistemas globales sin obligarlos a conocerse directamente.|GameManager, DirectorIA, Generadores, Progresión|
-|**PlayerController**|Gestiona movimiento, orientación e interacción básica del jugador.|Input System, Rigidbody|
+|**PlayerController**|Gestiona movimiento, orientación e interacción básica del jugador.|Input System, CharacterController|
 |**PlayerCombat**|Gestiona disparos, armas, cadencia y acciones ofensivas.|WeaponSystem, Input System|
 |**FlashlightSystem**|Controla batería, alcance, intensidad y efectos de la linterna sobre enemigos.|PlayerStats, enemigos afectados|
 |**HealthSystem**|Gestiona vida, daño, curación y muerte de entidades.|DamageSystem|
