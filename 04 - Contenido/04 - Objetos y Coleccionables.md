@@ -70,7 +70,7 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Cantidad máxima:** 1 arma y 12 balas en el cargador. La munición de reserva está por definir.
 
-**Valor:** 20 de daño, 3 disparos/s y 1.8 s de recarga. El alcance depende de la escala: 28.8 m en `AfterLight_Stats.xlsx` y 12 m en el prototipo.
+**Valor:** 20 de daño, 10 disparos/s, 1.8 s de recarga y 12 m de alcance.
 
 **Rareza:** No aplica.
 
@@ -101,7 +101,7 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Rareza:** No aplica.
 
-**Restricciones:** No se conserva entre partidas. CAR-006 y CAR-018 no aplican en el prototipo.
+**Restricciones:** No se conserva entre partidas.
 
 **Interacciones:** GEN-001 (*Carcasa reforzada*) y GEN-002 (*Bobinas de inducción*) son propuestas para mejorar los generadores.
 
@@ -138,7 +138,6 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 - Si todos los enemigos sueltan cristales siempre o según una probabilidad. [[06 - Economía y Recursos]], [[03 - Enemigos y NPC]] y [[01 - Glosario]] usan criterios distintos; en el prototipo caen siempre.
 - Munición de reserva: es infinita en el prototipo.
 - Nombre oficial del arma inicial.
-- Alcance del arma y radio de recolección según la escala de `AfterLight_Stats.xlsx`.
 - Formato de los registros, si leerlos pausa la partida y si se conservan entre partidas.
 
 

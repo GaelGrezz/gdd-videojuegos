@@ -116,6 +116,7 @@ Las pantallas y su navegación están en [[02 - UI y Menús]].
 - El rojo marca tanto el peligro como la racha, los potenciadores y los botones. Falta decidir si el peligro necesita además un icono o una animación.
 - Definir las animaciones de la interfaz.
 - Faltan las siluetas de derrota de la Quimera y el Ascendido.
+- El prototipo de Unity oculta el reloj del Ascendido y usa su lugar, arriba al centro, para los avisos «Generador bajo ataque», con el nombre, la integridad y la distancia del generador, y «Sin munición», con el avance de la recarga; el diseño de Figma conserva el reloj y no incluye esos avisos.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Entornos]] · [[05 - Audio y Música]] →

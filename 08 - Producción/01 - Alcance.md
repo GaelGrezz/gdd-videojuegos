@@ -42,5 +42,9 @@ Si el tiempo o los recursos son insuficientes, ¿qué se elimina primero?
 
 Por definir. Se propone recortar primero las tareas de prioridad Baja del [[04 - Backlog del Proyecto]]: las peticiones de Issac, los registros, el final *Ni uno más* y el acabado retro de los enemigos.
 
+## Decisiones pendientes
+
+- Contenido del MVP: aprobar la propuesta o agregarle la Quimera.
+
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Seguridad y Riesgos Técnicos]] · [[02 - Roles y Responsabilidades]] →
