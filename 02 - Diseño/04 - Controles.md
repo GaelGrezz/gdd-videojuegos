@@ -10,7 +10,7 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 | --------------------------- | ----------- | --------------------- |
 | Mover                       | W, A, S, D  | —                     |
 | Apuntar arma y linterna     | —           | Movimiento del cursor |
-| Caminar                     | Shift izquierdo, mantenido | —      |
+| Correr                     | Shift izquierdo, mantenido | —      |
 | Interactuar con objetos     | E, mantenida | —                    |
 | Disparar                    | —           | Clic izquierdo        |
 | Recargar                    | R           | —                     |
