@@ -50,6 +50,8 @@ Esta sección conserva las decisiones importantes del proyecto y el razonamiento
 | 2026-11-07 | Escala de las estadísticas | `AfterLight_Stats.xlsx` conserva los valores anteriores al ×2.4 (linterna 8 m, arma 12 m, movimiento 4.5 m/s), coherentes con la escala humana del escenario                                             |             |
 | 2026-11-07 | Valores del prototipo      | `AfterLight_Stats.xlsx` adopta los valores de Unity: el soldado camina a 1.4 m/s y corre a 5 m/s con Shift, el arma inicial dispara 10 veces por segundo y no hay invulnerabilidad tras recibir un golpe |             |
 | 2026-11-07 | Movimiento del jugador     | `PlayerController` usa `CharacterController` en lugar de `Rigidbody`, como el prototipo                                                                                                                  |             |
+| 2026-11-08 | Valores de Unity           | Los valores implementados en Unity pasan a ser los del juego: Cáscara, director, generadores, cristales, regeneración y munición de reserva infinita. Lo que Unity aún no tiene sigue como propuesta |             |
+| 2026-11-08 | Movimiento del jugador     | El soldado corre por defecto a 5 m/s y camina a 1.8 m/s mientras se mantiene Shift, al disparar o al moverse hacia atrás; reemplaza la decisión del 2026-11-07 |             |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Referencias e Inspiración]] · [[04 - Historial de Versiones]] →

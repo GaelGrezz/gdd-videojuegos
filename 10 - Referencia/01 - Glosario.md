@@ -42,7 +42,7 @@ Centraliza términos técnicos, de diseño y propios del universo del videojuego
 | **Alcance de luz**    | Distancia efectiva cubierta por la linterna.                                                                                                                 |
 | **Generador**         | Objetivo estratégico que proporciona energía a sectores de la instalación y que puede requerir reparación y defensa.                                         |
 | **Reparación**        | Acción mediante la cual el jugador restaura el funcionamiento de un generador u otro sistema.                                                                |
-| **Cristal**           | Recurso que puede ser liberado por determinados enemigos y utilizado para progresión durante la partida.                                                     |
+| **Cristal**           | Recurso que sueltan los enemigos regulares al ser eliminados y que permite subir de nivel durante la partida.                                                |
 | **Mejora**            | Modificación que aumenta, altera o especializa las capacidades del jugador, arma, linterna o sistema.                                                        |
 | **Carta de mejora**   | Representación dentro de la interfaz de una mejora disponible para ser seleccionada.                                                                         |
 | **Racha**             | Progresión acumulativa obtenida mediante determinadas acciones consecutivas y que puede perderse al recibir daño.                                            |

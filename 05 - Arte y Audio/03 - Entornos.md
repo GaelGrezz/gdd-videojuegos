@@ -57,7 +57,7 @@ La luz global es casi nula: el prototipo usa una luz ambiental plana `#14141A`, 
 
 Las fuentes de luz son la linterna, con 8 m de alcance y 60° de apertura, y los generadores operativos, con 9 m de alcance. Los cristales de los Vimers emiten un brillo violeta que no debilita. Se propone que las luces rojas de emergencia marquen solo las esquinas de los pasillos.
 
-La iluminación cambia con los generadores: un generador averiado o destruido deja de iluminar su zona. Se propone que cada generador operativo sume 1 m de alcance y 5° de apertura a la linterna.
+La iluminación cambia con los generadores: un generador averiado o destruido deja de iluminar su zona. Cada generador operativo suma 1 m de alcance y 5° de apertura a la linterna.
 
 ## Efectos visuales
 
@@ -75,14 +75,14 @@ Lista los modelos, sprites, texturas, materiales y efectos necesarios.
 
 - **Modelos:** Kit de CERBERUS y generador en sus tres estados, listos. Faltan los elementos de los laboratorios, el punto de contacto con Issac y el espacio final.
 - **Sprites:** No aplica; los escenarios son modelos 3D.
-- **Texturas:** Piso de 32 × 32 px; muro y carcasa del generador, nueva y quemada, de 32 × 48 px.
+- **Texturas:** Cada pieza del kit tiene su propia textura horneada, de 128 a 1024 px; el generador usa un atlas de 1024 px.
 - **Materiales:** Usan los colores de [[01 - Dirección de Arte]], salvo tres tonos oscuros de apoyo: `#2B3036`, `#0E1013` y `#1E2626`.
-- **Efectos:** Seis efectos de Visual Effect Graph y el filtro VHS. Faltan el humo, la explosión y la recarga.
+- **Efectos:** Dos efectos de Visual Effect Graph, el fogonazo y el impacto, y el efecto de cámara pixelada. Faltan el humo, la explosión, la recarga y el filtro VHS.
 
 ## Decisiones pendientes
 
 - El generador del kit ocupa 1.6 × 2.56 m y el plano propuesto le reserva 2 × 2 m.
-- Unificar la resolución de texturas: el kit usa 32 px por pieza de 2 m, el soldado 1024 px y el arma 256 px. La regla 1 de [[01 - Dirección de Arte]] pide un mismo criterio.
+- Unificar la resolución de texturas: el kit usa de 128 a 1024 px por pieza, el soldado 1024 px y el arma 256 px. La regla 1 de [[01 - Dirección de Arte]] pide un mismo criterio.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Personajes y Animación]] · [[04 - Interfaz Visual]] →

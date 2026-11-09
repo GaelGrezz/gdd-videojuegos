@@ -40,21 +40,21 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Función:** Aumentar el progreso hacia el siguiente nivel para escoger una mejora.
 
-**Cómo se obtiene:** Lo sueltan los enemigos al ser eliminados. La cantidad depende de la dificultad del enemigo; se propone 1 por Cáscara y 4 por Quimera. El Ascendido no suelta cristales.
+**Cómo se obtiene:** Lo sueltan los enemigos al ser eliminados. La cantidad depende de la dificultad del enemigo: 1 por Cáscara; se proponen 4 por Quimera. El Ascendido no suelta cristales.
 
 **Cómo se utiliza:** Se recoge al entrar en el radio de recolección y suma al contador de nivel. Al alcanzar la cantidad requerida, el jugador escoge una mejora.
 
-**Cantidad máxima:** La requerida por nivel. Se proponen 5 cristales para el primer nivel y 3 más por cada nivel siguiente.
+**Cantidad máxima:** La requerida por nivel: 5 cristales para el primer nivel y 3 más por cada nivel siguiente.
 
 **Valor:** Cada cristal suma 1 al contador.
 
 **Rareza:** No aplica.
 
-**Restricciones:** Desaparece si no se recoge a tiempo; se proponen 20 s. El contador vuelve a cero al confirmar la mejora, incluidos los cristales sobrantes.
+**Restricciones:** Desaparece si no se recoge en 20 s. El contador vuelve a cero al confirmar la mejora, incluidos los cristales sobrantes.
 
 **Interacciones:** *Recolector magnético* (CAR-020) amplía el radio de recolección. Los cristales no adelantan el reloj de partida.
 
-**Representación visual:** Cristal violeta `#C18AFF` de caras geométricas. En el HUD se muestra como gemas. Se propone que parpadee durante sus últimos 5 s.
+**Representación visual:** Cristal violeta `#C18AFF` de caras geométricas. En el HUD se muestra como gemas. Parpadea durante sus últimos 5 s.
 
 ### Arma inicial
 
@@ -68,7 +68,7 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Cómo se utiliza:** Se apunta con el cursor y se dispara con clic izquierdo. Se recarga con R o al vaciar el cargador.
 
-**Cantidad máxima:** 1 arma y 12 balas en el cargador. La munición de reserva está por definir.
+**Cantidad máxima:** 1 arma y 12 balas en el cargador. La munición de reserva es infinita.
 
 **Valor:** 20 de daño, 10 disparos/s, 1.8 s de recarga y 12 m de alcance.
 
@@ -91,7 +91,7 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Función:** Adaptar la estrategia del jugador mediante cambios en el soldado, la linterna, el arma o los generadores.
 
-**Cómo se obtiene:** Se escoge una al subir de nivel con cristales. Se proponen 3 opciones por selección.
+**Cómo se obtiene:** Se escoge una entre 3 opciones al subir de nivel con cristales.
 
 **Cómo se utiliza:** Se aplica al confirmarla, con la partida en pausa.
 
@@ -135,8 +135,6 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 ## Decisiones pendientes
 
-- Si todos los enemigos sueltan cristales siempre o según una probabilidad. [[06 - Economía y Recursos]], [[03 - Enemigos y NPC]] y [[01 - Glosario]] usan criterios distintos; en el prototipo caen siempre.
-- Munición de reserva: es infinita en el prototipo.
 - Nombre oficial del arma inicial.
 - Formato de los registros, si leerlos pausa la partida y si se conservan entre partidas.
 

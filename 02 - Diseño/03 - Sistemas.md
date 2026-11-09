@@ -8,13 +8,13 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 | Sistema                          | Propósito                                                        | Dependencias                                       | Estado |
 | -------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------- | ------ |
-| Jugador y supervivencia          | Gestionar salud, batería y derrota                               | Linterna, combate, objetivos                       | Prototipo |
-| Linterna y efectos de luz        | Debilitar infectados mediante un cono de luz                     | Jugador, enemigos, mejoras, generadores            | Prototipo |
-| Combate                          | Resolver ataques, daño y eliminaciones                           | Jugador, enemigos, linterna                        | Prototipo |
-| Generadores                      | Gestionar reparación, daño, defensa y beneficios                 | Jugador, combate, enemigos                         | Prototipo |
-| Director de IA                   | Seleccionar amenazas mediante tickets que aumentan con el tiempo | Tiempo, catálogo de enemigos, estado de la partida | Prototipo |
-| Mejoras y potenciadores          | Modificar las herramientas y capacidades del jugador             | Linterna, combate, generadores, rachas             | Prototipo parcial |
-| Objetivos y resultado de partida | Determinar la aparición del jefe final, la victoria y la derrota | Todos los sistemas anteriores                      | Prototipo parcial |
+| Jugador y supervivencia          | Gestionar salud, batería y derrota                               | Linterna, combate, objetivos                       | Implementado |
+| Linterna y efectos de luz        | Debilitar infectados mediante un cono de luz                     | Jugador, enemigos, mejoras, generadores            | Implementado |
+| Combate                          | Resolver ataques, daño y eliminaciones                           | Jugador, enemigos, linterna                        | Implementado |
+| Generadores                      | Gestionar reparación, daño, defensa y beneficios                 | Jugador, combate, enemigos                         | Implementado |
+| Director de IA                   | Seleccionar amenazas mediante tickets que aumentan con el tiempo | Tiempo, catálogo de enemigos, estado de la partida | Implementado con la Cáscara |
+| Mejoras y potenciadores          | Modificar las herramientas y capacidades del jugador             | Linterna, combate, generadores, rachas             | Parcial: cartas y racha, sin potenciadores |
+| Objetivos y resultado de partida | Determinar la aparición del jefe final, la victoria y la derrota | Todos los sistemas anteriores                      | Parcial: derrotas, sin Ascendido ni victoria |
 
 ## Sistema: Jugador y supervivencia
 
@@ -193,5 +193,6 @@ El **sistema de objetivos** recibe el tiempo transcurrido y los estados del juga
 Durante el combate, la **linterna** informa qué enemigos reciben efectos debilitantes. El **sistema de combate** utiliza esos efectos para resolver los enfrentamientos y registra las eliminaciones. Las eliminaciones alimentan el sistema de **rachas y potenciadores**.
 
 Los **generadores** reciben daño del combate y progreso de reparación del jugador. Cuando están operativos, comunican sus beneficios al sistema de linterna. El sistema de **mejoras** modifica las propiedades de la linterna, las armas y los generadores según las elecciones del jugador.
+
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mecánicas]] · [[04 - Controles]] →

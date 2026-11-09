@@ -40,8 +40,11 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - [x] Sincronizar el prototipo con `AfterLight_Stats.xlsx`: el xlsx adopta la velocidad de movimiento, la cadencia de disparo y la invulnerabilidad tras golpe del prototipo
 - [x] Animación de Eco-10 al recibir daño
 - [x] Avisos de generador bajo ataque y sin munición en el HUD de Unity
+- [x] Modelo de la Cáscara en Unity con animaciones de reposo, caminar, persecución, ataque, recibir daño y muerte
+- [x] Director de IA por tickets en Unity, con la Cáscara
+- [x] Pantallas de Opciones y Créditos en Unity
 - [ ] Definir el alcance y el MVP en [[01 - Alcance]] — Prioridad: Alta
-- [ ] Flujo de estados en Unity: menú principal, carga, partida, Game Over y victoria ([[07 - Reglas y Estados del Juego]]) — Prioridad: Alta
+- [ ] Flujo de estados en Unity: falta la victoria; el menú principal, la carga, la partida, la pausa y el Game Over ya funcionan ([[07 - Reglas y Estados del Juego]]) — Prioridad: Alta
 - [ ] Audio mínimo: disparo, impacto, golpe enemigo, daño recibido, generador bajo ataque y batería baja — Prioridad: Alta
 - [ ] Convertir a WAV u OGG los 13 sonidos en M4A, un formato que Unity no importa — Prioridad: Alta
 - [ ] Definir los potenciadores de racha y las mejoras de generador — Prioridad: Media
@@ -49,13 +52,15 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - [x] Limpiar `AfterLight_Stats.xlsx`: consumo con linterna apagada, velocidad al apuntar, CAR-006 y CAR-018
 - [ ] Animaciones de derrota: fondo rojo y siluetas negras según el atacante — Prioridad: Media
 - [ ] Entrada por las puertas y primer contacto con Nicolás — Prioridad: Media
-- [ ] Hacer que el Ascendido aparezca a los 10 minutos en el prototipo; hoy aparece a los 5 — Prioridad: Media
+- [ ] Ascendido en Unity: aparición a los 10 minutos, combate y victoria — Prioridad: Media
+- [ ] Quimera en Unity — Prioridad: Media
 - [ ] Ajustar la pose de Eco-10 para que la culata del arma no atraviese el pecho — Prioridad: Media
-- [ ] Separar los datos de balance en `ScriptableObject` y leer los controles desde el asset de Input Actions ([[01 - Arquitectura Técnica]]) — Prioridad: Media
+- [x] Leer los controles desde el asset de Input Actions
+- [ ] Separar en `ScriptableObject` los datos de balance que no son cartas ([[01 - Arquitectura Técnica]]) — Prioridad: Media
 - [ ] Issac: ubicación, condiciones de contacto y peticiones — Prioridad: Baja
 - [ ] Registros de los operativos fallecidos — Prioridad: Baja
 - [ ] Final *Ni uno más* — Prioridad: Baja
-- [ ] Modelos de la Cáscara, la Quimera y el Ascendido con el acabado retro — Prioridad: Baja
+- [ ] Modelos de la Quimera y el Ascendido con el acabado retro — Prioridad: Baja
 - [ ] Texturas del soldado a baja resolución y con filtrado Point — Prioridad: Baja
 
 ## Priorización

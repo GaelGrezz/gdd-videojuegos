@@ -80,7 +80,7 @@ Para cada acción importante define:
 - Por qué ganó o perdió?
 
 - **Qué hacer:** Por las comunicaciones de Nicolás, que aparecen al encontrar cada situación por primera vez, y por el reloj hasta la llegada del Ascendido.
-- **Dónde ir:** Por el estado de los generadores en el HUD y las fuentes de luz del escenario. Las señales de ubicación de los generadores están por definir.
+- **Dónde ir:** Por el estado de los generadores en el HUD y las fuentes de luz del escenario. Cuando un generador queda fuera de la pantalla, un marcador en el borde muestra su icono, una flecha hacia él y la distancia.
 - **Qué puede interactuar:** Por la indicación de E que aparece cerca de un generador o de un objeto válido.
 - **Qué ocurrió:** Por la retroalimentación de cada acción, los mensajes de Enlace y los estados del HUD.
 - **Por qué ganó o perdió:** Por el título y la explicación de la pantalla final: *Operativo caído*, *Sin luz*, *Información recuperada* o *Ni uno más*, con el resumen de la partida.

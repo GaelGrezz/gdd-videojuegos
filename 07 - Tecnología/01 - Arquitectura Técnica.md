@@ -42,7 +42,7 @@ Sistemas
 ├── Generadores
 ├── Mejoras
 ├── Progresión
-└── GameManager / Mediator
+└── Estado de la partida (Juego)
     ↓
 ─────────────────────────────────
 Datos
@@ -66,24 +66,25 @@ Presentación
 
 |Componente|Responsabilidad|Dependencias|
 |---|---|---|
-|**GameManager**|Controla el estado general de la partida: inicio, pausa, victoria, derrota y finalización.|GameMediator, sistemas principales|
-|**GameMediator**|Coordina la comunicación entre sistemas globales sin obligarlos a conocerse directamente.|GameManager, DirectorIA, Generadores, Progresión|
-|**PlayerController**|Gestiona movimiento, orientación e interacción básica del jugador.|Input System, CharacterController|
-|**PlayerCombat**|Gestiona disparos, armas, cadencia y acciones ofensivas.|WeaponSystem, Input System|
-|**FlashlightSystem**|Controla batería, alcance, intensidad y efectos de la linterna sobre enemigos.|PlayerStats, enemigos afectados|
-|**HealthSystem**|Gestiona vida, daño, curación y muerte de entidades.|DamageSystem|
-|**WeaponSystem**|Administra las armas equipadas y sus comportamientos.|WeaponData, ProjectileFactory|
-|**EnemyController**|Coordina el comportamiento general de cada enemigo.|State Machine, Strategy|
-|**EnemyStateMachine**|Controla estados como persecución, ataque, evasión o muerte.|EnemyController|
-|**DirectorIA**|Determina cuándo, dónde y qué enemigos deben aparecer durante la partida.|Sistema de Tickets, EnemyFactory|
-|**EnemyFactory**|Crea enemigos a partir de configuraciones definidas.|EnemyData, prefabs|
-|**GeneratorSystem**|Controla estado, reparación, daño y funcionamiento de los generadores.|GameMediator|
-|**UpgradeSystem**|Gestiona selección y aplicación de mejoras durante la partida.|UpgradeData, PlayerStats|
-|**ProgressionSystem**|Controla cristales, nivel y selección de mejoras.|UpgradeSystem|
-|**SaveSystem**|Guarda y recupera configuraciones.|Datos serializables|
-|**UIManager**|Actualiza HUD, menús y pantallas según el estado del juego.|Eventos de gameplay|
-|**AudioManager**|Reproduce música, ambientes y efectos de sonido.|Eventos del juego|
-|**VFXManager**|Gestiona efectos visuales reutilizables como impactos, cristales y partículas.|Eventos de combate|
+|**Juego**|Mantiene el estado global de la partida: pausa, selección de mejora, carga y fin. Detiene el tiempo cuando corresponde.|PantallaCarga, MenuPausa, PantallaMejoras, FinPartida|
+|**InputHandler**|Lee mover, disparar, recargar y caminar del asset de Input Actions.|Input System, PlayerController, PlayerCombat|
+|**PlayerController**|Movimiento, carrera y caminata, y orientación hacia el cursor.|CharacterController, InputHandler|
+|**PlayerCombat**|Disparo, cadencia, cargador y recarga del arma inicial.|Projectile, InputHandler|
+|**Projectile**|Bala que avanza, daña a un `IDamageable` y crea el efecto de impacto.|IDamageable, VFX|
+|**Health**|Vida, daño, reducción de daño, invulnerabilidad y muerte de cualquier entidad.|IDamageable|
+|**PlayerHealth**|Regeneración de la salud del soldado y derrota *Operativo caído*.|Health, FinPartida|
+|**BatterySystem**|Carga, consumo y periodo de tolerancia de la batería; derrota *Sin luz*.|FlashlightSystem, Generador, FinPartida|
+|**FlashlightSystem**|Cono de luz, enemigos iluminados, daño extra y bonificación de los generadores operativos.|BatterySystem, Generador|
+|**Cascara**|IA de la Cáscara: estados, persecución por NavMesh, golpe y muerte.|NavMesh, Health, ProgressionSystem|
+|**DirectorIA**|Tickets, catálogo de enemigos, grupos y puntos de aparición.|Cascara, Generador|
+|**Generador**|Reparación, integridad, invulnerabilidad, recarga de batería y estado del generador.|InteraccionGenerador, GeneratorVisuals, HUD|
+|**InteraccionGenerador**|Repara el generador cercano mientras se mantiene E.|Generador|
+|**ProgressionSystem**|Cristales, nivel y racha; abre Elige una mejora al subir de nivel.|Cristal, UpgradeSystem|
+|**UpgradeSystem**|Ofrece tres cartas y aplica sus efectos.|UpgradeData, sistemas del jugador|
+|**Configuracion**|Ajustes de Opciones guardados en `PlayerPrefs`.|PantallaOpciones|
+|**HUD y RetroalimentacionHUD**|Vida, batería, generadores, nivel, cristales, racha, avisos y efectos de daño.|Sistemas del jugador|
+|**SoldierAnimator**|Animaciones de Eco-10 según la velocidad, el disparo, la recarga y el daño.|Animator|
+|**CamaraSeguimiento**|Sigue al soldado y se adelanta hacia el cursor.|PlayerController|
 
 ---
 
@@ -240,12 +241,13 @@ EnemyController
 State Machine
       ↓
 ┌─────────────────────┐
-│ Idle                │
-│ Chase               │
-│ Attack              │
-│ Evade               │
-│ Stunned             │
-│ Dead                │
+│ AdquirirObjetivo    │
+│ Perseguir           │
+│ PrepararAtaque      │
+│ Atacar              │
+│ Recuperarse         │
+│ Buscar              │
+│ Morir               │
 └─────────────────────┘
 ```
 
@@ -734,58 +736,32 @@ Esto evita realizar cálculos innecesarios cada frame.
 
 ---
 
-# Estructura propuesta del código
+# Estructura del código
 
 ```text
 Assets/
 └── Code/
-    ├── Core/
-    │   ├── GameManager
-    │   ├── GameMediator
-    │   └── Interfaces
-    │
-    ├── Player/
-    │   ├── PlayerController
-    │   ├── PlayerCombat
-    │   ├── PlayerStats
-    │   └── Flashlight
-    │
-    ├── Combat/
-    │   ├── Weapons
-    │   ├── Projectiles
-    │   ├── Damage
-    │   └── Health
-    │
-    ├── Enemies/
-    │   ├── AI
-    │   ├── States
-    │   ├── Strategies
-    │   ├── Factory
-    │   └── Bosses
-    │
-    ├── Systems/
-    │   ├── Director
-    │   ├── Generators
-    │   ├── Progression
-    │   └── Upgrades
-    │
-    ├── Data/
-    │   ├── PlayerData
-    │   ├── EnemyData
-    │   ├── WeaponData
-    │   └── UpgradeData
-    │
-    ├── UI/
-    ├── Audio/
-    ├── VFX/
-    └── Save/
+    ├── Scripts/
+    │   ├── Combat/       Health, IDamageable, Projectile
+    │   ├── Core/         Juego, Configuracion
+    │   ├── Enemies/      Cascara, DirectorIA
+    │   ├── Level/        Generador, GeneratorVisuals
+    │   ├── Player/       PlayerController, PlayerCombat, PlayerHealth, BatterySystem,
+    │   │                 FlashlightSystem, InteraccionGenerador, InputHandler,
+    │   │                 SoldierAnimator, CamaraSeguimiento
+    │   ├── Progression/  Cristal, ProgressionSystem
+    │   ├── Render/       PixeladoCamaraFeature
+    │   ├── UI/           HUD, menús y pantallas
+    │   └── Upgrades/     UpgradeData, UpgradeSystem
+    ├── Shaders/          Pixelado
+    └── Editor/           CerberusKitImporter
 ```
 
-Esta estructura funciona como referencia inicial y puede cambiar conforme aumente la complejidad del proyecto. El objetivo no es mantener una jerarquía rígida, sino evitar que código de responsabilidades diferentes termine mezclado.
+La estructura puede cambiar conforme aumente la complejidad del proyecto. El objetivo no es mantener una jerarquía rígida, sino evitar que código de responsabilidades diferentes termine mezclado.
 
 ## Decisiones pendientes
 
-- Los estados de enemigos de esta nota (Idle, Stunned) no coinciden con los de [[03 - Enemigos y NPC]] (Preparar ataque, Recuperarse).
+- Unity no usa `GameManager`, `GameMediator`, Factory, Builder, Composite ni Decorator: el estado de la partida lo lleva `Juego` y los sistemas se comunican con referencias directas y eventos. Falta decidir si esos patrones siguen siendo la meta o se quitan de esta nota.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Guardado y Configuración]] · [[02 - Motor y Herramientas]] →
