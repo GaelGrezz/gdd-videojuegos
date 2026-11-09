@@ -27,7 +27,7 @@ El reloj de partida se detiene durante la pausa y la selección de mejoras. Por 
 
 Creciente conforme transcurre el tiempo. El director recibe tickets que utiliza para generar enemigos según sus costos y las reglas de aparición.
 
-La dificultad combina cantidad de amenazas, variedad de comportamientos y presión sobre el jugador y los generadores. Los valores, intervalos y límites de enemigos simultáneos están por definir.
+La dificultad combina cantidad de amenazas, variedad de comportamientos y presión sobre el jugador y los generadores. El director recibe de 0.25 a 1 ticket por segundo durante los 10 minutos, arma grupos de 1 a 4 enemigos cada 2 s y no supera los 12 enemigos vivos, como indica [[02 - Mecánicas]].
 
 **Mecánicas introducidas:**
 
@@ -151,10 +151,6 @@ La reparación, las mejoras y la exploración se repiten según las necesidades 
 - Los enemigos y jefes disponen de señales claras para su aparición y sus ataques.
 - Las pausas y la selección de mejoras detienen correctamente el reloj y la simulación.
 - El jugador puede identificar la causa de su derrota o los requisitos que cumplió para obtener su final.
-
-## Decisiones pendientes
-
-- Distribución del mapa y posición de los generadores. Hay un plano propuesto con 3 generadores que falta validar.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Estructura del Contenido]] · [[03 - Enemigos y NPC]] →

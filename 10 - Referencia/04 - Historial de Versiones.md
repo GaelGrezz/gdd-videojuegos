@@ -41,6 +41,8 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 | 0.9.8   | 2026-11-07 | Se quitan de AfterLight_Stats.xlsx el consumo con linterna apagada, la velocidad al apuntar y las cartas CAR-006 y CAR-018, que no tienen efecto en el juego; se ajusta la ficha de mejora y se cierra la tarea de limpieza del Backlog |             |
 | 0.9.9   | 2026-11-07 | El jugador se mueve con CharacterController en lugar de Rigidbody: se registra la decisión, se actualizan Arquitectura Técnica y Gestión de Cambios y se quita la tarea del Backlog |             |
 | 0.10.0  | 2026-11-07 | Animación de Eco-10 al recibir daño, con su video, en Personajes y Animación; el reloj del Ascendido que oculta el prototipo y los avisos de generador bajo ataque y sin munición quedan en Decisiones pendientes de Interfaz Visual y de UI y Menús; se marcan las tareas en el Backlog |             |
+| 0.11.0  | 2026-11-07 | Modelo de la Cáscara y sus animaciones de reposo, caminar, persecución, ataque, recibir daño y muerte en Personajes y Animación, con su tamaño y sus texturas en las convenciones; se actualiza la tarea de modelos de enemigos en el Backlog |             |
+| 0.12.0  | 2026-11-08 | El GDD y AfterLight_Stats.xlsx coinciden con Unity: los valores implementados dejan de ser propuestas; movimiento con Shift para caminar; 3 generadores y 7 sectores; guardado de la configuración en PlayerPrefs; motor, arquitectura y estructura del código actualizados; estado de los sistemas, riesgos y Backlog según Unity |             |
 
 ## Convención sugerida
 

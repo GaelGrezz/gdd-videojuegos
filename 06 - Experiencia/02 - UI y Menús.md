@@ -197,7 +197,6 @@ Reintentar desde Game Over no requiere confirmación.
 - Elegir entre el menú principal actual y la propuesta con el soldado frente a las puertas del complejo, que pide [[01 - Estructura del Contenido]].
 - Definir cómo se abre el Archivo del jugador durante la partida.
 - Usar textos distintos para *Abandonar sistema*: en el menú principal cierra el juego y en la pausa regresa al menú.
-- Permitir el uso del mouse en todos los menús, además de las flechas y Enter.
 - El menú dice *Iniciar despliegue*; [[01 - Estructura del Contenido]], [[02 - Niveles]] y [[04 - Diálogos y Narrativa]] dicen *Iniciar*.
 - El logotipo dice *AFTER LIGHT*; el [[01 - Glosario]] pide *AfterLight*.
 - El HUD del prototipo no muestra el reloj hasta la llegada del Ascendido y, en su lugar, avisa cuando un generador está bajo ataque o el arma se queda sin munición; esta nota incluye el reloj entre los elementos del HUD.

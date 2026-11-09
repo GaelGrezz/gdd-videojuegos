@@ -48,7 +48,7 @@ Los requisitos de Issac deben poder cumplirse dentro de la duración prevista de
 | ----------------------------------- | --------------------------------------------------------------------------------- |
 | Mundos                              | 1: Hades                                                                          |
 | Niveles                             | 1: centro científico                                                              |
-| Zonas internas                      | Por definir dentro del mismo mapa                                                 |
+| Zonas internas                      | 7 sectores: Vestíbulo, Laboratorio, Máquinas, Enfermería, Almacén, Archivo y Pozo |
 | Misiones principales                | 1 operación de intervención y supervivencia                                       |
 | Peticiones secundarias              | Cadena de Issac hacia «Ni uno más»: 3 peticiones           |
 | Tipos de enemigos regulares         | 2: Cáscara y Quimera                                                                 |
@@ -56,7 +56,7 @@ Los requisitos de Issac deben poder cumplirse dentro de la duración prevista de
 | Jefes                               | 1: el Ascendido                                                                   |
 | NPC con interacción narrativa       | 2: Nicolás e Issac                                                                |
 | Personajes fallecidos con registros | 28 propuestos; cantidad final ajustable al mapa                                   |
-| Generadores                         | Por definir                                                                       |
+| Generadores                         | 3: Norte, Este y Oeste                                                            |
 | Objetos y equipo                    | Cristales, arma inicial y mejoras; cantidades por definir                          |
 | Finales de victoria                 | 2: Información recuperada y Ni uno más                                            |
 

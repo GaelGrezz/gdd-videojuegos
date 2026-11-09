@@ -92,7 +92,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Interacciones con otras mecánicas:** La linterna y las armas permiten despejar la zona para reparar. Las mejoras pueden reforzar el generador. Los enemigos seleccionados por el director pueden obligar al jugador a abandonar temporalmente la reparación para defenderlo.
 
-**Casos límite:** el progreso de reparación se conserva, un generador operativo puede volver a dañarse, el generador se vuelve invulnerable durante unos segundos al ser reparado completamente; se proponen 3 s.
+**Casos límite:** el progreso de reparación se conserva, un generador operativo puede volver a dañarse, el generador se vuelve invulnerable durante unos segundos al ser reparado completamente, durante 3 s.
 
 ### Mecánica 04: Director de IA y tickets
 
@@ -102,16 +102,16 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Reglas:**
 
-- El director recibe tickets conforme transcurre el tiempo. Se propone un ingreso que crece de 0.25 a 1 ticket por segundo durante los 10 minutos de la partida.
+- El director recibe tickets conforme transcurre el tiempo. Su ingreso crece de 0.25 a 1 ticket por segundo durante los 10 minutos de la partida.
 - Cada tipo de enemigo tiene un costo en tickets.
-- El director utiliza sus tickets disponibles para seleccionar enemigos que puede introducir en la partida. Se propone que decida cada 2 s y que nunca gaste más de lo que tiene.
-- Al disponer de más tickets, puede elegir enemigos más peligrosos o modificar la composición de los grupos. Se proponen grupos que crecen de 1 a 4 enemigos durante la partida.
+- El director utiliza sus tickets disponibles para seleccionar enemigos que puede introducir en la partida. Decide cada 2 s y nunca gasta más de lo que tiene.
+- Al disponer de más tickets, puede elegir enemigos más peligrosos o modificar la composición de los grupos. Los grupos crecen de 1 a 4 enemigos durante la partida.
 - Al cumplirse el tiempo establecido para la partida, se inicia el enfrentamiento con el jefe final.
 
 
 **Entrada:** Tiempo transcurrido y estado actual de la partida.
 
-**Estado inicial:** Un presupuesto inicial de tickets. Se proponen 3.
+**Estado inicial:** Un presupuesto inicial de 3 tickets.
 
 **Estado final:** La partida termina por victoria o derrota.
 
@@ -123,12 +123,12 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Interacciones con otras mecánicas:** Determina las amenazas que el jugador enfrenta con la linterna y las armas, así como la presión ejercida sobre los generadores.
 
-**Casos límite:** los enemigos dejan de aparecer si hay una cantidad enorme de entidades en el mapa; se proponen 12 enemigos vivos como máximo. Mientras el jefe final está vivo, el director se pausa: no recibe tickets ni genera enemigos. El jefe puede invocar sus propias entidades (por definir).
+**Casos límite:** los enemigos dejan de aparecer si hay una cantidad enorme de entidades en el mapa; el máximo es de 12 enemigos vivos. Mientras el jefe final está vivo, el director se pausa: no recibe tickets ni genera enemigos. El jefe puede invocar sus propias entidades (por definir).
 
 ## Mecánicas secundarias
 - **Mejoras:** Permiten modificar la linterna, las armas o las defensas según las opciones disponibles durante la partida. Se obtienen al subir de nivel con cristales. En el prototipo no hay tienda.
 - **Rachas de eliminaciones:** Las eliminaciones consecutivas pueden otorgar potenciadores acumulables. Recibir daño interrumpe la racha y anula los potenciadores. Falta definir qué potenciadores existen, sus umbrales y cuánto duran.
-- **Regeneración de salud:** Después de recibir daño, la salud del soldado se recupera con el tiempo, sin superar la salud máxima. Se proponen 5 s de espera y 2 PV/s; un nuevo golpe reinicia la espera.
+- **Regeneración de salud:** Después de recibir daño, la salud del soldado se recupera con el tiempo, sin superar la salud máxima. Empieza 5 s después del último golpe y recupera 2 PV/s; un nuevo golpe reinicia la espera.
 - **Encuentro con el jefe final:** Comienza al cumplirse el tiempo de supervivencia establecido. Derrotar al jefe es necesario para ganar la partida; sobrevivir hasta su aparición no constituye una victoria por sí solo.
 
 ## Decisiones pendientes

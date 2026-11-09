@@ -7,12 +7,12 @@ Documenta cualquier recurso cuantificable: dinero, vida, energía, munición, ex
 ## Recursos
 | Recurso                       | Obtención                                              | Uso                                                 | Límite                                    | Pérdida                                                                                        |
 | ----------------------------- | ------------------------------------------------------ | --------------------------------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Salud del soldado             | Regeneración tras recibir daño y efectos de mejoras    | Permite resistir ataques                            | Se proponen 100 PV                        | Disminuye al recibir daño; llegar a cero provoca derrota                                       |
+| Salud del soldado             | Regeneración tras recibir daño y efectos de mejoras    | Permite resistir ataques                            | 100 PV                                    | Disminuye al recibir daño; llegar a cero provoca derrota                                       |
 | Batería de la linterna        | Permanecer cerca de un generador operativo             | Alimenta la linterna y sus efectos                  | Entre 0 % y 100 %                         | Se consume durante su uso; permanecer al 0 % durante el tiempo límite provoca derrota          |
 | Integridad de los generadores | Se recupera al repararlos                              | Mantiene los generadores en funcionamiento          | Entre 0 % y 100 %                         | Disminuye al recibir ataques; al llegar a cero, el generador queda destruido y puede repararse |
-| Cristales                     | Los sueltan los enemigos al ser eliminados             | Permiten subir de nivel y escoger una mejora        | Cantidad requerida por nivel, por definir. Se proponen 5 para el primer nivel y 3 más por cada nivel siguiente | El contador se reinicia al escoger una mejora                                                  |
+| Cristales                     | Los sueltan los enemigos al ser eliminados             | Permiten subir de nivel y escoger una mejora        | 5 para el primer nivel y 3 más por cada nivel siguiente | El contador se reinicia al escoger una mejora                                                  |
 | Racha de eliminaciones        | Eliminaciones consecutivas sin recibir daño            | Permite alcanzar umbrales que otorgan potenciadores | Sin límite                                | Se reinicia cuando el jugador recibe daño                                                      |
-| Tickets del director          | Asignación inicial y obtención conforme pasa el tiempo | Permiten al director seleccionar y generar enemigos | Presupuesto máximo por definir. Se propone un máximo que crece de 4 a 20 tickets durante la partida | Se descuentan al generar enemigos                                                              |
+| Tickets del director          | Asignación inicial y obtención conforme pasa el tiempo | Permiten al director seleccionar y generar enemigos | Un máximo que crece de 4 a 20 tickets durante la partida | Se descuentan al generar enemigos                                                              |
 Los tickets pertenecen al Director de IA. El jugador no puede obtenerlos, gastarlos ni intercambiarlos.
 
 El tiempo transcurrido también se registra: determina el crecimiento del presupuesto del director y la aparición del jefe final. No funciona como una moneda ni se consume al realizar acciones.
@@ -40,7 +40,7 @@ El tiempo transcurrido también se registra: determina el crecimiento del presup
 ### Salud y batería
 
 - La salud y la batería permanecen entre cero y sus respectivos valores máximos.
-- La regeneración no supera la salud máxima. Se proponen 5 s de espera después del daño y 2 PV/s; un nuevo golpe reinicia la espera.
+- La regeneración no supera la salud máxima. Empieza 5 s después del daño y recupera 2 PV/s; un nuevo golpe reinicia la espera.
 - La curación asociada a una mejora solo se activa si el jugador posee esa mejora y cumple su condición.
 - Llegar a cero de salud provoca una derrota inmediata.
 - Llegar al 0 % de batería inicia un periodo de tolerancia. Si el jugador permanece sin carga durante ese tiempo, pierde la partida.
@@ -48,8 +48,8 @@ El tiempo transcurrido también se registra: determina el crecimiento del presup
 
 ### Generadores
 
-- Reparar un generador recupera su integridad hasta el máximo establecido. Se proponen 100 de integridad y 100 puntos de reparación, unos 10 s a la velocidad base.
-- Mientras está operativo, recarga la batería del soldado cercano. Se proponen 10 unidades por segundo a menos de 5 m.
+- Reparar un generador recupera su integridad hasta el máximo establecido. Tiene 100 de integridad y necesita 100 puntos de reparación, 10 s a la velocidad base.
+- Mientras está operativo, recarga la batería del soldado cercano. Recarga 10 unidades por segundo a menos de 5 m.
 - Un generador destruido puede volver a funcionar tras su reparación.
 - Su destrucción interrumpe sus beneficios hasta recuperarlo; no provoca una derrota directa.
 - La reparación se interrumpe si el soldado recibe daño.
@@ -76,15 +76,15 @@ Fuera del prototipo. No existen moneda ni tienda; las mejoras se obtienen única
 
 ### Tickets del director
 
-- El director recibe tickets conforme transcurre el tiempo. Se proponen 3 tickets iniciales y un ingreso que crece de 0.25 a 1 ticket por segundo durante los 10 minutos.
-- Cada tipo de enemigo tiene un costo. Se propone 1 ticket por Cáscara.
+- El director recibe tickets conforme transcurre el tiempo. Empieza con 3 tickets y su ingreso crece de 0.25 a 1 ticket por segundo durante los 10 minutos.
+- Cada tipo de enemigo tiene un costo: la Cáscara cuesta 1 ticket.
 - El director solo puede generar enemigos que pueda pagar con su presupuesto disponible.
 - El costo se descuenta una sola vez por enemigo generado.
 
 ### Recolección de recursos
 
-- Las cantidades y probabilidades de aparición de cristales dependen de la dificultad del enemigo.
-- Los recursos tienen un tiempo límite y desaparecen si no son recogidos a tiempo. Se proponen 20 s para los cristales, que parpadean durante los últimos 5 s.
+- Todo enemigo regular eliminado suelta cristales; la cantidad depende de su dificultad.
+- Los recursos tienen un tiempo límite y desaparecen si no son recogidos a tiempo. Los cristales duran 20 s y parpadean durante los últimos 5 s.
 
 ## Balance
 
