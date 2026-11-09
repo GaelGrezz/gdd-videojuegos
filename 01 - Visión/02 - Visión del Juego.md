@@ -8,7 +8,9 @@ Aquí se define la **idea central** del videojuego. Esta sección funciona como 
 
 **El videojuego trata sobre:**
 
-El jugador debe experimentar frenetismo frente a la oleada de infectados dentro de un complejo científico. En cada partida el jugador debe planificar su estrategia para hacer frente a los infectados: ser reactivo o aprovechar los generadores. De este modo, cada jugador se adapta a su propia estrategia o sobrevive a su modo. Cada partida es diferente como estrategia necesaria para hacer frente a los hostiles infectados.
+AfterLight es un roguelite de supervivencia top-down en el que un soldado de CERBERUS resiste oleadas crecientes de infectados dentro de un complejo científico a oscuras. La linterna es su principal herramienta: debilita a los enemigos que ilumina, pero consume una batería que solo se recarga junto a los generadores del complejo.
+
+En cada partida, el jugador decide cómo sobrevivir: combatir de forma reactiva con el arma y la linterna, o invertir tiempo en reparar y defender los generadores para obtener luz, recarga y un mejor alcance de la linterna. Las mejoras que elige al subir de nivel y la composición de las oleadas hacen que cada partida exija ajustar esa estrategia.
 
 ## Experiencia deseada
 
