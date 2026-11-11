@@ -6,7 +6,7 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 ## Guardado
 
-**Tipo:** **Automático** / Manual / Mixto. La partida no se guarda: cada partida empieza desde cero y no hay progreso entre partidas.
+**Tipo:** Guardado automático de preferencias. Cada partida empieza desde cero.
 
 **Cuándo se guarda:** Cada ajuste se guarda en el momento en que el jugador lo cambia. Solo se conserva la configuración, como indica [[01 - Arquitectura Técnica]].
 
@@ -14,7 +14,7 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 **Cantidad de ranuras:** No aplica.
 
-**Qué ocurre si el guardado falla:** Por definir.
+**Valores predeterminados:** `Configuracion` carga el valor predeterminado de cada preferencia que aún no existe en `PlayerPrefs`.
 
 ## Configuración
 
@@ -25,6 +25,8 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 | Controles | Se muestran mover, interactuar, recargar, disparar y pausa; no pueden reasignarse |
 | Accesibilidad | Subtítulos (activados) y tamaño de texto (normal) |
 | Jugabilidad | No aplica |
+
+En Unity se aplican el volumen general, la música, los efectos, la resolución y el modo de pantalla. Brillo, filtro VHS, voces, subtítulos y tamaño de texto se guardan como preferencias y queda pendiente aplicar sus efectos.
 
 ## Restablecimiento
 

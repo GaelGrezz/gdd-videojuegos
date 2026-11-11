@@ -8,8 +8,8 @@ Documenta riesgos técnicos y medidas para reducir fallos, pérdida de datos o a
 
 | Riesgo                                                             | Probabilidad | Impacto                                                           | Mitigación                                                                       |
 | ------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| Unity no importa los sonidos en M4A                                | Ya ocurre    | 13 sonidos no pueden usarse en el juego                           | Convertirlos a WAV u OGG                                                         |
-| No hay un objetivo de rendimiento                                  | Por definir  | No puede comprobarse si el juego corre bien en el equipo objetivo | Definir los FPS objetivo de [[03 - Requisitos Técnicos]] y medir en cada versión |
+| Unity no importa los sonidos en M4A                                | Resuelto     | Ninguno: los 13 sonidos ya están en WAV en el prototipo           | Se convirtieron a WAV                                                            |
+| Rendimiento de la compilación de Windows pendiente de medir | Abierto | Los requisitos de hardware dependen de los resultados en partida | Medir FPS, carga y memoria con los perfiles de [[03 - Requisitos Técnicos]] |
 
 ## Datos sensibles
 

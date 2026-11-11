@@ -10,11 +10,13 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 
 **Versión:** 6000.6.2f1
 
-**Renderizado:** Universal Render Pipeline (URP), con un efecto de cámara pixelada. El filtro VHS está por implementar.
+**Renderizado:** Universal Render Pipeline (URP), con pixelado de la escena a 300 px de alto y una cuantización de 24 tonos por canal. El HUD se compone encima con un Canvas en modo Overlay. El filtro VHS está por implementar.
 
 **Física:** Física 3D de Unity. El soldado se mueve con `CharacterController` y los enemigos con NavMesh (AI Navigation).
 
-**Sistema de entrada:** Input System.
+**Sistema de entrada:** Input System (`Assets/InputSystem_Actions.inputactions`).
+
+**Escenas principales:** `MenuPrincipal.unity` inicia el flujo y carga `CentroHades.unity` para la partida. El perfil `Windows.asset` utiliza la lista de escenas de `EditorBuildSettings.asset`. La lista también incluye `SampleScene.unity`, una escena de pruebas sin transición desde el menú de AfterLight.
 
 ## Lenguajes
 
@@ -46,6 +48,7 @@ Lista librerías, paquetes, plugins o servicios externos.
 - Input System 1.20.0
 - Visual Effect Graph 17.6.0
 - uGUI 2.6.0, con TextMesh Pro
+- Unity AI Assistant 2.21.0-pre.2, herramienta del editor usada para la inspección vía MCP
 
 ## Convenciones del proyecto
 

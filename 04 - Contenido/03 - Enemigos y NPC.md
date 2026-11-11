@@ -6,9 +6,9 @@ Documenta las entidades controladas por el juego y su comportamiento.
 
 ## Reglas generales de los enemigos
 
-- Cada enemigo regular tiene un costo de aparición en tickets, La Cáscara cuesta 1 ticket.
+- La Cáscara cuesta 1 ticket. La Quimera cuesta 3 y entra en el catálogo en el segundo 180. Tiene peso 0.5 frente al peso 1 de la Cáscara en el sorteo normal. El director le reserva una aparición prioritaria desde el minuto 3 y vuelve a programarla 45 s después de cada aparición prioritaria. Requiere tickets, cupo y una posición válida.
 - El director solo puede generar enemigos cuyo costo pueda cubrir.
-- Hay como máximo 12 enemigos vivos. Aparecen en grupo a entre 12 y 22 m del jugador, y el 35 % de los grupos va contra el generador operativo más cercano.
+- El tope de enemigos vivos sube de 3 a 12 durante los primeros 4 minutos. El director hace su primer intento a los 20 s. Busca el centro del grupo alrededor del jugador en un radio de 12 a 22 m y comprueba una ruta por el NavMesh cuando localiza al jugador sobre él. El 35 % es la probabilidad de asignar el grupo al generador operativo más cercano a su punto de aparición, si existe. La Quimera puede buscar un generador por su cuenta.
 - Los enemigos deben comunicar sus ataques mediante señales visuales o sonoras.
 - La linterna aplica efectos debilitantes según sus propiedades y mejoras.
 - Los efectos de la luz deben ser visibles y consistentes.
@@ -31,6 +31,8 @@ Detecta al jugador, se aproxima e intenta atacarlo al entrar en alcance. Su comp
 
 Conserva una silueta claramente humana. Su cuerpo presenta los primeros signos de control de la infección, con crecimientos cristalinos violetas todavía limitados.
 
+![[Cáscara - Frente.png|250]]![[Cáscara - Lateral.png|250]]
+
 **Vida:**
 
 Baja en comparación con las otras variantes: 60 PV.
@@ -41,7 +43,7 @@ Bajo por impacto individual; peligroso si varios enemigos alcanzan al jugador: 1
 
 **Defensas:**
 
-Sin blindaje especializado. Las resistencias concretas están por definir.
+Sin blindaje especializado. Se propone que no reduzca el daño recibido, como en el prototipo. Las demás resistencias están por definir.
 
 **Velocidad:**
 
@@ -87,33 +89,43 @@ Enemigo pesado y resistente que obliga al jugador a ajustar el apuntado y antici
 
 **Comportamiento:**
 
-Avanza lentamente hacia su objetivo. Cuando recibe luz y su habilidad está disponible, realiza un desplazamiento rápido hacia la izquierda o la derecha para intentar salir del cono de iluminación.
+Su prioridad es destruir los generadores. Se desplaza hacia su generador objetivo y, al alcanzarlo, lo ataca mientras el jugador permanezca fuera de su zona de peligro.
+
+Esta zona se define mediante un radio esférico centrado en la Quimera y se desplaza junto con ella. Cuando el jugador entra en ese radio, la criatura interrumpe su acción contra el generador y concentra sus ataques en él.
+
+En cuanto el jugador sale de la zona de peligro, la Quimera deja de perseguirlo y vuelve a enfocarse en el generador, retomando su desplazamiento o sus ataques según la distancia a la que se encuentre.
+
+Su comportamiento obliga al jugador a decidir entre acercarse para distraerla y exponerse a sus ataques, o mantener la distancia y permitir que continúe dañando el generador.
+
+Cuando recibe luz y su habilidad está disponible, realiza un desplazamiento rápido hacia la izquierda o la derecha para intentar salir del cono de iluminación.
 
 Su cuerpo está formado por cuatro torsos que funcionan como extremidades, conectados a un núcleo cristalino central. Un ojo de cristal frontal refuerza la dirección de su mirada.
 
+![[Quimera - Frente.png|250]]![[Quimera - Lateral.png|250]]
+
 **Vida:**
 
-Elevada respecto a la Cáscara. Valor por definir.
+Elevada respecto a la Cáscara: 300 PV.
 
 **Daño:**
 
-Se propone daño alto por golpe, compensado con una preparación visible y una recuperación prolongada.
+Alto por golpe, compensado con una preparación visible y una recuperación prolongada: 30 PV por golpe, también contra los generadores.
 
 **Defensas:**
 
-Blindaje elevado. Su reducción de daño y la interacción con las mejoras de la linterna están por definir.
+Blindaje elevado: reduce el 30 % del daño recibido. El daño extra de la linterna se multiplica por esa reducción: un disparo de 20 PV le quita 14 PV, o 17.5 PV si está iluminada. La interacción con las mejoras de la linterna está por definir.
 
 **Velocidad:**
 
-Baja durante la persecución y alta durante el desplazamiento evasivo. Distancia y duración de la evasión por definir.
+Baja durante la persecución y alta durante el desplazamiento evasivo: camina a 1 m/s y la evasión recorre 3 m en 0.35 s.
 
 **Rango de detección:**
 
-Por definir. La reacción a la luz requiere que el enemigo esté efectivamente dentro del área iluminada.
+Su zona de peligro mide 6 m de radio; el jugador tiene que alejarse a más de 6.5 m para que vuelva al generador. Busca siempre el generador operativo más cercano y, si no queda ninguno, persigue al jugador como una Cáscara. La reacción a la luz requiere que el enemigo esté efectivamente dentro del área iluminada.
 
 **Ataques:**
 
-Se propone un golpe pesado a corta distancia con una de sus extremidades.
+Golpe pesado a corta distancia con una de sus extremidades. Empieza a prepararlo a 2.4 m, con 0.8 s de preparación, 0.2 s de golpe y 1 s de recuperación; el golpe conecta hasta 3.1 m en un arco de 90°.
 
 El desplazamiento evasivo tiene una función defensiva; no causa daño por sí mismo salvo que posteriormente se defina esa propiedad.
 
@@ -128,7 +140,7 @@ El cristal central no se considera automáticamente un punto débil; esa propied
 
 **Recompensa:**
 
-Cristales. Se propone una recompensa superior a la Cáscara por el esfuerzo necesario para eliminarlo. Cuenta como una eliminación para la racha.
+4 cristales, más que la Cáscara por el esfuerzo necesario para eliminarla. Cuenta como una eliminación para la racha.
 
 **Estados de IA:**
 
@@ -145,7 +157,7 @@ Cristales. Se propone una recompensa superior a la Cáscara por el esfuerzo nece
 
 **Reglas de evasión:**
 
-- La recarga comienza al ejecutar la habilidad.
+- La recarga dura 6 s y comienza al ejecutar la habilidad.
     
 - Si un lado está bloqueado, evalúa el otro.
     
@@ -155,7 +167,7 @@ Cristales. Se propone una recompensa superior a la Cáscara por el esfuerzo nece
     
 - La evasión no concede invulnerabilidad por defecto.
     
-- La posibilidad de interrumpir un ataque para evadir está por definir.
+- No interrumpe un ataque para evadir: solo evade mientras persigue o se desplaza.
     
 - La recarga transcurre en paralelo a los demás estados y se detiene durante la pausa.
 
@@ -173,27 +185,27 @@ Aparece al alcanzar el tiempo establecido de supervivencia. Conserva una estruct
 
 Su rostro presenta ojos violetas y facciones cubiertas. A diferencia de otras variantes, tiene pocos cristales sobresalientes.
 
-Se propone que alterne ataques de sus brazos y periodos de recuperación, ofreciendo señales claras antes de cada acción.
+Alterna ataques de sus brazos y periodos de recuperación, con señales claras antes de cada acción.
 
 **Vida:**
 
-Superior a la de los enemigos regulares. Valor por definir según la duración deseada del enfrentamiento.
+Superior a la de los enemigos regulares: 1500 PV.
 
 **Daño:**
 
-Elevado, con valores independientes para cada ataque. Ningún ataque debe carecer de una oportunidad comprensible de respuesta.
+Elevado, con valores independientes para cada ataque. Ningún ataque debe carecer de una oportunidad comprensible de respuesta: 25 PV el golpe dirigido, 20 el barrido y 35 el impacto convergente.
 
 **Defensas:**
 
-Resistencias por definir. No se presupone inmunidad a la linterna.
+No reduce el daño recibido y la linterna lo debilita como a los demás enemigos.
 
 **Velocidad:**
 
-Por definir. El cuerpo y los brazos pueden tener velocidades diferentes según el ataque.
+El cuerpo se desplaza a 1.6 m/s; los brazos tienen la velocidad de cada ataque.
 
 **Rango de detección:**
 
-Debe poder adquirir al jugador al iniciar el enfrentamiento. Las restricciones por distancia y obstáculos están por definir.
+Siempre sabe dónde está el jugador y se acerca hasta 6 m de él.
 
 **Ataques propuestos:**
 
@@ -203,18 +215,18 @@ Debe poder adquirir al jugador al iniciar el enfrentamiento. Las restricciones p
 |Barrido|Un brazo recorre un arco a corta distancia|El brazo se extiende hacia un costado|Alejarse del área de alcance|
 |Impacto convergente|Los brazos golpean una zona anunciada|Los brazos se separan y el área objetivo se señala|Abandonar la zona antes del impacto|
 
-El repertorio definitivo, sus tiempos y el orden de selección se establecerán durante las pruebas del jefe.
+El golpe dirigido se elige entre 3 y 12 m, con 0.9 s de señal y 1.2 s de recuperación, y alcanza a 1.1 m de su trayectoria; el barrido, hasta 5.5 m, con 0.8 s de señal y 1 s de recuperación, y recorre 200° delante del cuerpo; el impacto convergente, hasta 14 m, con 1.3 s de señal y 1.6 s de recuperación, golpea una zona de 2.6 m de radio y no se repite antes de 10 s. La señal es una marca roja en el suelo: la trayectoria, el arco o la zona. Elige al azar, según su peso, entre los ataques cuya distancia y recarga lo permitan.
 
 **Debilidades:**
 
 - Periodos de recuperación después de sus ataques.
     
-- Efectos de la linterna según las reglas específicas que se definan.
+- La linterna lo debilita: recibe +25 % de daño mientras está iluminado.
     
 - Trayectorias y áreas de ataque anticipadas que permiten reposicionarse.
     
 
-Los brazos son entidades separadas vinculadas al jefe. Está por definir si pueden recibir daño, destruirse o deshabilitarse. El halo tampoco se considera un punto débil sin una regla explícita.
+Los brazos son entidades separadas vinculadas al jefe y no reciben daño. El halo tampoco se considera un punto débil sin una regla explícita.
 
 **Recompensa:**
 
@@ -238,7 +250,7 @@ No se establece una recompensa de recursos posterior al combate, ya que la parti
 | Preparar ataque    | Muestra la señal correspondiente                        | Pasa a Ejecutar ataque                     |
 | Ejecutar ataque    | Coordina el cuerpo y los brazos participantes           | Pasa a Recuperarse                         |
 | Recuperarse        | Mantiene una ventana de respuesta para el jugador       | Vuelve a Posicionarse o Seleccionar ataque |
-| Morir              | El cuerpo y los brazos son absorbidos por el halo       | Da paso a la cinemática de victoria        |
+| Morir              | El cuerpo y los brazos son absorbidos por el halo       | Da paso al fundido y a la pantalla de Victoria        |
 
 **Reglas particulares:**
 
@@ -247,7 +259,7 @@ No se establece una recompensa de recursos posterior al combate, ya que la parti
 - El cuerpo coordina los brazos para evitar ataques simultáneos no previstos.
 - Al morir, se cancelan sus acciones y las de sus brazos.
 - La animación de absorción se reproduce una sola vez.
-- Durante este combate el director permanece en pausa. Las entidades que invoque el propio Ascendido están por definir.
+- Durante este combate el director permanece en pausa. Las invocaciones del Ascendido siguen como propuesta de diseño.
 
 ## NPC
 
@@ -284,7 +296,7 @@ Proporciona instrucciones, objetivos y avisos. No entrega recursos directamente.
 
 **Función:** Representar al sector científico de CERBERUS y ofrecer una investigación opcional relacionada con los riesgos de los cristales.
 
-**Ubicación:** Por definir. También está pendiente si el contacto es presencial, remoto o combina ambos medios.
+**Ubicación:** Fuera del centro científico, en una instalación de la facción científica de CERBERUS en Hades. No aparece en el mapa: el contacto es remoto, por un canal cifrado del comunicador del soldado, distinto del de Enlace. La frecuencia está en el registro de Lucía Ferrán y sus mensajes se leen en el panel de comunicaciones del HUD, con su retrato. La terminal de comunicaciones del Archivo solo sirve para preparar la copia de las pruebas.
 
 **Interacción:** Conversaciones condicionadas y peticiones opcionales.
 
@@ -313,13 +325,10 @@ Los dirigentes de CERBERUS, el consejo y los operativos que combaten fuera del �
 
 ## Decisiones pendientes
 
-- Valores de vida, daño, velocidad, alcance y recarga.
-- Costos en tickets y recompensas por enemigo.
 - Tipos de enemigos que atacan generadores y reglas para cambiar de objetivo.
 - Detección, pérdida de objetivo y búsqueda.
 - Efectos concretos de la linterna sobre cada variante.
-- Ataques definitivos del Ascendido e interacción con sus brazos.
 - Entidades invocadas por el Ascendido.
-- Ubicación de Issac y medio de contacto definitivo.
+
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →

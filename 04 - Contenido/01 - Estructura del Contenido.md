@@ -1,4 +1,4 @@
-# Estructura del Contenido
+	# Estructura del Contenido
 
 ## Descripción de la sección
 
@@ -8,9 +8,9 @@ Organiza el contenido del videojuego en unidades manejables: mundos, capítulos,
 
 | Unidad                                  |Contenido|Forma de progresión|
 | --------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------- |
-| Inicio                                  |Menú del soldado frente a las puertas y cinemática de entrada|El jugador selecciona Iniciar|
+| Inicio                                  |Menú principal y pantalla de carga|El jugador selecciona Iniciar despliegue|
 | Nivel único: Centro científico de Hades |Combate, exploración, reparación y defensa de generadores|Tiempo de juego transcurrido|
-| Introducción                            |Contacto con Nicolás y presentación de las mecánicas|Primeros momentos de la partida y acciones del jugador|
+| Introducción                            |Consejo de Enlace en carga e indicaciones de interacción|Carga y primeros momentos de la partida|
 | Supervivencia                           |Aumento de la presión mediante los tickets del director|El director recibe presupuesto conforme pasa el tiempo|
 | Contenido opcional                      |Registros de operativos fallecidos y peticiones de Issac|Exploración y cumplimiento de condiciones específicas|
 | Enfrentamiento final                    |Aparición del Ascendido dentro del mismo nivel|Alcanzar el tiempo establecido|
@@ -26,7 +26,7 @@ La introducción, la supervivencia y el enfrentamiento final son momentos de una
 - La victoria requiere derrotarlo; cumplir el tiempo por sí solo no termina la partida.
 - La pausa y la selección de mejoras detienen el reloj y la simulación.
 - Durante el combate contra el Ascendido, el director permanece en pausa.
-- El periodo de supervivencia dura 10 minutos; los intervalos de dificultad están por definir.
+- El periodo de supervivencia dura 10 minutos. Se propone una escalada continua en lugar de intervalos, como en el prototipo: el ingreso, el tope de tickets y el tamaño de los grupos crecen de forma lineal durante los 10 minutos, y la Quimera aparece a partir de los 3 minutos. Los primeros 4 minutos son más tranquilos para explorar: los enemigos aparecen a partir del segundo 20 y el tope de enemigos vivos sube de 3 a 12.
 
 ### Progresión del personaje
 
@@ -57,7 +57,7 @@ Los requisitos de Issac deben poder cumplirse dentro de la duración prevista de
 | NPC con interacción narrativa       | 2: Nicolás e Issac                                                                |
 | Personajes fallecidos con registros | 28 propuestos; cantidad final ajustable al mapa                                   |
 | Generadores                         | 3: Norte, Este y Oeste                                                            |
-| Objetos y equipo                    | Cristales, arma inicial y mejoras; cantidades por definir                          |
+| Objetos y equipo                    | Cristales, arma inicial y mejoras; se proponen 1 arma y 19 cartas de mejora, como en el prototipo |
 | Finales de victoria                 | 2: Información recuperada y Ni uno más                                            |
 
 Los operativos fallecidos son elementos narrativos del escenario, no NPC activos. Los dirigentes de CERBERUS y el consejo pertenecen al trasfondo y no requieren encuentros propios.
@@ -66,8 +66,8 @@ Los operativos fallecidos son elementos narrativos del escenario, no NPC activos
 
 |Contenido|Debe existir antes|Motivo|
 |---|---|---|
-|Entrada desde el menú|Puertas, soldado y transición de cámara|Conectar el menú con el escenario jugable|
-|Primer contacto con Nicolás|Entrada completada y control habilitado|Presentar la misión al comenzar la partida|
+|Entrada desde el menú|Pantalla de carga y escena de Hades|Entregar el control al terminar la carga|
+|Consejo inicial de Enlace|Pantalla de carga|Indicar que se ilumine a los enemigos antes de disparar|
 |Tutorial de combate|Movimiento, apuntado, linterna y ataque|Explicar acciones que el jugador ya puede ejecutar|
 |Reparación y defensa|Generadores funcionales y sistema de daño|Permitir recuperar y proteger la infraestructura|
 |Escalada de dificultad|Reloj, tickets y enemigos con costos definidos|Regular la presión durante la supervivencia|
@@ -77,7 +77,7 @@ Los operativos fallecidos son elementos narrativos del escenario, no NPC activos
 |Aparición del Ascendido|Tiempo objetivo y espacio de combate preparado|Iniciar el enfrentamiento final dentro del nivel|
 |Victoria normal|Derrota del Ascendido|Resolver la operación principal|
 |Victoria Ni uno más|Derrota del Ascendido y peticiones de Issac completadas|Seleccionar el desenlace alternativo|
-|Animaciones de derrota|Causa de muerte identificada|Reproducir la variante correspondiente y pasar a Game Over|
+|Game Over|Salud agotada o fin del periodo de tolerancia de la batería|Mostrar directamente el resultado y ofrecer Reintentar o Menú principal|
 
 ## Reglas de alcance
 

@@ -13,7 +13,8 @@ Inicio → Menú → Nueva partida → Tutorial → Juego → Pausa → Juego �
 **Flujo del proyecto:**
 
 ```text
-Menú principal → Iniciar despliegue → Carga → Entrada al complejo → Introducción con Nicolás → Supervivencia → Ascendido → Victoria o Derrota → Game Over → Menú principal
+Menú principal → Iniciar despliegue → Carga → Supervivencia → Ascendido → Victoria
+Si se agota la salud o la batería supera su margen → Game Over → Reintentar o Menú principal
 ```
 
 Durante la supervivencia y el combate final, ESC abre la pausa y reunir los cristales requeridos abre Elige una mejora; ambas regresan a la partida. Los detalles de cada pantalla están en [[02 - UI y Menús]].
@@ -22,16 +23,16 @@ Durante la supervivencia y el combate final, ESC abre la pausa y reunir los cris
 
 Documenta exactamente qué descubre y aprende el jugador.
 
-1. En el menú principal ve al soldado frente a las puertas del complejo y la luz que entra por la abertura, como describe [[04 - Diálogos y Narrativa]].
-2. Al elegir Iniciar, el soldado abre las puertas, la cámara pasa a la vista superior y el jugador recibe el control. El reloj empieza a correr.
-3. Nicolás establece comunicación y presenta la misión: mantener la luz sobre lo que se mueva y recuperar la energía.
+1. En el menú principal, selecciona **Iniciar despliegue**.
+2. Al terminar la carga, el jugador recibe el control en la vista superior del centro científico de Hades y empieza a correr el reloj.
+3. El primer mensaje de Nicolás aparece en el panel de comunicaciones de Hades. Presenta la tarea de recuperar la energía y se puede leer mientras se juega.
 4. El jugador aprende a moverse con W, A, S y D en una zona de visibilidad limitada y descubre que el cursor orienta a la vez el arma y la linterna.
-5. Con el primer infectado aprende que la luz lo debilita y que el disparo lo elimina. Nicolás le indica que lo ilumine.
+5. Con el primer infectado aprende que la luz lo debilita y que el disparo lo elimina.
 6. Al encontrar el primer generador averiado aprende a repararlo con E y ve el progreso de la reparación.
 7. Descubre que la batería se consume siempre y que se recarga junto a un generador operativo.
 8. Con los primeros cristales sube de nivel y elige su primera mejora con la partida en pausa.
 
-Cada instrucción de Nicolás aparece cuando corresponde realizar la acción, sin concentrar el tutorial en una sola conversación. La duración de la introducción está por definir.
+La versión actual guía con el consejo de carga, el primer mensaje de Nicolás, los avisos del HUD y las indicaciones de interacción. El tutorial por eventos de Nicolás sigue como propuesta.
 
 ## Retroalimentación
 

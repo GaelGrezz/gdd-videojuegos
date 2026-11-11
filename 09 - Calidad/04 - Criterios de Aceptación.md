@@ -84,7 +84,7 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 - [ ] El bucle principal funciona.
 - [ ] Las condiciones de victoria y derrota funcionan.
-- [ ] El progreso puede guardarse.
+- [ ] Las opciones se conservan al volver a abrir el juego y una partida nueva empieza desde cero.
 - [ ] Los sistemas principales están integrados.
 - [ ] Las pruebas críticas están aprobadas.
 - [ ] El rendimiento cumple el objetivo definido.

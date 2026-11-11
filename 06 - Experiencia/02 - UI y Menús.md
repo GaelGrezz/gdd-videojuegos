@@ -24,7 +24,7 @@ Partida
 │   └── Abandonar sistema → Confirmación → Menú principal
 ├── Archivo del jugador
 ├── Cristales completos → Elige una mejora → Partida
-├── Derrota → Game Over → Reintentar / Menú principal
+├── Game Over → Reintentar / Menú principal
 └── Victoria → Menú principal
 ```
 
@@ -48,7 +48,7 @@ Partida
 
 **Propósito:** Mantener visible durante la partida la información necesaria para decidir.
 
-**Elementos:** Vida, batería, generadores (nombre, estado y porcentaje), reloj hasta la llegada del Ascendido, nivel, cristales, racha, potenciadores, mira, indicación de interacción con E y su progreso, munición con aviso de recarga y mensajes de Enlace.
+**Elementos:** Vida, batería, generadores (nombre, estado y porcentaje), reloj hasta la llegada del Ascendido, nivel, cristales, racha, potenciadores, mira, indicación de interacción con E y su progreso, munición con aviso de recarga, avisos de generador bajo ataque y de arma sin munición, y mensajes de Enlace.
 
 ![[UI - HUD.png]]
 
@@ -58,7 +58,7 @@ Partida
 
 **Acciones disponibles:** Ninguna directa; muestra el resultado de las acciones del jugador.
 
-**Estados:** Vida normal y en regeneración; batería normal, baja, vacía con cuenta regresiva y en recarga; generador operativo, en reparación, averiado, bajo ataque o destruido; daño recibido; aviso de recarga cuando queda poca munición; indicación de interacción cuando hay un generador cerca; barra del Ascendido durante el combate final y panel de contacto con Issac.
+**Estados:** Vida normal y en regeneración; batería normal, baja, vacía con cuenta regresiva y en recarga; generador operativo, en reparación, averiado, bajo ataque, destruido o con espera antes de poder reparar; daño recibido; aviso de recarga cuando queda poca munición; indicación de interacción cuando hay un generador cerca; barra del Ascendido durante el combate final y panel de contacto con Issac.
 
 **Transiciones:** ESC → Pausa. Cristales completos → Elige una mejora. Fin de la partida → Victoria o Game Over.
 
@@ -94,7 +94,7 @@ Partida
 
 **Propósito:** Preparar la partida y acompañar la espera con un mensaje de Enlace.
 
-**Elementos:** Título «Centro científico de Hades / Preparando despliegue», barra de progreso y mensaje de Enlace.
+**Elementos:** Título «Centro científico de Hades / Preparando despliegue», barra de progreso y mensaje de Enlace. La carga es asíncrona, permanece al menos 1.5 s y termina con un fundido de 0.35 s. El mensaje actual es «Eco-10, ilumina al objetivo antes de abrir fuego».
 
 ![[UI - Carga.png]]
 
@@ -152,9 +152,15 @@ Partida
 
 **Propósito:** Cerrar la partida con el final obtenido.
 
-**Elementos:** Título del final, mensaje de Enlace o de Issac, resumen de la partida (tiempo, nivel, registros y generadores) y la opción Volver al menú.
+**Elementos:** Fondo negro, encabezado «Operación Umbral completada», título del final, mensaje de Enlace o de Issac y resumen de tiempo, nivel, registros recuperados y generadores operativos.
+
+**Información recuperada**
 
 ![[UI - Victoria.png]]
+
+**Ni uno más**
+
+![[UI - Victoria - Ni uno más.png]]
 
 **Acciones disponibles:** Volver al menú.
 
@@ -162,21 +168,25 @@ Partida
 
 **Transiciones:** Volver al menú → Menú principal.
 
-### Derrota y Game Over
+### Game Over
 
 **Propósito:** Mostrar la causa de la derrota y ofrecer un nuevo intento.
 
-**Elementos:** Derrota: fondo rojo y silueta negra según el atacante. Game Over: título con la causa, su explicación, resumen de la partida, Reintentar y Menú principal.
+**Elementos:** Fondo negro, encabezado «Game Over», título y explicación de la causa, resumen de tiempo, nivel, registros recuperados y generadores operativos.
 
-![[UI - Derrota.png]]
+**Operativo caído**
 
 ![[UI - Game Over.png]]
+
+**Sin luz**
+
+![[UI - Game Over - Sin luz.png]]
 
 **Acciones disponibles:** Reintentar y Menú principal.
 
 **Estados:** *Operativo caído* si la salud llega a cero y *Sin luz* si la batería agota el periodo de tolerancia.
 
-**Transiciones:** Derrota → Game Over. Reintentar → Carga. Menú principal → Menú principal.
+**Transiciones:** La derrota abre directamente Game Over. Reintentar carga una partida nueva. Menú principal regresa al menú.
 
 ## Confirmaciones
 
@@ -192,14 +202,17 @@ Reintentar desde Game Over no requiere confirmación.
 
 ![[UI - Confirmación.png]]
 
+## Estado en Unity
+
+`CentroHades.unity` incorpora HUD, pausa, selección de mejoras, comunicaciones de Issac, Game Over y Victoria. El prefab `FinPartida` muestra ambos desenlaces con el resumen de la sesión. Opciones, Créditos y Carga tienen prefabs propios.
+
+Los 28 registros se recogen en el escenario y se leen en el panel de comunicaciones durante la partida. El panel encola los textos de Issac y los registros y ajusta su duración a la longitud del mensaje. La pantalla independiente del Archivo del jugador queda para versiones posteriores. En la primera versión se consulta cada registro al recogerlo.
+
 ## Decisiones pendientes
 
-- Elegir entre el menú principal actual y la propuesta con el soldado frente a las puertas del complejo, que pide [[01 - Estructura del Contenido]].
 - Definir cómo se abre el Archivo del jugador durante la partida.
 - Usar textos distintos para *Abandonar sistema*: en el menú principal cierra el juego y en la pausa regresa al menú.
-- El menú dice *Iniciar despliegue*; [[01 - Estructura del Contenido]], [[02 - Niveles]] y [[04 - Diálogos y Narrativa]] dicen *Iniciar*.
 - El logotipo dice *AFTER LIGHT*; el [[01 - Glosario]] pide *AfterLight*.
-- El HUD del prototipo no muestra el reloj hasta la llegada del Ascendido y, en su lugar, avisa cuando un generador está bajo ataque o el arma se queda sin munición; esta nota incluye el reloj entre los elementos del HUD.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - UX y Flujo del Jugador]] · [[03 - Accesibilidad]] →

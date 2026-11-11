@@ -27,7 +27,7 @@ El reloj de partida se detiene durante la pausa y la selección de mejoras. Por 
 
 Creciente conforme transcurre el tiempo. El director recibe tickets que utiliza para generar enemigos según sus costos y las reglas de aparición.
 
-La dificultad combina cantidad de amenazas, variedad de comportamientos y presión sobre el jugador y los generadores. El director recibe de 0.25 a 1 ticket por segundo durante los 10 minutos, arma grupos de 1 a 4 enemigos cada 2 s y no supera los 12 enemigos vivos, como indica [[02 - Mecánicas]].
+La dificultad combina cantidad de amenazas, variedad de comportamientos y presión sobre el jugador y los generadores. El director recibe de 0.25 a 1 ticket por segundo durante los 10 minutos, arma grupos de 1 a 4 enemigos cada 2 s y no supera los 12 enemigos vivos, como indica [[02 - Mecánicas]]. Al empezar, el tope es de 3 enemigos vivos y sube durante los primeros 4 minutos, para dejar explorar.
 
 **Mecánicas introducidas:**
 
@@ -40,7 +40,7 @@ La dificultad combina cantidad de amenazas, variedad de comportamientos y presi�
 - Regeneración de salud después de recibir daño.
 - Consulta de registros e interacción narrativa.
 
-Nicolás presenta las acciones esenciales mediante comunicaciones asociadas a las primeras situaciones en que se necesitan.
+La carga muestra el consejo de Enlace sobre la linterna. Al entrar al nivel, Nicolás presenta la misión en el panel de comunicaciones y el HUD muestra los avisos e indicaciones de interacción. Las comunicaciones de tutorial por situación siguen como propuesta.
 
 **Mecánicas utilizadas:**
 
@@ -83,9 +83,9 @@ Inexistentes
 
 **Condición de entrada:**
 
-El jugador selecciona **Iniciar** en el menú principal. El soldado termina de abrir las puertas, entra al complejo y la cámara adopta la perspectiva de juego.
+El jugador selecciona **Iniciar despliegue** en el menú principal. Al terminar la carga, recibe el control de Eco-10 en la vista superior del centro científico de Hades.
 
-Una vez que el escenario está preparado y se entrega el control, comienza el reloj de partida y Nicolás establece comunicación.
+Al terminar la carga, se entrega el control y comienza el reloj de partida.
 
 **Condición de salida:**
 
@@ -99,18 +99,28 @@ Una vez que el escenario está preparado y se entrega el control, comienza el re
 
 **Eventos narrativos:**
 
-1. El soldado abre las puertas e ingresa al complejo.
-2. Nicolás establece contacto y transmite las primeras instrucciones.
+1. Comienza la partida en el centro científico de Hades.
+2. El HUD presenta las indicaciones de interacción y de estado conforme aparecen.
 3. El jugador encuentra rastros de las intervenciones anteriores.
 4. La exploración permite recuperar registros y, si se cumplen las condiciones, contactar con Issac.
 5. Las peticiones de Issac ofrecen una investigación opcional durante la supervivencia.
 6. Al alcanzar el tiempo establecido, aparece el Ascendido.
 7. Tras su derrota, el cuerpo del Ascendido es absorbido por su halo de cristal.
-8. Se reproduce la cinemática de victoria correspondiente. Si el jugador muere antes, se presenta la secuencia de derrota apropiada.
+8. Al derrotar al Ascendido, la imagen funde a negro y aparece Victoria con el desenlace obtenido. Si el jugador pierde, se abre directamente Game Over.
 
 **Mapa / diagrama:**
 
-La distribución definitiva está por diseñar. El mapa debe integrar las siguientes áreas funcionales dentro de un único escenario:
+`CentroHades.unity` contiene los sectores Vestíbulo, Anillo, Núcleo, Archivo, Cuarentena, Talleres y Norte. Los tres generadores empiezan averiados. Estas son las posiciones de referencia en metros sobre el plano X/Z de Unity:
+
+| Punto | X | Z |
+|---|---:|---:|
+| Inicio de Eco-10 | 0 | −19 |
+| Generador Oeste | −19 | 1 |
+| Generador Este | 19 | −1 |
+| Generador Norte | −1 | 19 |
+| Terminal de Issac en el Archivo | −12 | 23.9 |
+
+El Núcleo contiene el foso del Ascendido. El NavMesh de CentroHades permite a los enemigos recorrer el nivel. Las áreas cumplen estas funciones:
 
 |Área|Propósito jugable|Criterio de diseño|
 |---|---|---|
@@ -118,7 +128,7 @@ La distribución definitiva está por diseñar. El mapa debe integrar las siguie
 |Áreas de combate y circulación|Sostener los enfrentamientos y conectar sectores|Ofrecer rutas alternativas y evitar bloqueos inevitables|
 |Puntos de generadores|Concentrar decisiones de reparación y defensa|Permitir reconocer amenazas y valorar el riesgo de intervenir|
 |Laboratorios y sectores secundarios|Alojar exploración y registros|Recompensar los desvíos sin imponer un recorrido obligatorio|
-|Punto o medio de contacto con Issac|Dar acceso a su contenido opcional|Ubicación y requisitos pendientes de definición|
+|Punto o medio de contacto con Issac|Dar acceso a su contenido opcional|Canal cifrado del comunicador, abierto por el registro de Lucía Ferrán; la terminal del Archivo prepara la copia de las pruebas|
 |Espacio de enfrentamiento final|Permitir combatir al Ascendido|Contar con espacio suficiente para interpretar y evitar sus ataques|
 
 El área del jefe pertenece al mismo nivel. Su ubicación y la forma de iniciar el encuentro deben impedir que el jugador pierda tiempo buscando al Ascendido sin indicaciones.
@@ -127,7 +137,7 @@ El área del jefe pertenece al mismo nivel. Su ubicación y la forma de iniciar 
 
 |Momento|Actividad del jugador|Avance|
 |---|---|---|
-|Entrada|Cruza las puertas y recibe la comunicación de Nicolás|Se entrega el control y comienza el reloj|
+|Entrada|Termina la carga y comienza a jugar|Se entrega el control y comienza el reloj|
 |Introducción|Aprende a moverse, iluminar, atacar y reparar|Las instrucciones se activan según sus acciones|
 |Supervivencia|Combate, gestiona recursos y mantiene generadores|El tiempo aumenta la presión del director|
 |Desarrollo del personaje|Recoge cristales y elige mejoras|Ocurre durante la supervivencia, según los recursos obtenidos|

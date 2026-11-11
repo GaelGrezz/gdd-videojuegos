@@ -20,6 +20,10 @@ Describe las etapas principales del juego.
 
 6. **Final:** La victoria se obtiene al derrotar al jefe final. La partida termina antes si se cumple una condición de derrota. En nuevas partidas, el jugador puede aplicar lo aprendido y experimentar con otras combinaciones de mejoras.
 
+## Catálogo disponible en Unity
+
+El prefab `Jugador` referencia 23 cartas en `Assets/Level/Data/Mejoras`. Hay 21 disponibles para el sorteo, incluidas GEN-001 y GEN-002. CAR-006 y CAR-018 están deshabilitadas. Cada subida ofrece hasta tres cartas distintas y excluye las que ya llegaron a su nivel máximo. Si se agotan las cartas elegibles, el nivel sube directamente. El catálogo activo y los efectos por nivel se detallan en [[AfterLight_Stats.xlsx]].
+
 ## Progresión del jugador
 
 1. Desplazarse y orientar el apuntado.
