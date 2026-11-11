@@ -32,22 +32,22 @@ Registra problemas encontrados durante las pruebas y permite darles seguimiento.
 
 ## Registro
 
-La severidad es una estimación basada en el impacto. El responsable y la frecuencia quedan por registrar cuando no hay datos. **Resuelto** indica que existe una corrección documentada. **Cerrado** se usa al registrar una comprobación posterior de la corrección.
+La severidad es una estimación basada en el impacto. Los responsables se asignan por área para el seguimiento actual. La frecuencia queda por registrar cuando no hay datos. **Resuelto** indica que existe una corrección documentada. **Cerrado** se usa al registrar una comprobación posterior de la corrección.
 
 | ID | Bug | Área | Severidad | Responsable | Estado |
 |---|---|---|---|---|---|
 | 1 | La culata atraviesa el pecho de Eco-10 | Arte y animación | Baja | Enrique Herrera Loeza | Abierto |
-| 2 | El Ascendido aparecía a los 5 minutos | Combate final | Alta | Por asignar | Resuelto |
-| 3 | Eco-10 caía al vacío en grietas y cerca del foso | Nivel y colisiones | Alta | Por asignar | Resuelto |
-| 4 | Se veía el fondo negro bajo las grietas de cristal | Arte de entorno | Baja | Por asignar | Resuelto |
-| 5 | Los proyectiles atravesaban paredes finas y puertas al disparar pegado a ellas | Combate y colisiones | Alta | Por asignar | Resuelto |
-| 6 | El menú principal cortaba opciones en ventanas más anchas que 16:9 | Interfaz | Media | Por asignar | Resuelto |
-| 7 | El haz de la linterna empezaba por delante del arma | Iluminación | Baja | Por asignar | Resuelto |
-| 8 | Los cristales del kit aparecían blancos al cambiar de rama | Importación de arte | Baja | Por asignar | Resuelto |
-| 9 | Unity no importaba los sonidos entregados en M4A | Importación de audio | Media | Por asignar | Resuelto |
-| 10 | La compilación arrancaba en la escena de prueba | Carga y compilación | Alta | Por asignar | Resuelto |
+| 2 | El Ascendido aparecía a los 5 minutos | Combate final | Alta | Enrique Herrera Loeza, José Roberto Fuentes Salinas | Resuelto |
+| 3 | Eco-10 caía al vacío en grietas y cerca del foso | Nivel y colisiones | Alta | Enrique Herrera Loeza, José Roberto Fuentes Salinas | Resuelto |
+| 4 | Se veía el fondo negro bajo las grietas de cristal | Arte de entorno | Baja | Enrique Herrera Loeza | Resuelto |
+| 5 | Los proyectiles atravesaban paredes finas y puertas al disparar pegado a ellas | Combate y colisiones | Alta | Enrique Herrera Loeza, José Roberto Fuentes Salinas | Resuelto |
+| 6 | El menú principal cortaba opciones en ventanas más anchas que 16:9 | Interfaz | Media | Julián Hernández Primo | Resuelto |
+| 7 | El haz de la linterna empezaba por delante del arma | Iluminación | Baja | Enrique Herrera Loeza | Resuelto |
+| 8 | Los cristales del kit aparecían blancos al cambiar de rama | Importación de arte | Baja | Enrique Herrera Loeza | Resuelto |
+| 9 | Unity no importaba los sonidos entregados en M4A | Importación de audio | Media | Diego Rubén Correa Chávez | Resuelto |
+| 10 | La compilación arrancaba en la escena de prueba | Carga y compilación | Alta | Enrique Herrera Loeza, José Roberto Fuentes Salinas | Resuelto |
 | 11 | La etiqueta del reloj del Ascendido quedaba por debajo del mínimo de texto | Accesibilidad | Baja | Julián Hernández Primo | Abierto |
-| 12 | Los pies de Eco-10 patinaban al mezclar reposo y caminata | Animación | Baja | Por asignar | Resuelto |
+| 12 | Los pies de Eco-10 patinaban al mezclar reposo y caminata | Animación | Baja | Enrique Herrera Loeza | Resuelto |
 
 ## Detalle y comprobación
 
