@@ -153,7 +153,7 @@ Recuperar un registro que permita establecer contacto con Issac.
 
 **Contexto:**
 
-El registro de la teniente Lucía Ferrán documenta un desacuerdo entre científicos y responsables militares. Se propone que incluya una referencia a Issac y un medio para contactarlo.
+El registro de la teniente Lucía Ferrán documenta un desacuerdo entre científicos y responsables militares. Incluye una referencia a Issac y la frecuencia de su canal cifrado.
 
 **Requisitos:**
 
@@ -276,9 +276,9 @@ Se registra el cumplimiento de todas las peticiones de Issac.
 
 **Consecuencias:**
 
-Si el jugador derrota al Ascendido, la cinemática de **Ni uno más** confirma la transmisión. Completar esta misión no concede una victoria inmediata.
+Si el jugador derrota al Ascendido, la pantalla de victoria **Ni uno más** confirma la transmisión con el mensaje de Issac. Completar esta misión no concede una victoria inmediata.
 
-Una vez registrada la preparación, el progreso no se pierde si el generador vuelve a ser destruido. El mecanismo técnico y el destinatario de las pruebas quedan por definir.
+En Unity, la terminal de comunicaciones del Archivo, alimentada por el Generador Norte, prepara la copia mientras el jugador mantiene E durante 6 s. Soltar E, recibir daño o perder la energía interrumpe la preparación y conserva el avance. Una vez preparada, la copia cuenta para el final aunque el generador vuelva a ser destruido. El destinatario de las pruebas queda por definir.
 
 **Personajes relacionados:**
 
@@ -319,7 +319,7 @@ Cada registro cuenta como un hallazgo independiente. La colección se completa a
 
 **Condición de fracaso:**
 
-No tiene un fracaso independiente. Terminar la partida puede dejar la colección incompleta; su conservación entre partidas está por definir.
+No tiene un fracaso independiente. Terminar la partida puede dejar la colección incompleta. En Unity, los registros recuperados se cuentan para el resumen de la sesión y la colección se reinicia en la siguiente partida.
 
 **Recompensa:**
 
@@ -354,12 +354,12 @@ Los valores de racha y los requisitos de cristales permanecen pendientes de bala
 
 1. La misión principal permanece visible y se distingue de los objetivos opcionales.
 2. Las peticiones de Issac no detienen el reloj por sí mismas.
-3. El comportamiento de pausa de sus conversaciones y de la lectura de registros está por definir.
+3. En Unity, las conversaciones y los registros aparecen en el panel de comunicaciones mientras la partida sigue.
 4. Los archivos recogidos antes de recibir una petición cuentan de forma retroactiva.
 5. Las pruebas necesarias para el final alternativo tienen una disponibilidad garantizada bajo condiciones definidas; no dependen exclusivamente del azar.
 6. Completar una misión se registra una sola vez.
 7. La aparición del Ascendido no espera a que el jugador termine los objetivos secundarios.
-8. Las peticiones completadas antes de derrotar al jefe cuentan para evaluar el final. Si podrán continuarse durante su combate queda por definir.
+8. Unity permite continuar las peticiones durante el combate final. Tras la derrota del jefe y el fundido, el juego consulta si la cadena de Issac está completa para elegir la pantalla de victoria.
 9. No completar el contenido de Issac permite obtener la victoria normal.
 10. Las misiones no desbloquean otros niveles ni sustituyen la progresión temporal.
 

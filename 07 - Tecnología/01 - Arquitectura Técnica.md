@@ -62,7 +62,7 @@ Presentación
 
 ---
 
-# Componentes principales
+## Componentes implementados en Unity
 
 |Componente|Responsabilidad|Dependencias|
 |---|---|---|
@@ -84,7 +84,16 @@ Presentación
 |**Configuracion**|Ajustes de Opciones guardados en `PlayerPrefs`.|PantallaOpciones|
 |**HUD y RetroalimentacionHUD**|Vida, batería, generadores, nivel, cristales, racha, avisos y efectos de daño.|Sistemas del jugador|
 |**SoldierAnimator**|Animaciones de Eco-10 según la velocidad, el disparo, la recarga y el daño.|Animator|
-|**CamaraSeguimiento**|Sigue al soldado y se adelanta hacia el cursor.|PlayerController|
+|**CamaraSeguimiento y OclusionCamara**|Siguen al soldado, adelantan el encuadre hacia el cursor y transparentan los obstáculos que lo ocultan.|PlayerController, cámara y geometría del nivel|
+|**Quimera**|Extiende la IA de Cáscara con prioridad a generadores, zona de peligro y evasión lateral al recibir luz.|Cascara, Health, Generador, NavMesh|
+|**RelojPartida, Ascendido y AscendidoBrazo**|El reloj crea al jefe a los 600 s y pausa al director. El jefe coordina sus brazos, ataques y derrota. Al finalizar el fundido, el reloj selecciona el resultado con la cadena de Issac.|DirectorIA, NavMesh, CadenaIssac, FinPartida|
+|**Registro, InteraccionObjetos, CadenaIssac y TerminalIssac**|Gestionan los 28 registros, la interacción de recogida, las peticiones y la preparación de la copia en la terminal del Archivo.|Input System, Generador Norte, ComunicacionHUD|
+|**ComunicacionHUD, JefeHUD y MejorasHUD**|Presentan mensajes encolados, información del jefe y estado de mejoras. Complementan el HUD principal.|HUD, RelojPartida, ProgressionSystem, UpgradeSystem|
+|**MenuPrincipal, PantallaCarga y FinPartida**|Navegan entre escenas, muestran el avance o error de carga y presentan Victoria o Game Over.|Juego, SceneManager, prefabs de interfaz|
+|**MenuPausa, PantallaMejoras y DialogoConfirmacion**|Detienen la simulación en los menús que lo requieren y controlan la selección o confirmación.|Juego, Input System, UpgradeSystem|
+|**PantallaOpciones y PantallaCreditos**|Abren paneles de configuración y créditos desde recursos de interfaz.|Configuracion, MenuPrincipal, MenuPausa|
+|**Sonido y MusicaPartida**|Reproducen efectos y música de la partida con niveles de volumen independientes.|Configuracion, AudioSource, AudioListener|
+|**PixeladoCamaraFeature**|Aplica pixelado al renderizado 3D antes del HUD en Overlay.|URP, PC_Renderer, shader de pixelado|
 
 ---
 
@@ -135,6 +144,10 @@ Projectile
 Esto permite cambiar controles o dispositivos sin modificar la lógica de las armas.
 
 ---
+## Patrones de arquitectura considerados
+
+Las secciones sobre `GameManager`, `GameMediator`, Factory, Builder, Composite, Decorator y Dirty Flag describen alternativas de arquitectura. La partida actual usa `Juego`, componentes de Unity, referencias directas y eventos. La tabla anterior refleja la implementación revisada.
+
 # GameManager
 
 `GameManager` mantiene el estado global de la partida.

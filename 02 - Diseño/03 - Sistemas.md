@@ -12,9 +12,12 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 | Linterna y efectos de luz        | Debilitar infectados mediante un cono de luz                     | Jugador, enemigos, mejoras, generadores            | Implementado |
 | Combate                          | Resolver ataques, daño y eliminaciones                           | Jugador, enemigos, linterna                        | Implementado |
 | Generadores                      | Gestionar reparación, daño, defensa y beneficios                 | Jugador, combate, enemigos                         | Implementado |
-| Director de IA                   | Seleccionar amenazas mediante tickets que aumentan con el tiempo | Tiempo, catálogo de enemigos, estado de la partida | Implementado con la Cáscara |
-| Mejoras y potenciadores          | Modificar las herramientas y capacidades del jugador             | Linterna, combate, generadores, rachas             | Parcial: cartas y racha, sin potenciadores |
-| Objetivos y resultado de partida | Determinar la aparición del jefe final, la victoria y la derrota | Todos los sistemas anteriores                      | Parcial: derrotas, sin Ascendido ni victoria |
+| Director de IA                   | Seleccionar amenazas mediante tickets que aumentan con el tiempo | Tiempo, catálogo de enemigos, estado de la partida | Implementado con la Cáscara y la Quimera |
+| Mejoras y potenciadores          | Modificar las herramientas y capacidades del jugador             | Linterna, combate, generadores, rachas             | Implementado |
+| Objetivos y resultado de partida | Determinar la aparición del jefe final, la victoria y la derrota | Todos los sistemas anteriores                      | Implementado |
+| Registros y cadena de Issac | Recuperar registros, seguir peticiones y preparar la copia en el Archivo | Interacción, terminal, Generador Norte, comunicaciones y desenlace | Implementado |
+| Cámara y presentación | Seguir a Eco-10, transparentar obstáculos y mostrar estado y avisos | Cámara, HUD, renderizado y audio | Implementado |
+| Menús, carga y configuración | Cargar escenas, pausar, confirmar acciones y conservar preferencias | Estado de partida, escenas y PlayerPrefs | Implementado con ajustes pendientes de aplicar en [[04 - Guardado y Configuración]] |
 
 ## Sistema: Jugador y supervivencia
 

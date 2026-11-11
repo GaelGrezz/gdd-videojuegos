@@ -52,6 +52,17 @@ Esta sección conserva las decisiones importantes del proyecto y el razonamiento
 | 2026-11-07 | Movimiento del jugador     | `PlayerController` usa `CharacterController` en lugar de `Rigidbody`, como el prototipo                                                                                                                  |             |
 | 2026-11-08 | Valores de Unity           | Los valores implementados en Unity pasan a ser los del juego: Cáscara, director, generadores, cristales, regeneración y munición de reserva infinita. Lo que Unity aún no tiene sigue como propuesta |             |
 | 2026-11-08 | Movimiento del jugador     | El soldado corre por defecto a 5 m/s y camina a 1.8 m/s mientras se mantiene Shift, al disparar o al moverse hacia atrás; reemplaza la decisión del 2026-11-07 |             |
+| 2026-11-09 | Contacto con Issac         | Issac está fuera del centro científico, en una instalación de la facción científica de CERBERUS en Hades, y no aparece en el mapa. Habla por un canal cifrado del comunicador del soldado, distinto del de Enlace, cuya frecuencia está en el registro de Lucía Ferrán; la terminal del Archivo solo prepara la copia de las pruebas | |
+| 2026-11-09 | Registros                  | Hay un registro de texto por cada uno de los 28 operativos fallecidos, con los textos y sectores de Diálogos y Narrativa; se recupera con E y se lee en el panel de comunicaciones | |
+| 2026-11-09 | Reloj del Ascendido        | El HUD muestra el reloj hasta la llegada del Ascendido, más pequeño y pegado arriba que en el diseño de Figma, y la barra del Ascendido lo sustituye durante el combate final | |
+| 2026-11-09 | Inicio de la partida       | Los primeros minutos son tranquilos para explorar: el director decide por primera vez a los 20 s y el tope de enemigos vivos sube de 3 a 12 durante los primeros 4 minutos | |
+| 2026-11-09 | Aparición de la Quimera    | La Quimera aparece a partir de los 3 minutos de partida, para que el inicio sea más tranquilo, y desde entonces sale al menos una cada 45 s | |
+| 2026-11-09 | Paredes que tapan al soldado | Los muros, columnas y piezas altas que quedan entre la cámara y el soldado se vuelven translúcidas mientras lo tapan | |
+| 2026-11-10 | Evasión de la Quimera       | La Quimera conserva la evasión lateral: 3 m en 0.35 s al recibir luz, con 6 s de recarga y sin interrumpir sus ataques | |
+| 2026-11-10 | Valores de la Quimera       | Pasan a ser definitivos: 300 PV, 30 PV por golpe, 30 % de reducción, 1 m/s, zona de peligro de 6 m, 3 tickets y 4 cristales | |
+| 2026-11-10 | Valores del Ascendido       | Pasan a ser definitivos: 1500 PV; golpe dirigido 25 PV, barrido 20 e impacto convergente 35; 1.6 m/s; sin reducción de daño; los brazos no reciben daño | |
+| 2026-11-10 | Potenciadores de racha      | +15 % de daño a las 5 eliminaciones, +15 % de cadencia a las 10 y +10 % de velocidad al correr a las 20; acumulables y activos mientras dure la racha | |
+| 2026-11-10 | Mejoras de generador        | GEN-001 *Carcasa reforzada* (+25 de integridad máxima por nivel) y GEN-002 *Bobinas de inducción* (+4 energía/s de recarga por nivel), hasta el nivel 4 | |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Referencias e Inspiración]] · [[04 - Historial de Versiones]] →

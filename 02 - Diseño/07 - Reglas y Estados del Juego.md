@@ -14,8 +14,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | Selección de mejora | Detiene la simulación hasta que el jugador confirma una mejora.                                                                 |
 | Pausa          | Detiene temporalmente la simulación y permite consultar opciones o abandonar la partida.                                              |
 | Victoria       | Se alcanza al derrotar al jefe final después del periodo de supervivencia establecido.                                                |
-| Derrota        | Se activa cuando la salud llega a cero o se supera el tiempo permitido con la batería al 0 %. Detiene la partida y registra la causa. |
-| Game Over      | Muestra el resultado de la derrota y permite reintentar o regresar al menú principal.                                                 |
+| Game Over      | Se abre directamente al agotarse la salud o el periodo de tolerancia de la batería. Detiene la partida, muestra la causa y permite reintentar o regresar al menú principal.                                                 |
 | Créditos       | Muestra a los integrantes y colaboradores del proyecto.                                                                               |
 
 ## Transiciones
@@ -32,9 +31,8 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | Pausa               | Abandonar partida                           | Menú principal      | El jugador confirma que desea salir                                  |
 | Jugando             | Cumplir el tiempo de supervivencia          | Jugando: jefe final | El jefe todavía no ha aparecido y no existe una condición de derrota |
 | Jugando             | Derrotar al jefe final                      | Victoria            | No se ha activado una condición de derrota                           |
-| Jugando             | Salud del soldado igual a cero              | Derrota             | Se ha aplicado el daño correspondiente                               |
-| Jugando             | Agotar el periodo de tolerancia sin batería | Derrota             | La batería permanece al 0 %                                          |
-| Derrota             | Terminar la presentación de la derrota      | Game Over           | La causa y el resultado están registrados                            |
+| Jugando             | Salud del soldado igual a cero              | Game Over             | Se ha aplicado el daño correspondiente                               |
+| Jugando             | Agotar el periodo de tolerancia sin batería | Game Over             | La batería permanece al 0 %                                          |
 | Game Over           | Reintentar                                  | Carga               | El jugador inicia una nueva partida                                  |
 | Game Over           | Salir                                       | Menú principal      | El jugador elige regresar                                            |
 | Victoria            | Volver al menú                              | Menú principal      | El jugador confirma la opción                                        |
@@ -87,7 +85,7 @@ Es una interfaz disponible durante la partida en la que el juego debe estar en p
 
 ### Comportamiento del director durante el jefe final
 
-El director no recibe tickets ni genera enemigos mientras el jefe esté vivo. El jefe puede invocar sus propias entidades; su repertorio está por definir.
+El director no recibe tickets ni genera enemigos mientras el jefe esté vivo. Las invocaciones del Ascendido siguen como propuesta de diseño.
 
 ### Reinicio de partida
 

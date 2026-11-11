@@ -12,7 +12,7 @@ Define la estética y necesidades visuales de escenarios, fondos, objetos y elem
 | Áreas de combate y circulación | Pasillos modulares de concreto y metal pintado, en penumbra | Muros, columnas, postes, tuberías y paneles | Sostener los enfrentamientos y conectar sectores |
 | Puntos de generadores | Salas técnicas iluminadas por el generador | Generador, marcas de peligro, paneles y tuberías | Concentrar las decisiones de reparación y defensa |
 | Laboratorios y sectores secundarios | Instalaciones científicas abandonadas, con rastros de sus ocupantes | Por definir | Alojar exploración y registros |
-| Punto o medio de contacto con Issac | Por definir | Por definir | Dar acceso a su contenido opcional |
+| Punto o medio de contacto con Issac | No aplica: Issac está fuera del complejo y habla por un canal cifrado del comunicador | Terminal de comunicaciones del Archivo, alimentada por el Generador Norte, para preparar la copia de las pruebas | Dar acceso a su contenido opcional |
 | Espacio de enfrentamiento final | Se propone un atrio con foso de cristal violeta | Columnas; el resto, por definir | Permitir combatir al Ascendido |
 
 ## Modularidad
@@ -73,11 +73,15 @@ La iluminación cambia con los generadores: un generador averiado o destruido de
 
 Lista los modelos, sprites, texturas, materiales y efectos necesarios.
 
-- **Modelos:** Kit de CERBERUS y generador en sus tres estados, listos. Faltan los elementos de los laboratorios, el punto de contacto con Issac y el espacio final.
+- **Modelos:** Kit de CERBERUS y generador en sus tres estados, listos. Faltan los elementos de los laboratorios y el espacio final.
 - **Sprites:** No aplica; los escenarios son modelos 3D.
 - **Texturas:** Cada pieza del kit tiene su propia textura horneada, de 128 a 1024 px; el generador usa un atlas de 1024 px.
 - **Materiales:** Usan los colores de [[01 - Dirección de Arte]], salvo tres tonos oscuros de apoyo: `#2B3036`, `#0E1013` y `#1E2626`.
 - **Efectos:** Dos efectos de Visual Effect Graph, el fogonazo y el impacto, y el efecto de cámara pixelada. Faltan el humo, la explosión, la recarga y el filtro VHS.
+
+## Visibilidad de Eco-10
+
+`CamaraJuego` sigue al soldado y adelanta el encuadre hacia el cursor. Cuando una pieza del escenario tapa el pecho o la cabeza de Eco-10, `OclusionCamara` la funde al 25 % de opacidad y restaura su material al despejarse. La pieza conserva su colisión.
 
 ## Decisiones pendientes
 

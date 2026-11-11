@@ -44,13 +44,13 @@ El tiempo transcurrido también se registra: determina el crecimiento del presup
 - La curación asociada a una mejora solo se activa si el jugador posee esa mejora y cumple su condición.
 - Llegar a cero de salud provoca una derrota inmediata.
 - Llegar al 0 % de batería inicia un periodo de tolerancia. Si el jugador permanece sin carga durante ese tiempo, pierde la partida.
-- Recuperar batería por encima del 0 % cancela y reinicia el periodo de tolerancia. Su duración se ajusta en la hoja de estadísticas.
+- Recuperar batería por encima del 0 % cancela y reinicia el periodo de tolerancia de 5 s. Dentro del radio de un generador operativo se aplica la recarga sin consumo simultáneo. Si coinciden varios radios, se usa un solo generador.
 
 ### Generadores
 
 - Reparar un generador recupera su integridad hasta el máximo establecido. Tiene 100 de integridad y necesita 100 puntos de reparación, 10 s a la velocidad base.
 - Mientras está operativo, recarga la batería del soldado cercano. Recarga 10 unidades por segundo a menos de 5 m.
-- Un generador destruido puede volver a funcionar tras su reparación.
+- Después de reparar o restaurar a tope, el generador queda 20 s sin poder volver a repararse. Tras la destrucción queda bloqueado 60 s. Los tres empiezan averiados y pueden repararse desde el inicio.
 - Su destrucción interrumpe sus beneficios hasta recuperarlo; no provoca una derrota directa.
 - La reparación se interrumpe si el soldado recibe daño.
 
@@ -70,7 +70,7 @@ Fuera del prototipo. No existen moneda ni tienda; las mejoras se obtienen única
 
 - La racha aumenta con cada eliminación válida y no tiene un límite máximo.
 - Recibir daño reinicia la racha a cero.
-- Los potenciadores se otorgan al alcanzar umbrales definidos.
+- Los potenciadores se otorgan al alcanzar umbrales: +15 % de daño a las 5 eliminaciones, +15 % de cadencia a las 10 y +10 % de velocidad al correr a las 20. Se suman a las mejoras y duran mientras dure la racha.
 - Una racha ilimitada no implica que los beneficios aumenten sin límite.
 - Perder la racha anula los potenciadores.
 

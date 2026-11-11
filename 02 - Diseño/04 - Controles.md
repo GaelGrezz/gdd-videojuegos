@@ -8,22 +8,21 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 
 | Acción                      | Teclado     | Mouse                 |
 | --------------------------- | ----------- | --------------------- |
-| Mover                       | W, A, S, D  | —                     |
+| Mover                       | W, A, S, D o flechas | —             |
 | Apuntar arma y linterna     | —           | Movimiento del cursor |
 | Caminar                     | Shift izquierdo, mantenido | —      |
-| Interactuar con objetos     | E, mantenida | —                    |
-| Disparar                    | —           | Clic izquierdo        |
+| Interactuar con objetos     | E breve para registros, mantenida para generadores y terminal | — |
+| Disparar                    | Enter durante la partida | Clic izquierdo |
 | Recargar                    | R           | —                     |
-| Abrir menú de mejoras       | Por definir | —                     |
-| Cambiar de arma             | Por definir | Por definir           |
+| Abrir menú de mejoras       | Apertura automática al subir de nivel | — |
 | Abrir menú de pausa         | ESC         | —                     |
 
 La plataforma es PC con teclado y mouse.
 
 ## Principios de control
 
-- El movimiento utiliza W, A, S y D, correspondientes a arriba, izquierda, abajo y derecha desde la perspectiva de la cámara. El soldado corre por defecto y camina mientras se mantiene Shift, mientras dispara o al moverse hacia atrás.
-- El apuntado sigue la posición del cursor y orienta a la vez el arma y la linterna.
+- El movimiento utiliza W, A, S y D, correspondientes a arriba, izquierda, abajo y derecha desde la perspectiva de la cámara. El soldado corre a 5 m/s y camina a 1.8 m/s mientras se mantiene Shift, al mantener el disparo o cuando se mueve a más de 100° respecto de hacia donde mira.
+- El apuntado sigue la posición del cursor y orienta a la vez el arma y la linterna. La bala sale de la boca del arma hacia el punto bajo el cursor, y durante la partida el cursor no puede salir de la ventana.
 - La linterna no tiene tecla de encendido: permanece activa durante toda la partida.
 - La interacción con objetos utiliza E y muestra una indicación cuando hay una acción disponible. Para reparar se mantiene E.
 - Las acciones frecuentes deben poder ejecutarse sin combinaciones complejas.
@@ -43,13 +42,11 @@ No disponible: la pantalla de Opciones muestra los controles pero no permite cam
 | Presionar R                           | El arma se recarga; también ocurre al vaciar el cargador | Indicador de recarga en la interfaz                                          |
 | Presionar E cerca de un objeto válido | Se inicia la interacción disponible                    | Indicación visual de la acción y, cuando corresponda, progreso de reparación |
 | Abrir el menú de mejoras              | Se muestran las opciones disponibles                   | Panel con la descripción y los efectos de cada mejora                        |
-| Cambiar de arma                       | Se equipa otra arma disponible                         | Actualización del arma visible y de su indicador en la interfaz              |
 | Abrir el menú de pausa                | Se muestra el menú de pausa                            | Panel de opciones y señal visual de pausa                                    |
 
-## Decisiones pendientes
+## Cobertura de dispositivos
 
-- Tecla del menú de mejoras. En el prototipo se abre solo al reunir los cristales requeridos.
-- Tecla para cambiar de arma. El prototipo tiene una sola arma.
+El asset contiene asignaciones de mando para acciones como movimiento y ataque. El apuntado actual lee el mouse, por lo que la plataforma documentada sigue siendo PC con teclado y mouse. La partida usa un único rifle.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Sistemas]] · [[05 - Progresión]] →

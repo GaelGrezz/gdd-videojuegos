@@ -70,7 +70,7 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Cantidad máxima:** 1 arma y 12 balas en el cargador. La munición de reserva es infinita.
 
-**Valor:** 20 de daño, 10 disparos/s, 1.8 s de recarga y 12 m de alcance.
+**Valor:** 20 de daño, 10 disparos/s, 1.8 s de recarga y 12 m de alcance. La bala viaja a 75 m/s y el efecto de impacto permanece 1.5 s.
 
 **Rareza:** No aplica.
 
@@ -103,7 +103,7 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Restricciones:** No se conserva entre partidas.
 
-**Interacciones:** GEN-001 (*Carcasa reforzada*) y GEN-002 (*Bobinas de inducción*) son propuestas para mejorar los generadores.
+**Interacciones:** GEN-001 (*Carcasa reforzada*: +25 de integridad máxima de los generadores por nivel) y GEN-002 (*Bobinas de inducción*: +4 energía/s de recarga junto a un generador por nivel) mejoran los generadores, ambas hasta el nivel 4.
 
 **Representación visual:** Carta de la pantalla *Elige una mejora* ([[02 - UI y Menús]]).
 
@@ -129,14 +129,14 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Restricciones:** No se puede responder a su autor. Su contenido se limita a lo que el personaje sabía antes de morir.
 
-**Interacciones:** Los registros de Lucía Ferrán, Julián Ocampo, Rodrigo Valcárcel y Beatriz Alcázar son necesarios para las peticiones de Issac y deben tener una disponibilidad garantizada. Los que se recojan antes de recibir la petición cuentan de forma retroactiva.
+**Interacciones:** La escena incluye 28 registros colocados en posiciones fijas. Los de Lucía Ferrán, Julián Ocampo, Rodrigo Valcárcel y Beatriz Alcázar son necesarios para las peticiones de Issac. Los que se recojan antes de recibir la petición cuentan de forma retroactiva.
 
 **Representación visual:** Restos de operativos con uniforme y equipo acordes con su función. El rango se reconoce por insignias o identificación.
 
 ## Decisiones pendientes
 
 - Nombre oficial del arma inicial.
-- Formato de los registros, si leerlos pausa la partida y si se conservan entre partidas.
+- Formato y acceso del Archivo del jugador. En Unity los registros se muestran como texto en el panel de comunicaciones, con la partida en curso. La recuperación se reinicia con cada partida.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Enemigos y NPC]] · [[05 - Misiones y Desafíos]] →

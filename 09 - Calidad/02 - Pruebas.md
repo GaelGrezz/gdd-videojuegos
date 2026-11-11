@@ -10,7 +10,7 @@ Define cómo se comprobará que el videojuego funciona como fue diseñado.
 
 Comprueban que una característica haga lo que debe.
 
-Linterna y batería, arma inicial, generadores, director, enemigos, cristales y mejoras, racha y regeneración de la salud, según las reglas de [[03 - Sistemas]] y [[02 - Mecánicas]].
+Linterna y batería, arma inicial, generadores, director, enemigos, cristales y mejoras, racha y regeneración de la salud, según las reglas de [[03 - Sistemas]] y [[02 - Mecánicas]]. Comprobar la reproducción de la música y los efectos ya integrados, incluidos disparo, impacto, daño del jugador y daño del generador.
 
 ### Pruebas de integración
 
@@ -28,7 +28,7 @@ Que un jugador sin experiencia en el género complete los primeros minutos de [[
 
 Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
-Por definir hasta fijar los objetivos de [[03 - Requisitos Técnicos]].
+Usar una compilación de Windows y los dos perfiles de [[03 - Requisitos Técnicos]]. Medir la carga desde Iniciar despliegue hasta recibir el control. Registrar FPS y pico de memoria durante una partida que llegue al Ascendido. Anotar equipo, resolución, API gráfica y versión de la compilación junto con los resultados.
 
 ## Caso de prueba
 
@@ -50,7 +50,13 @@ Por definir hasta fijar los objetivos de [[03 - Requisitos Técnicos]].
 
 **Estado:** Correcto / Incorrecto
 
+## Atajos de desarrollo
+
+En el editor y en compilaciones de desarrollo, F8 adelanta el reloj hasta 5 s antes del Ascendido. F9 abre *Operativo caído* y F10 abre *Información recuperada*. Los atajos de resultado permiten revisar la interfaz. Para validar las reglas hay que provocar la derrota o vencer al jefe en partida.
+
 ## Casos del proyecto
+
+La revisión del GDD verificó conexiones en la escena, los prefabs y los scripts. Los casos siguientes quedan pendientes de ejecución en Unity.
 
 ### La pausa detiene la simulación
 
@@ -70,6 +76,20 @@ Por definir hasta fijar los objetivos de [[03 - Requisitos Técnicos]].
 
 **Estado:** Por definir.
 
+### Espera de reparación del generador
+
+**Precondiciones:** Partida en CentroHades y un generador averiado accesible.
+
+**Pasos:**
+
+1. Reparar el generador y observar el aviso de disponibilidad.
+2. Dejar que pierda integridad e intentar restaurarlo antes y después de los 20 s.
+3. Dejar que quede destruido e intentar repararlo antes y después de los 60 s.
+
+**Resultado esperado:** La primera restauración queda disponible al terminar los 20 s. Tras la destrucción, la reparación queda disponible al terminar los 60 s y el generador pierde sus beneficios hasta volver a operar.
+
+**Estado:** Pendiente de ejecución.
+
 ### Derrota por salud
 
 **Objetivo:** Comprobar la derrota *Operativo caído*.
@@ -81,7 +101,7 @@ Por definir hasta fijar los objetivos de [[03 - Requisitos Técnicos]].
 1. Dejar que los Vimers ataquen al soldado.
 2. Esperar a que la salud llegue a cero.
 
-**Resultado esperado:** Se presenta la derrota según el atacante y después Game Over con el título *Operativo caído*, el resumen de la partida, Reintentar y Menú principal.
+**Resultado esperado:** Se abre directamente Game Over con el título *Operativo caído*, el resumen de la partida, Reintentar y Menú principal.
 
 **Resultado obtenido:** Por definir.
 
@@ -138,5 +158,36 @@ Por definir hasta fijar los objetivos de [[03 - Requisitos Técnicos]].
 
 **Estado:** Por definir.
 
+
+### Victoria y final de Issac
+
+**Objetivo:** Verificar la aparición del Ascendido y los dos desenlaces en la escena CentroHades.
+
+**Precondiciones:** Partida iniciada desde el menú principal. Para probar el combate en el editor o en una compilación de desarrollo, F8 adelanta el reloj a 5 s de la aparición. La prueba del tiempo normal requiere esperar los 600 s de partida.
+
+**Pasos:**
+
+1. Verificar el aviso del HUD al aparecer el Ascendido y que el director deje de generar enemigos.
+2. Derrotarlo sin completar las peticiones de Issac.
+3. En otra partida, recuperar el registro de Lucía Ferrán y las tres pruebas, completar la terminal del Archivo y derrotar al Ascendido.
+
+**Resultado esperado:** Se abre Victoria con *Información recuperada* en la primera partida y *Ni uno más* en la segunda. El resumen muestra el tiempo, el nivel, los registros y los generadores de cada sesión.
+
+**Estado:** Pendiente de ejecución.
+
+### Persistencia de opciones
+
+**Objetivo:** Verificar que las opciones aplicadas se conservan entre ejecuciones y que los datos de partida se reinician.
+
+**Pasos:**
+
+1. Cambiar el volumen de música y efectos, la resolución y el modo de pantalla.
+2. Iniciar una partida, recuperar un registro y volver al menú.
+3. Cerrar el juego, abrirlo de nuevo y consultar Opciones.
+4. Iniciar otra partida y verificar el conteo de registros, el reloj y el nivel.
+
+**Resultado esperado:** Las preferencias conservan los valores elegidos. La nueva partida empieza con cero registros recuperados y con el reloj y el nivel iniciales.
+
+**Estado:** Pendiente de ejecución.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Criterios de Calidad]] · [[03 - Bugs y Seguimiento]] →

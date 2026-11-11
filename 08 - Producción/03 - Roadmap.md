@@ -20,31 +20,33 @@ El roadmap organiza el desarrollo en etapas y entregables.
 
 ### Producción
 
-**Objetivo:** Por definir. Se propone sustituir las primitivas y el HUD provisional por el arte y la interfaz finales y completar el contenido del nivel.
+**Objetivo:** Integrar el arte, la interfaz y el contenido del centro científico de Hades en la escena de juego.
 
-**Entregables:** Por definir. Se proponen las tareas pendientes del [[04 - Backlog del Proyecto]]: kit de CERBERUS e interfaz de Figma en Unity, modelos de los enemigos, audio mínimo, animaciones de derrota, entrada por las puertas, Issac, registros y final *Ni uno más*.
+**Avance:** `CentroHades.unity` reúne el kit de CERBERUS, el HUD, la Cáscara, la Quimera, el Ascendido con primitivas y la cadena de Issac con sus dos desenlaces. El trabajo restante se registra en el [[04 - Backlog del Proyecto]] y en [[02 - UI y Menús]].
 
 ### Pruebas
 
-**Objetivo:** Por definir. Se propone comprobar que el juego cumple los [[04 - Criterios de Aceptación]].
+**Objetivo:** Comprobar los [[04 - Criterios de Aceptación]] en el editor y en una compilación para Windows.
 
-**Entregables:** Por definir. Se proponen los casos de [[02 - Pruebas]] con sus resultados y el registro de [[03 - Bugs y Seguimiento]].
+**Entregables previstos:** Casos de [[02 - Pruebas]] con sus resultados y registro de [[03 - Bugs y Seguimiento]].
 
 ### Publicación / Entrega
 
-**Objetivo:** Entregar el prototipo académico para PC.
+**Objetivo:** Entregar la primera versión académica para Windows con las funciones que ya están integradas en Unity, según [[01 - Alcance]].
 
-**Entregables:** Por definir.
+**Preparación:** Unity tiene un perfil de compilación para Windows. Queda pendiente verificar una compilación de entrega.
 
 ## Hitos
 
 | Hito | Entregable | Criterio de finalización | Estado |
 |---|---|---|---|
 | Concepto definido | GDD v0.2.0 | Visión, diseño, historia y contenido documentados | Terminado |
-| Prototipo funcional | Escena `Prototype.unity` | Se puede jugar una partida completa y ganar o perder | Terminado |
+| Prototipo funcional | Escena `CentroHades.unity` | Se puede jugar una partida completa y ganar o perder | Terminado |
 | Interfaz diseñada | Pantallas en Figma | Todas las pantallas de [[02 - UI y Menús]] diseñadas | Terminado |
-| Interfaz en Unity | Menús y HUD finales | El HUD provisional queda sustituido por el diseño de Figma | En progreso |
-| Contenido narrativo | Issac, registros y final *Ni uno más* | Se pueden obtener los dos finales de victoria | Pendiente |
+| HUD en Unity | HUD, pausa, mejoras y pantallas de resultado | El HUD provisional queda sustituido por el diseño de Figma | Terminado |
+| Contenido narrativo | Issac, 28 registros y final *Ni uno más* | La escena conecta las peticiones de Issac y selecciona el desenlace al derrotar al Ascendido | Terminado |
 
+
+Los hitos de implementación se actualizaron a partir de la escena, los prefabs y los scripts de Unity. La validación de los finales y de la interfaz en partida se registra en [[02 - Pruebas]].
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Roles y Responsabilidades]] · [[04 - Backlog del Proyecto]] →

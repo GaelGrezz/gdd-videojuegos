@@ -25,14 +25,14 @@ Jugadores con experiencia básica en videojuegos de acción. El juego debe ense�
 | Método de entrada       | Teclado y mouse                             |
 | Resolución objetivo     | 1920 × 1080                                 |
 | Relación de aspecto     | 16:9                                        |
-| Rendimiento objetivo    | Por definir (FPS)                           |
+| Rendimiento objetivo    | 60 FPS a 1920 × 1080 en el equipo de referencia, pendiente de medición |
 | Conexión requerida      | No                                          |
 
 ## Restricciones de plataforma
 
 Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribución o conectividad.
 
-El juego se diseña para teclado y mouse y no necesita conexión. La interfaz se diseñó a 1920 × 1080; se propone escalarla desde esa referencia en otras resoluciones. Los límites de hardware, memoria y almacenamiento están por definir.
+El juego se diseña para teclado y mouse y no necesita conexión. La interfaz toma 1920 × 1080 como referencia. Los perfiles de prueba y las metas para la compilación de Windows se documentan en [[03 - Requisitos Técnicos]].
 
 ## Sesión de juego
 

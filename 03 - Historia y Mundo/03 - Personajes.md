@@ -206,7 +206,7 @@ Cada registro debe aportar una perspectiva distinta y evitar repetir informació
 |**Beatriz Alcázar**|Comandante de seguridad del complejo|Documenta órdenes incompatibles: limitar la exposición del personal y mantener determinadas operaciones de extracción|Mostrar la contradicción institucional sin identificar a los dirigentes|
 **Descripción física común:** Restos de operativos con uniformes y equipo acordes con su función. El rango debe reconocerse mediante insignias o identificación, sin depender únicamente del aspecto del cadáver.
 
-**Interacción:** El jugador puede recuperar sus registros. El formato (texto, audio o ambos) está por definir.
+**Interacción:** El jugador puede recuperar sus registros. Son de texto: al recuperarlo con E, su autor, su cargo y su contenido aparecen en el panel de comunicaciones. Los textos y el sector de cada uno están en [[04 - Diálogos y Narrativa]].
 
 **Regla narrativa:** Los registros describen lo que cada personaje pudo observar o conocer. Ninguno debe explicar secretos a los que no tenía acceso.
 
@@ -257,7 +257,7 @@ Los siguientes personajes existen dentro del mundo, pero **no se mencionan expl�
 | NPC o elemento          | Qué hace                                                         | Cómo interactúa con el jugador                           | Condiciones                                    |
 | ----------------------- | ---------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------- |
 | Operador Nicolás Varela | Explica mecánicas y transmite órdenes                            | Comunicaciones asociadas a eventos de la partida         | Según el avance y las necesidades del tutorial |
-| Doctor Issac Ferrer     | Aporta información sobre la investigación y el conflicto interno | Conversaciones opcionales; se propone la interfaz de comunicaciones | Se propone recuperar el registro de Lucía Ferrán |
+| Doctor Issac Ferrer     | Aporta información sobre la investigación y el conflicto interno | Conversaciones opcionales por un canal cifrado del comunicador | Recuperar el registro de Lucía Ferrán, que guarda la frecuencia del canal |
 | Personal fallecido      | Aporta testimonios de operaciones anteriores                     | Recuperación de registros junto a cuerpos o equipo       | Encontrar el registro correspondiente          |
 
 Los cuerpos y registros son elementos narrativos interactivos, no NPC activos. Los dirigentes de CERBERUS, el consejo y los operativos de trasfondo no requieren interacción directa.

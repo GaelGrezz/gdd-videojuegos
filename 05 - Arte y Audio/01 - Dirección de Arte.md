@@ -147,7 +147,7 @@ Las prendas claras distinguen a los científicos. Los elementos oscuros y rojos 
 8. **Comunicar el estado de los generadores.** Operación, daño, reparación y destrucción deben identificarse sin depender únicamente del color.
 9. **Evitar el exceso de efectos de pantalla.** El granulado, tramado o pixelado no debe perjudicar la lectura del combate y los textos.
 10. **Mantener interfaces legibles.** El acabado retro no justifica subtítulos pequeños ni indicadores confusos.
-11. **Representar las muertes con fondo rojo y siluetas negras.** La animación cambia según el atacante y conserva la estética del juego.
+11. **Mostrar la causa de la derrota en Game Over.** La pantalla usa fondo negro, un encabezado rojo y texto claro para el título, la explicación y el resumen de la partida.
 12. **Destacar el halo durante la muerte del Ascendido.** La absorción del cuerpo y los brazos debe entenderse con claridad.
 13. **Mantener simples las victorias.** Utilizar encuadres breves, animaciones contenidas y recursos del propio escenario.
 14. **Adaptar los conceptos realistas al acabado final.** Sirven para definir vestuario y materiales, pero no determinan el nivel de detalle del juego.
