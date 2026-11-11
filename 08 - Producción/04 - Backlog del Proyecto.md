@@ -46,7 +46,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - [x] Pantallas de Opciones y Créditos en Unity
 - [x] Definir el alcance y el MVP a partir de la partida integrada en Unity ([[01 - Alcance]])
 - [x] Flujo de estados en Unity: menú principal, carga, partida, pausa, Game Over y Victoria con los dos desenlaces ([[07 - Reglas y Estados del Juego]]). Validación en partida registrada como pendiente en [[02 - Pruebas]].
-- [ ] Añadir el aviso sonoro de batería baja y los sonidos pendientes de los enemigos ([[05 - Audio y Música]]) — Versiones posteriores, prioridad alta
+- [ ] Añadir el aviso sonoro de batería baja y los sonidos pendientes de los enemigos ([[05 - Audio y Música]]) — Responsable Diego Rubén Correa Chávez. Versiones posteriores, prioridad alta
 - [x] Convertir a WAV los 13 sonidos en M4A, un formato que Unity no importa
 - [x] Potenciadores de racha y mejoras de generador (GEN-001 y GEN-002) en Unity
 - [x] Evasión lateral de la Quimera en Unity
@@ -55,14 +55,14 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - [x] Integrar el primer mensaje de Nicolás en el HUD al iniciar la partida, una vez terminada la carga ([[04 - Diálogos y Narrativa#Inicio del despliegue]])
 - [x] Ascendido en Unity con primitivas: aparición a los 10 minutos, combate y victoria
 - [x] Quimera en Unity
-- [ ] Ajustar la pose de Eco-10 para que la culata del arma no atraviese el pecho — Prioridad: Media
+- [ ] Ajustar la pose de Eco-10 para que la culata del arma no atraviese el pecho — Responsable Enrique Herrera Loeza. Prioridad media
 - [x] Leer los controles desde el asset de Input Actions
-- [ ] Separar en `ScriptableObject` los datos de balance que no son cartas ([[01 - Arquitectura Técnica]]) — Versiones posteriores, prioridad media
+- [ ] Separar en `ScriptableObject` los datos de balance que no son cartas ([[01 - Arquitectura Técnica]]) — Responsables Enrique Herrera Loeza y José Roberto Fuentes Salinas. Versiones posteriores, prioridad media
 - [x] Cadena de Issac en Unity: contacto por el registro de Lucía Ferrán, sus peticiones y la terminal del Archivo
 - [x] Issac: ubicación y medio de contacto definitivos
 - [x] Registros de los 28 operativos fallecidos con sus textos
 - [x] Final *Ni uno más*
-- [ ] Modelo del Ascendido con el acabado retro — Versiones posteriores, prioridad baja
+- [ ] Modelo del Ascendido con el acabado retro — Responsable Enrique Herrera Loeza. Versiones posteriores, prioridad baja
 
 ## Priorización
 

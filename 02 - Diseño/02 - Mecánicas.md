@@ -134,6 +134,10 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 - **Regeneración de salud:** Después de recibir daño, la salud del soldado se recupera con el tiempo, sin superar la salud máxima. Empieza 5 s después del último golpe y recupera 2 PV/s; un nuevo golpe reinicia la espera.
 - **Encuentro con el jefe final:** Comienza al cumplirse el tiempo de supervivencia establecido. Derrotar al jefe es necesario para ganar la partida; sobrevivir hasta su aparición no constituye una victoria por sí solo.
 
+## Dash de Eco-10
+
+El dash es un desplazamiento rápido que sustituye la acción de caminar asignada a Shift izquierdo. Véase [[04 - Controles]] para el mapa y el estado de la copia local de Unity.
+
 ## Decisiones pendientes
 
 - Efectos de la linterna: [[02 - Visión del Juego]] menciona diferentes debuffs; el prototipo aplica solo +25 % de daño.

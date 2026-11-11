@@ -8,23 +8,21 @@ Define quién es responsable de cada área y evita que tareas importantes queden
 
 | Integrante                        | Rol principal            | Responsabilidades |
 | --------------------------------- | ------------------------ | ----------------- |
-| Gutiérrez Hernández Gael Yannik   | Responsable del proyecto | Por definir       |
-| Fuentes Salinas José Roberto      | Programación y Modelo 3D | Por definir       |
-| Herrera Loeza Enrique             | Arte                     | Por definir       |
-| Hernández Primo Julián            | Diseño de interfaz       | Por definir       |
-| Correa Chávez Diego Rubén         | Audio                    | Por definir       |
-| Alcazar Castellanos Jorge Alberto | Narrativa                | Por definir       |
+| Gutiérrez Hernández Gael Yannik | Responsable del proyecto | Coordinación general. |
+| Fuentes Salinas José Roberto | Programación | Programación e integración en Unity junto con Enrique. |
+| Herrera Loeza Enrique | Arte y programación | Arte del juego y programación en Unity junto con Roberto. |
+| Hernández Primo Julián | Interfaz | Diseño del HUD, menús y pantallas del juego. |
+| Correa Chávez Diego Rubén | Audio y música | Efectos de sonido y música del juego. |
+| Alcazar Castellanos Jorge Alberto | Narrativa | Historia, personajes, diálogos y registros. |
 
 ## Áreas
 
-- Diseño
-- Programación
-- Arte
-- Animación
-- Audio
-- Narrativa
-- QA
-- Gestión
+- Julián Hernández Primo se encarga de interfaz.
+- Enrique Herrera Loeza y José Roberto Fuentes Salinas comparten programación.
+- Enrique Herrera Loeza se encarga de arte.
+- Diego Rubén Correa Chávez se encarga de audio y música.
+- Jorge Alberto Alcazar Castellanos se encarga de narrativa.
+- Gael Yannik Gutiérrez Hernández coordina el proyecto.
 
 ## Responsabilidad
 

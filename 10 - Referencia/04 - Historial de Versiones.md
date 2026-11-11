@@ -61,6 +61,7 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 | 0.19.5 | 2026-11-10 | El primer mensaje de Nicolás aparece en el HUD al terminar la carga de Hades y se integra en el flujo inicial. | |
 | 0.19.6 | 2026-11-10 | Se amplía el registro de bugs con los fallos encontrados en AfterLight, sus correcciones documentadas y pasos de comprobación. | |
 | 0.19.7 | 2026-11-10 | Se definen los requisitos técnicos y los perfiles de prueba de Windows. La primera versión se limita a las funciones ya integradas en Unity. | |
+| 0.19.9 | 2026-11-10 | Se registra el dash como sustituto de caminar y se actualizan los responsables de interfaz, programación, arte, audio, música y narrativa. | |
 
 ## Convención sugerida
 

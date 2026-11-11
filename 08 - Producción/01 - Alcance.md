@@ -6,7 +6,7 @@ Define qué se va a construir y, sobre todo, qué queda fuera del proyecto.
 
 ## Alcance de la primera versión
 
-La primera entrega usa las funciones que ya están integradas en Unity. Las pruebas de entrega se centran en ese contenido y en el flujo jugable actual.
+La primera entrega usa las funciones que ya están integradas en Unity. Las pruebas de entrega se centran en ese contenido y en el flujo jugable actual. El dash sustituye caminar en el diseño. Se incorpora al alcance de entrega cuando esté disponible en la compilación de Unity que se vaya a entregar.
 
 ### Incluido
 

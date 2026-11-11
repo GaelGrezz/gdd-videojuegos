@@ -36,7 +36,7 @@ La severidad es una estimación basada en el impacto. El responsable y la frecue
 
 | ID | Bug | Área | Severidad | Responsable | Estado |
 |---|---|---|---|---|---|
-| 1 | La culata atraviesa el pecho de Eco-10 | Arte y animación | Baja | Por asignar | Abierto |
+| 1 | La culata atraviesa el pecho de Eco-10 | Arte y animación | Baja | Enrique Herrera Loeza | Abierto |
 | 2 | El Ascendido aparecía a los 5 minutos | Combate final | Alta | Por asignar | Resuelto |
 | 3 | Eco-10 caía al vacío en grietas y cerca del foso | Nivel y colisiones | Alta | Por asignar | Resuelto |
 | 4 | Se veía el fondo negro bajo las grietas de cristal | Arte de entorno | Baja | Por asignar | Resuelto |
@@ -46,7 +46,7 @@ La severidad es una estimación basada en el impacto. El responsable y la frecue
 | 8 | Los cristales del kit aparecían blancos al cambiar de rama | Importación de arte | Baja | Por asignar | Resuelto |
 | 9 | Unity no importaba los sonidos entregados en M4A | Importación de audio | Media | Por asignar | Resuelto |
 | 10 | La compilación arrancaba en la escena de prueba | Carga y compilación | Alta | Por asignar | Resuelto |
-| 11 | La etiqueta del reloj del Ascendido quedaba por debajo del mínimo de texto | Accesibilidad | Baja | Por asignar | Abierto |
+| 11 | La etiqueta del reloj del Ascendido quedaba por debajo del mínimo de texto | Accesibilidad | Baja | Julián Hernández Primo | Abierto |
 | 12 | Los pies de Eco-10 patinaban al mezclar reposo y caminata | Animación | Baja | Por asignar | Resuelto |
 
 ## Detalle y comprobación
